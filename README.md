@@ -6,7 +6,7 @@ My main expertise lies in the Perl programming language. This language has provi
 
 I have production experience with writing services in languages Python and TypeScript, but I wouldn't call myself an expert :)
 
-Currently, I'm improving my knowledge in GoLang and looking forward to applying it to open-source projects. Let me know if you need a hand.
+Currently, I'm improving my knowledge in GoLang and Rust and looking forward to applying it to open-source projects. Let me know if you need a hand.
 
 
 ![](./profile-3d-contrib/profile-night-green.svg)
