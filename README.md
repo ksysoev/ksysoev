@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Skilled engineer with well-developed analytical, troubleshooting, and problem-solving skills. Proficient in multiple programming languages and technologies, I possess a strong understanding of software development principles and a proven track record of delivering high-quality solutions.
+Software engineer with well-developed analytical, troubleshooting, and problem-solving skills. Proficient in multiple programming languages and technologies, I possess a strong understanding of software development principles and a proven track record of delivering high-quality solutions.
 
 My main expertise lies in the Perl programming language. This language has provided me with great opportunities to work on large-scale projects and experience rapid growth.
 
