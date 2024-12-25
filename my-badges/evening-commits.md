@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/wsget/commit/66067146fc5c9c2cf86c79719e21b6d13f7de168">6606714</a>
-- <a href="https://github.com/ksysoev/wsget/commit/649bc6f887869fc33c4d86b25887ec4c3b2f2323">649bc6f</a>
-- <a href="https://github.com/ksysoev/wsget/commit/c3a40ca70274442f62cc4690885972900be14a55">c3a40ca</a>
-- <a href="https://github.com/ksysoev/wsget/commit/b3eb12ac4b50aada0117ece8896fe1e39b44f843">b3eb12a</a>
-- <a href="https://github.com/ksysoev/wsget/commit/40e3b93424e5637b5e8a717a4f22b8d288664d7e">40e3b93</a>
-- <a href="https://github.com/ksysoev/wsget/commit/9c55bc85e5d98306658967c03f5290a8ef9a01d3">9c55bc8</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/ec8bf8989c40fe87fbe27299be3b02e5e758b433">ec8bf89</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/31ed757a512c6411e5eb0a1f9309d3ca99842213">31ed757</a>
+- <a href="https://github.com/ksysoev/wsget/commit/cf0c057c3bc1200bbb86b8d68a0e4fea09781692">cf0c057</a>
+- <a href="https://github.com/ksysoev/wsget/commit/2204d378cb79552a03ee4e55f1f6bbf9eb7631b5">2204d37</a>
+- <a href="https://github.com/ksysoev/wsget/commit/8d877da082f5b18f52c22fe202a0c423750591b1">8d877da</a>
+- <a href="https://github.com/ksysoev/wsget/commit/c5630353c13337ca1ead058534e81df16484b83f">c563035</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
