@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/go-dev-prompts/commit/bd3171f4281418c3c36ea46505cc4f897c2c95f3">bd3171f</a>
-- <a href="https://github.com/ksysoev/go-dev-prompts/commit/6130b34a8e80f3eecd65e48f7c1e98481efb210c">6130b34</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/369467c2ad0b60c2867a6e203bb78af066587f55">369467c</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/bdf5f004b50cd711714e76fe718c376d42ee92a4">bdf5f00</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/9461c3d6ea5d41ba1103f835520e7eab28a9571d">9461c3d</a>
-- <a href="https://github.com/ksysoev/revdial/commit/00b27ddbb868b664e8a241ee916e8481f51957c2">00b27dd</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/a688141633952a62024dad86f53d7fe8ccad0276">a688141</a>
+- <a href="https://github.com/ksysoev/revdial/commit/2a97fb7e1d5aefa5daeeeb8b49d0511987d45876">2a97fb7</a>
+- <a href="https://github.com/ksysoev/revdial/commit/e69d9bbda1f94c0ee0193879ceb04768e40d9b9c">e69d9bb</a>
+- <a href="https://github.com/ksysoev/revdial/commit/6800afce7601e01a0d8702dfcc9f7d5b9a4d8efc">6800afc</a>
+- <a href="https://github.com/ksysoev/revdial/commit/9ee1c949c1de6473d174592757b5a0b4ae75e33e">9ee1c94</a>
+- <a href="https://github.com/ksysoev/revdial/commit/362e4f27e9b787d1a3bcd054660dfaa9b5c5697b">362e4f2</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
