@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/deriv-teletrader/commit/a688141633952a62024dad86f53d7fe8ccad0276">a688141</a>
-- <a href="https://github.com/ksysoev/revdial/commit/2a97fb7e1d5aefa5daeeeb8b49d0511987d45876">2a97fb7</a>
-- <a href="https://github.com/ksysoev/revdial/commit/e69d9bbda1f94c0ee0193879ceb04768e40d9b9c">e69d9bb</a>
-- <a href="https://github.com/ksysoev/revdial/commit/6800afce7601e01a0d8702dfcc9f7d5b9a4d8efc">6800afc</a>
-- <a href="https://github.com/ksysoev/revdial/commit/9ee1c949c1de6473d174592757b5a0b4ae75e33e">9ee1c94</a>
-- <a href="https://github.com/ksysoev/revdial/commit/362e4f27e9b787d1a3bcd054660dfaa9b5c5697b">362e4f2</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/bd764373feeae0eaab78ca76ed7314364e4da916">bd76437</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/1eb161484036a48dc055bcb6e4fbd43439e4a8f2">1eb1614</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/11e99ead41823ce2b84d1507666f896edfc94e3d">11e99ea</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/5d4216670ae9cd54e7eb2df96f3233d9ae5392ba">5d42166</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/688633bd926b015396418513b990ae27593574b8">688633b</a>
+- <a href="https://github.com/ksysoev/deriv-teletrader/commit/f4f73583f092d674ae6b768f2c299050403c503e">f4f7358</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
