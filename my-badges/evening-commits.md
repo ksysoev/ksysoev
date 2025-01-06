@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/mcp-code-tools/commit/528ed26a4acfe64427515f61cac90d88915b002c">528ed26</a>
-- <a href="https://github.com/ksysoev/mcp-code-tools/commit/050206165c0a15e1379b453cf8886a6004a802a4">0502061</a>
-- <a href="https://github.com/ksysoev/mcp-code-tools/commit/563da6a9ffb3ce99faabba31414b7d34e7c15f50">563da6a</a>
-- <a href="https://github.com/ksysoev/mcp-code-tools/commit/06dbca9bde51c00aa4ec4fe1a0e903f4cc4c631f">06dbca9</a>
-- <a href="https://github.com/ksysoev/deriv-teletrader/commit/20242b638735e4b9b9fa1aa4f72446ce12506e5e">20242b6</a>
-- <a href="https://github.com/ksysoev/deriv-teletrader/commit/0ddea8749cb9a3823623c1b3bbb744f2b5a1c64e">0ddea87</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/46883ebca798cea44c93e37e17240d2f2a793320">46883eb</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/e38129a528820ea2ca2e1fcb4d6609b6439697ec">e38129a</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/ed17b2addaeb07c34b68361acf337cd791609072">ed17b2a</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/95437228cb5150a81a1acdadf2a61f47b9257df6">9543722</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/227bfce105250e2961e8dabb5c26d73106fbdf64">227bfce</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/c57601cae39e3c5386c464796302d2f742fd5e7c">c57601c</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
