@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/46883ebca798cea44c93e37e17240d2f2a793320">46883eb</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/e38129a528820ea2ca2e1fcb4d6609b6439697ec">e38129a</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/ed17b2addaeb07c34b68361acf337cd791609072">ed17b2a</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/95437228cb5150a81a1acdadf2a61f47b9257df6">9543722</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/227bfce105250e2961e8dabb5c26d73106fbdf64">227bfce</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/c57601cae39e3c5386c464796302d2f742fd5e7c">c57601c</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/c812e944fd846f674f5900250af6079d63e36d08">c812e94</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/aa732bfc0f27ce12c3f8c704a78f217040d4333e">aa732bf</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/7c011ca194c7f2ab3f0aefc9b0b887b1701e98b6">7c011ca</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/87c9cac049a4dc7abcdc275542e700c69fa98b0d">87c9cac</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/994a80cbcba472e8a8ab9f65bbabd34fcb2708a5">994a80c</a>
+- <a href="https://github.com/ksysoev/mcp-go-tools/commit/22a62d5cd00dfef6c569109d17976e5b943be7d3">22a62d5</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
