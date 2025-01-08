@@ -4,7 +4,6 @@
 
 Pull requests:
 
-- <a href="https://github.com/ksysoev/deriv-api/pull/5">#5</a>: Updates to new json schema generator
 - <a href="https://github.com/ksysoev/deriv-api/pull/16">#16</a>: Upgrade golangci lint version
 
 
