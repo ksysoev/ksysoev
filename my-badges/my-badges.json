@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"adds\".",
-    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 504 times)\n3. merge (used 406 times)\n4. add (used 381 times)\n5. tests (used 376 times)",
+    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 509 times)\n3. merge (used 411 times)\n4. add (used 390 times)\n5. tests (used 382 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/62022c0203502437fc9c7efc13293042dc99883b\">62022c0</a>\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/32f9291e3cc8b7c66203b499be5b3ea7ccbcd2af\">32f9291</a>\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/42b9aa828618e8946d855e27da20eb143a1ad0f6\">42b9aa8</a>\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/46d40321eae0c154676fa9fd3637f7455b783482\">46d4032</a>\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/1f7a91d6249db9a1366c5984c2c235eaf100176e\">1f7a91d</a>\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/7fae51eb88adf80f2abd6e586e4343fcd442f888\">7fae51e</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/08720647b7e359679551c5da5bf3faaef559c504\">0872064</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/ff50a15629610650a0c9f576f657718eda3564f6\">ff50a15</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/a3f965295ead327e62a631e00b64ce820a0c38c8\">a3f9652</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/4ca7d43a64e83cd61e217c850a099aed335b4213\">4ca7d43</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/b572d8286b96a394da6f0d5834ef37fca0d2e5fc\">b572d82</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/1b24875e922aca31e0f3de32e36f2c83cc6914d9\">1b24875</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {

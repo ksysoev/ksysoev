@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/62022c0203502437fc9c7efc13293042dc99883b">62022c0</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/32f9291e3cc8b7c66203b499be5b3ea7ccbcd2af">32f9291</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/42b9aa828618e8946d855e27da20eb143a1ad0f6">42b9aa8</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/46d40321eae0c154676fa9fd3637f7455b783482">46d4032</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/1f7a91d6249db9a1366c5984c2c235eaf100176e">1f7a91d</a>
-- <a href="https://github.com/ksysoev/mcp-go-tools/commit/7fae51eb88adf80f2abd6e586e4343fcd442f888">7fae51e</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/08720647b7e359679551c5da5bf3faaef559c504">0872064</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/ff50a15629610650a0c9f576f657718eda3564f6">ff50a15</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/a3f965295ead327e62a631e00b64ce820a0c38c8">a3f9652</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/4ca7d43a64e83cd61e217c850a099aed335b4213">4ca7d43</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/b572d8286b96a394da6f0d5834ef37fca0d2e5fc">b572d82</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/1b24875e922aca31e0f3de32e36f2c83cc6914d9">1b24875</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
