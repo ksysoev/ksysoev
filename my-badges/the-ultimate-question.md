@@ -4,6 +4,7 @@
 
 - <a href="https://github.com/ksysoev/deriv-api-bff/issues/42">#42</a>
 - <a href="https://github.com/ksysoev/wsget/issues/42">#42</a>
+- <a href="https://github.com/ksysoev/help-my-pet/issues/42">#42</a>
 - <a href="https://github.com/ksysoev/wasabi/issues/42">#42</a>
 
 
