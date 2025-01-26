@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"adds\".",
-    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 549 times)\n3. merge (used 445 times)\n4. add (used 439 times)\n5. tests (used 404 times)",
+    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 555 times)\n3. merge (used 446 times)\n4. add (used 441 times)\n5. tests (used 407 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -80,7 +80,7 @@
     "id": "fix-2",
     "tier": 1,
     "desc": "I did 2 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/rpc-redis/commit/9e3f9207cc1ba17407fcea632403defe5a8febec\">9e3f920</a>: Fix execution of interceptors\n- <a href=\"https://github.com/ksysoev/rpc-redis/commit/8a9f0d03f640a464b3071ffe5bcc99d8c665f7a9\">8a9f0d0</a>: fix Bench test name",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/52fcd6a6b1644549362093b4c8355bbb5d106e99\">52fcd6a</a>: Fix context handling in ProcessMessage test to avoid cancellation\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/7ff99fd78ffee125232467ee29a7a49e0b357d3e\">7ff99fd</a>: Fix message validation in ProcessMessage test to ensure non-empty text",
     "image": "https://my-badges.github.io/my-badges/fix-2.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/8af9ebe9becd6a3ef77a1d2640a1561901df8c0a\">8af9ebe</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/625730e7163581af6ea5ef80d17770446b414568\">625730e</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/1611642f2487f992a8e471803e75c68517d29d16\">1611642</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/a925a76684f25e89b0d31b9a481f332a00874079\">a925a76</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/63bdde7028984ef3c4d42c542c50059032ef2ce2\">63bdde7</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/f00b925473b77a29adfd160a3f0c6f8e2dac3e06\">f00b925</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/5ade93b0d33ce9626cdf75aa5e731d435767f373\">5ade93b</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/52fcd6a6b1644549362093b4c8355bbb5d106e99\">52fcd6a</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/7ff99fd78ffee125232467ee29a7a49e0b357d3e\">7ff99fd</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/7c401f937f6af0f8da19fd32041db70994d73787\">7c401f9</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/e081e3beeaa61fd67b76168d9d4982ba17904bf8\">e081e3b</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/eb974078e49c8e8a5f6163679958cf6ed37a1e18\">eb97407</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {

@@ -4,8 +4,8 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/rpc-redis/commit/9e3f9207cc1ba17407fcea632403defe5a8febec">9e3f920</a>: Fix execution of interceptors
-- <a href="https://github.com/ksysoev/rpc-redis/commit/8a9f0d03f640a464b3071ffe5bcc99d8c665f7a9">8a9f0d0</a>: fix Bench test name
+- <a href="https://github.com/ksysoev/help-my-pet/commit/52fcd6a6b1644549362093b4c8355bbb5d106e99">52fcd6a</a>: Fix context handling in ProcessMessage test to avoid cancellation
+- <a href="https://github.com/ksysoev/help-my-pet/commit/7ff99fd78ffee125232467ee29a7a49e0b357d3e">7ff99fd</a>: Fix message validation in ProcessMessage test to ensure non-empty text
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
