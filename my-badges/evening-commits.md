@@ -4,12 +4,12 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/help-my-pet/commit/60a30d2d477654b71373914cdc00c374f4eb27fe">60a30d2</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/daca95b1a1a936213cff086366f4d4f9c57b3a62">daca95b</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/d41f84e4e6115c289693860968167b2c9d9dc8e7">d41f84e</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/76efd2d4997ef99da1085547c1285c53cd9a7c5e">76efd2d</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/856e13cb29b8031bbc8748f0c2b13e6c5b0cfbe1">856e13c</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/f2bcdd61b3346a896f6cda2031fea8cb75920e8b">f2bcdd6</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/131a8dd986b0ff8824128dca7504510f125b4a07">131a8dd</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/023a66bfe7522e91ffb53ca837fa3add58921589">023a66b</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/a8f20853bfb1e5e3507dffac1f36c7e569ce079d">a8f2085</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
