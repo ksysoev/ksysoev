@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"adds\".",
-    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 590 times)\n3. add (used 487 times)\n4. merge (used 468 times)\n5. tests (used 450 times)",
+    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 591 times)\n3. add (used 490 times)\n4. merge (used 469 times)\n5. tests (used 455 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/c543f4861c6477f96ac2cf5a8674c44e0dd84460\">c543f48</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/2576ed14667c237d231e249e2d61389fd4f2c129\">2576ed1</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/6a5b09a94c1c08d8c14f930d061eabc805489a38\">6a5b09a</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/b5d8bdcecea753442de5cdd1adc5f273a3788667\">b5d8bdc</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/cfbf8219e4a98d90a4f62e26b7a8f64d44e337b0\">cfbf821</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/ac625cbd93403514067a819b5b80ca5628cd1d87\">ac625cb</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/20cb1bacf5dff845d72fc98a309ca1b29a3e1986\">20cb1ba</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/a8c8ffdfeb761e6633b867dea1a32262aff4fd80\">a8c8ffd</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/5d56f2fa227fd08da731b269d3fcc9e0cd00aafa\">5d56f2f</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/64ba375248ead98496e136a5333a0fa8daf00842\">64ba375</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/909cef04c0752dbeb893ebcac53c285ef2fc6a33\">909cef0</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/dab0beb330494011c3d5b5e5bc1d103a31a65749\">dab0beb</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
