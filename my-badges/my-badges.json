@@ -65,8 +65,8 @@
   {
     "id": "favorite-word",
     "tier": 0,
-    "desc": "My favorite word is \"adds\".",
-    "body": "My favorite commit message words are:\n\n1. adds (used 721 times)\n2. request (used 601 times)\n3. add (used 505 times)\n4. merge (used 479 times)\n5. tests (used 478 times)",
+    "desc": "My favorite word is \"request\".",
+    "body": "My favorite commit message words are:\n\n1. request (used 602 times)\n2. add (used 515 times)\n3. tests (used 495 times)\n4. merge (used 481 times)\n5. handling (used 456 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/9f9746ae705df2503dae5968dac815e0dc5c6711\">9f9746a</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/5000323dc88f27135030b38e8ac4ff22f54e36b4\">5000323</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/8ad29edb1515447bbce22ac8d940cd7622e7eac1\">8ad29ed</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/e49b1d9166c6d29e22d6ce9e45b56fc5a7a26d74\">e49b1d9</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/9e503d3b23cfdd681208d93733c0e3e49ae44376\">9e503d3</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/aee1fc2ff2843f70460e5b9ae55dadc6ebbbb483\">aee1fc2</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/6edd210a63de5b09595d91b997c80a7f9a08140a\">6edd210</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/7ad7dfe3098517f46872f4119124e7d806318d1e\">7ad7dfe</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/2b2aeea5477a3c161b649172019f172ae04131b8\">2b2aeea</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/c6daf2ffbe4bdc79721ba4256431bf45186fcfa5\">c6daf2f</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/7eb188359dd569e23545b9e3fc0b6183f8eeac41\">7eb1883</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/c13b8797aa8f1f257fa9bbe106d89f09dad02443\">c13b879</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
