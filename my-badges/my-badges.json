@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"adds\".",
-    "body": "My favorite commit message words are:\n\n1. adds (used 722 times)\n2. request (used 664 times)\n3. add (used 559 times)\n4. merge (used 541 times)\n5. tests (used 520 times)",
+    "body": "My favorite commit message words are:\n\n1. adds (used 722 times)\n2. request (used 677 times)\n3. add (used 560 times)\n4. merge (used 555 times)\n5. tests (used 520 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/8c99744fd1c9bc34fb1f93b2e236233ffef0d186\">8c99744</a>\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/487d2d696d2e484647109dbf247717f40ebf6a97\">487d2d6</a>\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/3341f81eaff7d6c14219ef4653a48c620f59f7fe\">3341f81</a>\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/31bb6a1c8d71410f33a1110e0a6b2c37a6e58a28\">31bb6a1</a>\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/66cdb528c24663554fece26c8050077c214ff36a\">66cdb52</a>\n- <a href=\"https://github.com/ksysoev/gotext-translator/commit/ff9d026635717636ba96528cc1940b76d54877ce\">ff9d026</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wsget/commit/65579864ad738268d939350e031e2934d3b946ba\">6557986</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/8d888fc512ff62a813c066ad454ab5c93967be35\">8d888fc</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/1ac999de9beef59aecac1f255a44112b37ae0971\">1ac999d</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/e1e5b07b32f3ba59853512e291685f0a0154cca2\">e1e5b07</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/de41e17a20617ebb10c1aa02e0107084211373fb\">de41e17</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/ccb26707959618cdba90601a98dd0c909c3a6d02\">ccb2670</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
