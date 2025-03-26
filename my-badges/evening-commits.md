@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/echosrv/commit/c682e36b4d84733dfbbff7a39aeaa02680b374e3">c682e36</a>
-- <a href="https://github.com/ksysoev/rpc-redis/commit/16b2b076aac361d2f060422d392abfa7d741c6d4">16b2b07</a>
-- <a href="https://github.com/ksysoev/anycache/commit/ba2f3c7cbe05a08f19c240e8f4e6be559239af6c">ba2f3c7</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/0d6bafd2d114a3bc38554b8c6beb8539dc075803">0d6bafd</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/90f3e6bf145f2f2148856dec5009d8dc6ba7610b">90f3e6b</a>
-- <a href="https://github.com/ksysoev/wsget/commit/3928116034638c9ff3588744755edd72975c1102">3928116</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/d1e5109c6e8e82d1ea3c7295511e756ef1666157">d1e5109</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/f83fdd2a392217fc8200329295ad8511d935d2e5">f83fdd2</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/e4f723dcee63a8fff431b3d5a2c0f430cb967acb">e4f723d</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/36b579c21ab63a17952efddfbfff18b2df764798">36b579c</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/7df339143d4f955d597f2660561a392b5e648fa9">7df3391</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/84d32a7c20c92fa1f47ab29ac7869efb9bdb2578">84d32a7</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
