@@ -4,12 +4,12 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/ratestor/commit/225196a3abf8d0d00a9d906f2cc2340937ca6a2b">225196a</a>
+- <a href="https://github.com/ksysoev/ratestor/commit/959d73f54eb6926af07536b0ea8fe901a0b448fa">959d73f</a>
+- <a href="https://github.com/ksysoev/ratestor/commit/70e7b89428e86ac58e7bba75fb6a413c9c610d34">70e7b89</a>
+- <a href="https://github.com/ksysoev/ratestor/commit/b9fd5085d635f84c068ffa3c9af167921b699804">b9fd508</a>
+- <a href="https://github.com/ksysoev/ratestor/commit/f8ffbaf0bb9a98fccf594e82370583e723b1156d">f8ffbaf</a>
 - <a href="https://github.com/ksysoev/wasabi/commit/d1e5109c6e8e82d1ea3c7295511e756ef1666157">d1e5109</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/f83fdd2a392217fc8200329295ad8511d935d2e5">f83fdd2</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/e4f723dcee63a8fff431b3d5a2c0f430cb967acb">e4f723d</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/36b579c21ab63a17952efddfbfff18b2df764798">36b579c</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/7df339143d4f955d597f2660561a392b5e648fa9">7df3391</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/84d32a7c20c92fa1f47ab29ac7869efb9bdb2578">84d32a7</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
