@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/a6780afafd9dcd597cd0d3f03323414297126a28">a6780af</a>
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/ebc98cce72242c7125dd0b5135fc27ef48562e10">ebc98cc</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/1c6788f1d031e277ad4d83f804e77bad77c4d3a3">1c6788f</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/89238f53456a5d5d5ccf941444154cfe03899f58">89238f5</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/250f02652660f8daa10677834466f74b0473314f">250f026</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/b96bbdebdba13a0c3b64235105d17303c2d482d8">b96bbde</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/91544f8fe967e622af69809d65be652887b91463">91544f8</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/e4195f1124b7a94a30a013502cb8504486273a08">e4195f1</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/6160a3e7b5f1524e7a62ed87f3ce6e962acdc52e">6160a3e</a>
+- <a href="https://github.com/ksysoev/rpc-redis/commit/52d7cad60448cc1d2c17de6f5d0620c7e8407e2d">52d7cad</a>
+- <a href="https://github.com/ksysoev/rpc-redis/commit/f9f9b3bb53e93da94582477f9be41223cea74f0c">f9f9b3b</a>
+- <a href="https://github.com/ksysoev/rpc-redis/commit/b3d837520a2f4e3d6267b1474c7bccb212a4d858">b3d8375</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
