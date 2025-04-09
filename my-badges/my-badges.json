@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 728 times)\n2. adds (used 722 times)\n3. merge (used 602 times)\n4. add (used 562 times)\n5. tests (used 533 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 735 times)\n2. adds (used 722 times)\n3. merge (used 606 times)\n4. add (used 568 times)\n5. tests (used 538 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/mcp-go-tools/commit/7331e1f1ad1167ca84fddaa29442bb1ddb18f851\">7331e1f</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1db0924cc81c7ee6be4dac1204a9e386de2ccc5b\">1db0924</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/db6b64a813032517da904570e4b75b1cb1cc9856\">db6b64a</a>\n- <a href=\"https://github.com/ksysoev/sebus/commit/c7d5e47b82fba1b61204a39b92fda20e8950c4f6\">c7d5e47</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/91544f8fe967e622af69809d65be652887b91463\">91544f8</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/e4195f1124b7a94a30a013502cb8504486273a08\">e4195f1</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/f6724ada466beb21c390617d3d6e5b0e7f62353c\">f6724ad</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/9d6e4c711384d496d8f2383f893ef72e79c0517f\">9d6e4c7</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/4ef9a9deca34507878ce0130ccab97a9b56cab41\">4ef9a9d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/a9600b5b11506bbbaa377dba7852e893301af021\">a9600b5</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/aff41ca5aa678d21c0d20dc028de953c377b7e48\">aff41ca</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/e9ccf9278e837490b5e5006c5bab5b4c74dd8ddb\">e9ccf92</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
