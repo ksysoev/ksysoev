@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/cbd3ef2d608c306021a6e5693cc9e5786dffcb98">cbd3ef2</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/43b3d2893fca318f36d249eeb186b6fc2ee12e2e">43b3d28</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/e571fdbb9f0519a1fb9f61bcc17d7477bd37b953">e571fdb</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/eda3d8a3b09d6a22d861e742029d68e5b21c618d">eda3d8a</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/036c3829543b1a08276819a83c9f1a4952da4215">036c382</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/893767624af91cbae1963247b83b80de1d95671d">8937676</a>
+- <a href="https://github.com/ksysoev/gotext-translator/commit/8760c9799bc9cc4e1421f8b4309857e8a68ff9bc">8760c97</a>
+- <a href="https://github.com/ksysoev/gotext-translator/commit/0e91bde3e1d1e5bc06ce19361c7b6da6942637df">0e91bde</a>
+- <a href="https://github.com/ksysoev/gotext-translator/commit/03142a30a6855c17e087913e266adad48a22f689">03142a3</a>
+- <a href="https://github.com/ksysoev/gotext-translator/commit/bc011a98f7b04404513300ee8062f57895c5ea0d">bc011a9</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/a7aa4606b9be20f0fe95bcbd9435de72b56d0712">a7aa460</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/ce3acdf0234354b299ef0b7a35adfaad16f455e3">ce3acdf</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
