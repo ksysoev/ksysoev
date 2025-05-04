@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/7b8e15cfc4dba75899b09aeea0a8ea37b754c3dc">7b8e15c</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/f0e8141e203d9f0c0f4b161a1fd0dc8a7ce8e4bd">f0e8141</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/c225c399cea2012358dac8abc9d8da6d114885d2">c225c39</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/fc30880e0634b3d51edf4832b474bb5138c8cac2">fc30880</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/0c46d2a27be76360d2c1d2b76c54d4230891a8c5">0c46d2a</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/3332a463a029b2d6ffc2f64f01f8dea1531c53a5">3332a46</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/4f8a3e28298f3b50cd457f8f4e29b3138b0abc0a">4f8a3e2</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/6b6e3c1be614fe2ff725c2c53c546a412c7b64c1">6b6e3c1</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/f547140e34d3a1bd08e53481ed64b2ea753cc1d1">f547140</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/91a0b1da7d03cb81069c583b2b89a0af10981dea">91a0b1d</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/91d0e7f28b73c1b194bf98bc8a5532e8ee7d0fbc">91d0e7f</a>
+- <a href="https://github.com/ksysoev/smcp-proxy/commit/9734910327ca99d3d5ec1b007199bd789331d1d9">9734910</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
