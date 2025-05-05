@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 798 times)\n2. adds (used 724 times)\n3. add (used 687 times)\n4. merge (used 643 times)\n5. tests (used 637 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 801 times)\n2. adds (used 724 times)\n3. add (used 693 times)\n4. tests (used 645 times)\n5. merge (used 644 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -178,7 +178,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/4f8a3e28298f3b50cd457f8f4e29b3138b0abc0a\">4f8a3e2</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/6b6e3c1be614fe2ff725c2c53c546a412c7b64c1\">6b6e3c1</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/f547140e34d3a1bd08e53481ed64b2ea753cc1d1\">f547140</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/91a0b1da7d03cb81069c583b2b89a0af10981dea\">91a0b1d</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/91d0e7f28b73c1b194bf98bc8a5532e8ee7d0fbc\">91d0e7f</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/9734910327ca99d3d5ec1b007199bd789331d1d9\">9734910</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/012f04ab95ae0a5a47bf5d8ad8655b25f1b2f124\">012f04a</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1648d6d7144c36b8e330dd851b3603f17de60b6d\">1648d6d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/9e5d2c68672aebab3769349d82d531ab5189144c\">9e5d2c6</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/45fc4ae7d0cb4ee7dc3fc7375c5104c1bf5df751\">45fc4ae</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/7e0a6dcc4de3aceecd7fae17b9832cd85544823a\">7e0a6dc</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/4f8a3e28298f3b50cd457f8f4e29b3138b0abc0a\">4f8a3e2</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
