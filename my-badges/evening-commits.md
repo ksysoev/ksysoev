@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/012f04ab95ae0a5a47bf5d8ad8655b25f1b2f124">012f04a</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/1648d6d7144c36b8e330dd851b3603f17de60b6d">1648d6d</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/9e5d2c68672aebab3769349d82d531ab5189144c">9e5d2c6</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/45fc4ae7d0cb4ee7dc3fc7375c5104c1bf5df751">45fc4ae</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/7e0a6dcc4de3aceecd7fae17b9832cd85544823a">7e0a6dc</a>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/4f8a3e28298f3b50cd457f8f4e29b3138b0abc0a">4f8a3e2</a>
+- <a href="https://github.com/ksysoev/deriv-api-bff/commit/1d877bf6eca6021a1376b0f746d94694881b569e">1d877bf</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/5c9be09bb46af4ed6c9e29abb27ebc059a4a9eae">5c9be09</a>
+- <a href="https://github.com/ksysoev/sebus/commit/165ad48de899ab8ee79f51396d4157c4e46f4007">165ad48</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/c85a7b5b0807f2d5760b53459788076e3e53e600">c85a7b5</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/2308d1efca934e41061b68c86443577561783cf5">2308d1e</a>
+- <a href="https://github.com/ksysoev/sebus/commit/85dd7c541652b2f9759ba875ab4e1deb34e09bf8">85dd7c5</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
