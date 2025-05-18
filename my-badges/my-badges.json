@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 852 times)\n2. add (used 745 times)\n3. adds (used 726 times)\n4. merge (used 695 times)\n5. tests (used 677 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 860 times)\n2. add (used 753 times)\n3. adds (used 726 times)\n4. merge (used 703 times)\n5. tests (used 682 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -171,14 +171,14 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c2979eb7eb7c07d81a9bc8c8ca4dbdf28823f822\">c2979eb</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1c1f736f1fc0fd171e0698aea8f822d13de3f332\">1c1f736</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/60ce0b9de464ef4bbe0de072aa98eb31173f4f13\">60ce0b9</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/383e89c4eb6777a6a8c185e6780547499aa4fcfb\">383e89c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/1eb116d48d08a80679bd497a139418fcce446d6a\">1eb116d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/fe65a3e0b3e02ca5b71a4b9101883108f08f42e9\">fe65a3e</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/e04bc6cfafeb4704bc14b365e278a4c2ff3d7ec9\">e04bc6c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/3751f1cd5022b4f31f8a18b984b9948affeb6c56\">3751f1c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/060bd55ffca05a7c425347259fce7270e951a7d0\">060bd55</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/8cda0e14f46fceb14e3421ec24707e10116435c1\">8cda0e1</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c2979eb7eb7c07d81a9bc8c8ca4dbdf28823f822\">c2979eb</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1c1f736f1fc0fd171e0698aea8f822d13de3f332\">1c1f736</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
     "id": "midnight-commits",
     "tier": 0,
     "desc": "I commit at midnight.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/906ce487cd44d4caf5fe1e1cf3ac414ef1285404\">906ce48</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/59785b626d349deeb19ce69e3b3e8b4cd4da96b8\">59785b6</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/a22d3347aa0dd3166c607602f477096d9e39c2ee\">a22d334</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/1523f44a8d6c2864273e88e5b18e2b7fb3c6c0b7\">1523f44</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/3ef5f3dad4035ff3ecccd5240f156cfc54ca7ec0\">3ef5f3d</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/c742869c00c1eecfcddb58c3b0ea30f151819bbf\">c742869</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/0739407f2716b74095051dd713cd0fce035d2651\">0739407</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/906ce487cd44d4caf5fe1e1cf3ac414ef1285404\">906ce48</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/59785b626d349deeb19ce69e3b3e8b4cd4da96b8\">59785b6</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/a22d3347aa0dd3166c607602f477096d9e39c2ee\">a22d334</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/1523f44a8d6c2864273e88e5b18e2b7fb3c6c0b7\">1523f44</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/3ef5f3dad4035ff3ecccd5240f156cfc54ca7ec0\">3ef5f3d</a>",
     "image": "https://my-badges.github.io/my-badges/midnight-commits.png"
   },
   {
