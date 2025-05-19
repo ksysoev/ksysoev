@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/e04bc6cfafeb4704bc14b365e278a4c2ff3d7ec9">e04bc6c</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/3751f1cd5022b4f31f8a18b984b9948affeb6c56">3751f1c</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/060bd55ffca05a7c425347259fce7270e951a7d0">060bd55</a>
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/8cda0e14f46fceb14e3421ec24707e10116435c1">8cda0e1</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/c2979eb7eb7c07d81a9bc8c8ca4dbdf28823f822">c2979eb</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/1c1f736f1fc0fd171e0698aea8f822d13de3f332">1c1f736</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/38e06a36c3198793fd3e25a78aa6aec1cb1a8e85">38e06a3</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/c55acbedda81634b28af63d59a76a61c29427e33">c55acbe</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/0f04516aeb534d6bf8817b88c42baa278b02cacd">0f04516</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/2326227e26a5db326e98c5e0581ed6c2ceeaeb4c">2326227</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/f929d784c620ae027b900224f194236bac177dfb">f929d78</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/7b524a2aab6a7803330afbefb6aca83f826923ba">7b524a2</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
