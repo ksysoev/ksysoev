@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 895 times)\n2. add (used 770 times)\n3. adds (used 728 times)\n4. merge (used 723 times)\n5. tests (used 686 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 896 times)\n2. add (used 770 times)\n3. adds (used 728 times)\n4. merge (used 724 times)\n5. tests (used 686 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -157,7 +157,7 @@
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/revdial/commit/d51c533480fedfe437ef82a375469cee17f80634\">d51c533</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/54cdb5b83f4c794866ad1102efe973a3fd6365ca\">54cdb5b</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/c032933c1b35b7322ff3fd5d087a0bd213aaa8be\">c032933</a>\n- <a href=\"https://github.com/ksysoev/gochess/commit/d2be03e4416da3a4ff7af2a68f1b70c5298250c9\">d2be03e</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/ef2ce48ce2601cec5705b36448147c5780e3e476\">ef2ce48</a>\n- <a href=\"https://github.com/ksysoev/payhack2023/commit/810bc4058727462fa9b8624fc0d0ba7350bc9ab7\">810bc40</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/eb5137a429e81744360a7da9d21ec92ccde9abd5\">eb5137a</a>\n- <a href=\"https://github.com/ksysoev/revdial/commit/d51c533480fedfe437ef82a375469cee17f80634\">d51c533</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/54cdb5b83f4c794866ad1102efe973a3fd6365ca\">54cdb5b</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/c032933c1b35b7322ff3fd5d087a0bd213aaa8be\">c032933</a>\n- <a href=\"https://github.com/ksysoev/gochess/commit/d2be03e4416da3a4ff7af2a68f1b70c5298250c9\">d2be03e</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/ef2ce48ce2601cec5705b36448147c5780e3e476\">ef2ce48</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
