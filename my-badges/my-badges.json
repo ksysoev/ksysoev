@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 915 times)\n2. add (used 783 times)\n3. merge (used 733 times)\n4. adds (used 728 times)\n5. tests (used 727 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 922 times)\n2. add (used 786 times)\n3. merge (used 740 times)\n4. tests (used 731 times)\n5. adds (used 728 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/134d0946d368afc56f8a8b75818908732cf34d4e\">134d094</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/27a6ad0915c15e4044b8955ce1c8350be25c0b19\">27a6ad0</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/b6fff97d3f762e5586cda7c7d563c47977c03254\">b6fff97</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/6b5490101e42ab1913d6688cf996c61f9f38e437\">6b54901</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/b0bc2cba74a7c272e2d9ec8655ffe598060acdcf\">b0bc2cb</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/cc41bd50e5138a826d8990ea2733394b3d754166\">cc41bd5</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/16f6703da6536090611ae5a4375cdceb1a16e70c\">16f6703</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/9b6f4b996ad64a51a13182178682d2548eedac3d\">9b6f4b9</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/e26323a63467a17694dd8cc3dcd1bc5f6bd279ed\">e26323a</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/134d0946d368afc56f8a8b75818908732cf34d4e\">134d094</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/27a6ad0915c15e4044b8955ce1c8350be25c0b19\">27a6ad0</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/b6fff97d3f762e5586cda7c7d563c47977c03254\">b6fff97</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
