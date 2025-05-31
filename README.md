@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Software engineer with well-developed analytical, troubleshooting, and problem-solving skills. Proficient in multiple programming languages and technologies, I possess a strong understanding of software development principles and a proven track record of delivering high-quality solutions.
+I'm experienced Staff Engineer with deep expertise in backend development. Proven track record of leading engineering teams, architecting scalable systems, and driving technical excellence across diverse technology stacks. Strong background in Perl, Go and software architecture. Demonstrated ability to mentor teams, establish development standards, and deliver business-critical solutions. Passionate about continuous learning and staying current with emerging technologies.
 
 <!-- my-badges start -->
 <a href="my-badges/a-commit.md"><img src="https://my-badges.github.io/my-badges/a-commit.png" alt="One of my commit sha starts with &quot;a&quot;." title="One of my commit sha starts with &quot;a&quot;." width="64"></a>
