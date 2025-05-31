@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/ksysoev.github.io/commit/3d2cc90144e62315309d7d3800aeb1b317ffcd68">3d2cc90</a>
-- <a href="https://github.com/ksysoev/ksysoev.github.io/commit/2e14b6b6264c92f4d3a1c5716e382f385ed8ff5f">2e14b6b</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/01879c3570bdb1d3ecee2dc6b94b9cdbe784963c">01879c3</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/3513e808e613eea4f1f0f55c3cfadbf9cd75ec8e">3513e80</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/bf57f2add457283092fdfbf6452a0d2dee3fda73">bf57f2a</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/472a51f2ffacfbc1a13354115079f949e49b5d97">472a51f</a>
+- <a href="https://github.com/ksysoev/revdial/commit/96836f7d4ceb9666438daa3f70ea9635219c0393">96836f7</a>
+- <a href="https://github.com/ksysoev/revdial/commit/c50abad6d837e4b70ec6464b5b55c217f44aef70">c50abad</a>
+- <a href="https://github.com/ksysoev/revdial/commit/525d9888f8a389456628ebf48adb7854cb1a31c3">525d988</a>
+- <a href="https://github.com/ksysoev/revdial/commit/a12448f81a6ceabb7aa027e1acac0150a42ce8e8">a12448f</a>
+- <a href="https://github.com/ksysoev/revdial/commit/23dd0fc5006720a4ac4b2dbaf86de7b5f6bd89fa">23dd0fc</a>
+- <a href="https://github.com/ksysoev/revdial/commit/e7d29076b7bc3ccf963af7afc8699333f850e38c">e7d2907</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
