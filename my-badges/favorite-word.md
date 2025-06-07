@@ -4,11 +4,11 @@
 
 My favorite commit message words are:
 
-1. request (used 941 times)
-2. add (used 806 times)
-3. merge (used 761 times)
-4. tests (used 745 times)
-5. handling (used 738 times)
+1. request (used 942 times)
+2. add (used 807 times)
+3. merge (used 762 times)
+4. tests (used 748 times)
+5. handling (used 740 times)
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
