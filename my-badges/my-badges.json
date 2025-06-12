@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 960 times)\n2. add (used 816 times)\n3. merge (used 780 times)\n4. tests (used 749 times)\n5. handling (used 741 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 961 times)\n2. add (used 819 times)\n3. merge (used 781 times)\n4. tests (used 749 times)\n5. handling (used 742 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/0e78f94b5370f2be29c65f2befd69a5fc1f2bdbd\">0e78f94</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/c308004fd9a89a1bde5f751628fd7635434c0560\">c308004</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/76c9e500fc8405f833f2bd040970349ed9d38054\">76c9e50</a>\n- <a href=\"https://github.com/ksysoev/rpc-redis/commit/7db0c08186868345a4ae1f6e552540bab63ca53c\">7db0c08</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/39265f65590036731a50836d5b32fe9a234e942b\">39265f6</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/7f72c61ecdcee659576f5692abce94b5bbc55c95\">7f72c61</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/d18a158ee2a465efd447c45885d4d312793a0815\">d18a158</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/67d3eb4308e36abe86821bad4ba4f0221f916236\">67d3eb4</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/bee51170e0bd2876ef1075f071f0f54d4cb17e44\">bee5117</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/0e78f94b5370f2be29c65f2befd69a5fc1f2bdbd\">0e78f94</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/c308004fd9a89a1bde5f751628fd7635434c0560\">c308004</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/76c9e500fc8405f833f2bd040970349ed9d38054\">76c9e50</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
