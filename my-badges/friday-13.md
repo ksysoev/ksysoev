@@ -4,6 +4,7 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/deriv-api/commit/e731acc01c8c78320dcde445763a2a871384888b">e731acc</a>
 - <a href="https://github.com/ksysoev/wsget/commit/5eb5bd58f9f388a91c6aea397b34569ffe63b341">5eb5bd5</a>
 - <a href="https://github.com/ksysoev/wsget/commit/e0526490ea4e501a1ed5d61d7a981ee049f2ae2e">e052649</a>
 - <a href="https://github.com/ksysoev/wsget/commit/6d3124b24a8ef502effac0250779128d319a4025">6d3124b</a>
@@ -16,7 +17,6 @@ Commits:
 - <a href="https://github.com/ksysoev/anycache/commit/dbc7dfe88423389f8f54e86061a0013d7bae2db7">dbc7dfe</a>
 - <a href="https://github.com/ksysoev/anycache/commit/9d87cc6973c563b96c23f0fafec047941b5151ae">9d87cc6</a>
 - <a href="https://github.com/ksysoev/anycache/commit/e2e149e5ad5bac0e960d37181114478290863c34">e2e149e</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/2787ab09ecd78095376af30a1ba31f53fcd68907">2787ab0</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
