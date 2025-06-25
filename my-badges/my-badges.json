@@ -59,14 +59,14 @@
     "id": "epic-commit",
     "tier": 0,
     "desc": "I made an epic commit with a message over 500 chars.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>",
     "image": "https://my-badges.github.io/my-badges/epic-commit.png"
   },
   {
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 986 times)\n2. add (used 859 times)\n3. merge (used 803 times)\n4. handling (used 775 times)\n5. tests (used 768 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 989 times)\n2. add (used 887 times)\n3. merge (used 806 times)\n4. handling (used 777 times)\n5. tests (used 773 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/18c65a39a0ba3ca4cc64fef647b3b637c2087ed5\">18c65a3</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/65c32bf74ebfcc3f9d84b9bafaafe5f895e38bc2\">65c32bf</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/0dbc9a26800c70f973e906f3a5ca8494b9dcbf64\">0dbc9a2</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/f5396679761781f52da701c6f05ac8aff065c53d\">f539667</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/2df6a6db1d15f66994152c816bba7904123166fa\">2df6a6d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/5daf40a6e55d7a60647fb79a9cfa6a7ccf00752d\">5daf40a</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/11a6955d6af35fde90dd778cf4609f2221156cae\">11a6955</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/c71a2f71ad270d28ae7a43d33562e9f9b16778b6\">c71a2f7</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/0d27a8e60aa6ccabdfdab791693e845b4ba4d40a\">0d27a8e</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/1850f10dddd3447ac79634b570b2f69aad7cd74a\">1850f10</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/b8f1db63239d8d1b73b32debf73e77e18ed43646\">b8f1db6</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
