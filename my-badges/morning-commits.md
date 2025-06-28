@@ -4,12 +4,12 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/help-my-pet/commit/efb9f6482b0b6f239c46c440ca96fa4fa14c1a4d">efb9f64</a>
+- <a href="https://github.com/ksysoev/deriv-api-bff/commit/3672c2cec6c6002e8ca79a0f8c119105933ddefe">3672c2c</a>
+- <a href="https://github.com/ksysoev/deriv-bot/commit/052c797548e120ae2284e09ed0f8eb22b427c4aa">052c797</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/964c639cb51b69848a157ed2d8188610c94377df">964c639</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/3910a101dac2d20d7c1342587be35e8ae6f10a73">3910a10</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/eb5137a429e81744360a7da9d21ec92ccde9abd5">eb5137a</a>
-- <a href="https://github.com/ksysoev/revdial/commit/d51c533480fedfe437ef82a375469cee17f80634">d51c533</a>
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/54cdb5b83f4c794866ad1102efe973a3fd6365ca">54cdb5b</a>
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/c032933c1b35b7322ff3fd5d087a0bd213aaa8be">c032933</a>
-- <a href="https://github.com/ksysoev/gochess/commit/d2be03e4416da3a4ff7af2a68f1b70c5298250c9">d2be03e</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/ef2ce48ce2601cec5705b36448147c5780e3e476">ef2ce48</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
