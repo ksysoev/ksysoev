@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/wsget/commit/246175121fffd918644a8e3aaebd79de98411a06">2461751</a>
-- <a href="https://github.com/ksysoev/wsget/commit/5ed94cfb5cb07a68e5f31136331a9066cb4bbad9">5ed94cf</a>
-- <a href="https://github.com/ksysoev/wsget/commit/4d8a4185d49101d6a47267c8d022967bd8eb5551">4d8a418</a>
-- <a href="https://github.com/ksysoev/wsget/commit/c2cbc536eb0504872ef5cc1f3e75aac4a3b6093a">c2cbc53</a>
-- <a href="https://github.com/ksysoev/deriv-bot/commit/57450dd2af12cfaaa00eec658ca30315d3565fbc">57450dd</a>
-- <a href="https://github.com/ksysoev/deriv-bot/commit/d4d08542c626bc6f3f759c6460782857aaf436da">d4d0854</a>
+- <a href="https://github.com/ksysoev/cfn-proc/commit/a203bc758d42155d3237bd9cd9d708ac2883baea">a203bc7</a>
+- <a href="https://github.com/ksysoev/cfn-proc/commit/71c6a1e955e317f4315ab41ccccfa3ea5b1bd7d7">71c6a1e</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/487fb13aabc354d18220449276a5fb473e840d01">487fb13</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/f1bffad427f51593d6d6d6335fc39476978a4bc5">f1bffad</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/28931a8b3afcbbc70039cb5c0fcda08c44f77d6f">28931a8</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/b5b828f59c45960c02c9733c33f15f7825d6ce43">b5b828f</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
