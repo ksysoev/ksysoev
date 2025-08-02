@@ -4,6 +4,7 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809">7330a96</a>
 - <a href="https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37">033de9c</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851">193e8ba</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395">e7ad030</a>

@@ -59,14 +59,14 @@
     "id": "epic-commit",
     "tier": 0,
     "desc": "I made an epic commit with a message over 500 chars.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809\">7330a96</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>",
     "image": "https://my-badges.github.io/my-badges/epic-commit.png"
   },
   {
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1046 times)\n2. add (used 992 times)\n3. merge (used 850 times)\n4. tests (used 810 times)\n5. handling (used 791 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1046 times)\n2. add (used 1000 times)\n3. merge (used 850 times)\n4. tests (used 813 times)\n5. handling (used 792 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/b879845bf1a8f6e8b1b8ba3c33f35698acc7e74d\">b879845</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/e1e6a6364b0e1cce7409c73c932251b5e8e47580\">e1e6a63</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/14e889f63f3bb266e36976452209b2c1697dee62\">14e889f</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/2653376c88bcf13e0f32c394acf6b2fa0834b5c2\">2653376</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/af530a8de44cfcd926987c5983f5a02a68f128f6\">af530a8</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/fe64d4fe8fd863fee297aacfbfd5b488f113dbd0\">fe64d4f</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809\">7330a96</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/af203231f3c5e1cf7bd889d86a97ea10e56d6af3\">af20323</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/b879845bf1a8f6e8b1b8ba3c33f35698acc7e74d\">b879845</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/e1e6a6364b0e1cce7409c73c932251b5e8e47580\">e1e6a63</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/14e889f63f3bb266e36976452209b2c1697dee62\">14e889f</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/2653376c88bcf13e0f32c394acf6b2fa0834b5c2\">2653376</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
