@@ -4,24 +4,8 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/91d0e7f28b73c1b194bf98bc8a5532e8ee7d0fbc">91d0e7f</a>: Fix field alignment for memory efficiency in ClientOptions
-
-- Reordered struct fields to optimize memory layout
-- Fixed linting issue in CI
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-- <a href="https://github.com/ksysoev/smcp-proxy/commit/9734910327ca99d3d5ec1b007199bd789331d1d9">9734910</a>: Fix test failures and linting issues in no-auth implementation
-
-- Fix tests for client configuration with auth mode
-- Fix server tests to properly handle no-auth mode
-- Fix linter issues in test files by checking error returns
-- Update test structure to validate all auth mode features
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
+- <a href="https://github.com/ksysoev/go-templ/commit/b44da4cc0b18b68cdb98654a73efcf2018151e32">b44da4c</a>: Fix scaffold params
+- <a href="https://github.com/ksysoev/go-templ/commit/83fc9d5013f23a90f2b6448a51f001b67b443f5f">83fc9d5</a>: Fix installation of scaffolder
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

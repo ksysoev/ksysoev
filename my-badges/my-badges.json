@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1046 times)\n2. add (used 1000 times)\n3. merge (used 850 times)\n4. tests (used 813 times)\n5. handling (used 792 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1047 times)\n2. add (used 1004 times)\n3. merge (used 851 times)\n4. tests (used 813 times)\n5. handling (used 792 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -80,7 +80,7 @@
     "id": "fix-2",
     "tier": 1,
     "desc": "I did 2 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/91d0e7f28b73c1b194bf98bc8a5532e8ee7d0fbc\">91d0e7f</a>: Fix field alignment for memory efficiency in ClientOptions\n\n- Reordered struct fields to optimize memory layout\n- Fixed linting issue in CI\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/9734910327ca99d3d5ec1b007199bd789331d1d9\">9734910</a>: Fix test failures and linting issues in no-auth implementation\n\n- Fix tests for client configuration with auth mode\n- Fix server tests to properly handle no-auth mode\n- Fix linter issues in test files by checking error returns\n- Update test structure to validate all auth mode features\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/b44da4cc0b18b68cdb98654a73efcf2018151e32\">b44da4c</a>: Fix scaffold params\n- <a href=\"https://github.com/ksysoev/go-templ/commit/83fc9d5013f23a90f2b6448a51f001b67b443f5f\">83fc9d5</a>: Fix installation of scaffolder",
     "image": "https://my-badges.github.io/my-badges/fix-2.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809\">7330a96</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/af203231f3c5e1cf7bd889d86a97ea10e56d6af3\">af20323</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/b879845bf1a8f6e8b1b8ba3c33f35698acc7e74d\">b879845</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/e1e6a6364b0e1cce7409c73c932251b5e8e47580\">e1e6a63</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/14e889f63f3bb266e36976452209b2c1697dee62\">14e889f</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/2653376c88bcf13e0f32c394acf6b2fa0834b5c2\">2653376</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/1ccd5f3160d7f249df079ffb524431253b19605d\">1ccd5f3</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/74ea81cb38b0aa948d44fa7c29379f2be827f242\">74ea81c</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/5318123ee04363dfbcd495b4178fd1cc864fc620\">5318123</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/b44da4cc0b18b68cdb98654a73efcf2018151e32\">b44da4c</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/83fc9d5013f23a90f2b6448a51f001b67b443f5f\">83fc9d5</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/793d73be71c49bd44cac3ae5b0503e57d3e7a746\">793d73b</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
