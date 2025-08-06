@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1051 times)\n2. add (used 1004 times)\n3. merge (used 855 times)\n4. tests (used 813 times)\n5. handling (used 792 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1053 times)\n2. add (used 1004 times)\n3. merge (used 857 times)\n4. tests (used 813 times)\n5. handling (used 792 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -199,7 +199,7 @@
     "id": "polite-coder",
     "tier": 0,
     "desc": "I am a polite coder.",
-    "body": "I use words like \"thanks\" and \"please\" in my issues:\n\n- <a href=\"https://github.com/go-scaffold/go-scaffold/issues/169\">#169</a>: Add support for go install\n- <a href=\"https://github.com/ksysoev/make-it-public/issues/135\">#135</a>: Need to disable caddy connection buffering",
+    "body": "I use words like \"thanks\" and \"please\" in my issues:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/issues/135\">#135</a>: Need to disable caddy connection buffering\n- <a href=\"https://github.com/go-scaffold/go-scaffold/issues/169\">#169</a>: Add support for go install",
     "image": "https://my-badges.github.io/my-badges/polite-coder.png"
   },
   {

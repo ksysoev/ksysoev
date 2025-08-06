@@ -4,8 +4,8 @@
 
 I use words like "thanks" and "please" in my issues:
 
-- <a href="https://github.com/go-scaffold/go-scaffold/issues/169">#169</a>: Add support for go install
 - <a href="https://github.com/ksysoev/make-it-public/issues/135">#135</a>: Need to disable caddy connection buffering
+- <a href="https://github.com/go-scaffold/go-scaffold/issues/169">#169</a>: Add support for go install
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
