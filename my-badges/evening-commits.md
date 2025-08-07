@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/go-templ/commit/1ccd5f3160d7f249df079ffb524431253b19605d">1ccd5f3</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/74ea81cb38b0aa948d44fa7c29379f2be827f242">74ea81c</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/5318123ee04363dfbcd495b4178fd1cc864fc620">5318123</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/b44da4cc0b18b68cdb98654a73efcf2018151e32">b44da4c</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/83fc9d5013f23a90f2b6448a51f001b67b443f5f">83fc9d5</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/793d73be71c49bd44cac3ae5b0503e57d3e7a746">793d73b</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/0e2166cc280140d79d39b83ee1f79b1324f296b1">0e2166c</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/fe71812641ed656fb633f06f176a8341c29dc13b">fe71812</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/0050b2583e93a8e55206cda0c5ef6b46bad7e814">0050b25</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/b92abed24aad5a63bdc6fda8359af037a97e7bbf">b92abed</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/938c2c7421bb6d5924bf7b27b8f2ab4b14e6ef92">938c2c7</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/b089c9537d103e7fd265ff5a162c16d0cd804098">b089c95</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
