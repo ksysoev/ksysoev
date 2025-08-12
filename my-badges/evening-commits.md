@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/nvim/commit/2ee037f4939c352ac0696047de941c3c6434f57d">2ee037f</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/277b4acc2023429a9c58291b98fcfa479288837c">277b4ac</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/d604eff800724061c7c365cb9205a7d0f2c535d9">d604eff</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/493f7d587fa40653220b9785f0cbb7f86159a90a">493f7d5</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/5ebbcd977e360d385cf58c4f3cd056f26d48146e">5ebbcd9</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/7659fcceb39addbc573df50f9e35f41bc8c337e8">7659fcc</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/946516a2e38077034a11d5bdf32a580b475d8e88">946516a</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/a408fa17f092a0c89675efe3d82de3279fad6b1f">a408fa1</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/aed64d34a7d310e695f8c90b023227654d925632">aed64d3</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/dda42af484258369239bfca5400477414e5dd160">dda42af</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/f402899d56faa45bbcfa853df840eedbb27e8c0e">f402899</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/b457900a4b0a6cd184752340508e738a31cce638">b457900</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
