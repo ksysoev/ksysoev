@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/tg-feeder/commit/946516a2e38077034a11d5bdf32a580b475d8e88">946516a</a>
-- <a href="https://github.com/ksysoev/tg-feeder/commit/a408fa17f092a0c89675efe3d82de3279fad6b1f">a408fa1</a>
-- <a href="https://github.com/ksysoev/tg-feeder/commit/aed64d34a7d310e695f8c90b023227654d925632">aed64d3</a>
-- <a href="https://github.com/ksysoev/tg-feeder/commit/dda42af484258369239bfca5400477414e5dd160">dda42af</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/f402899d56faa45bbcfa853df840eedbb27e8c0e">f402899</a>
-- <a href="https://github.com/ksysoev/tg-feeder/commit/b457900a4b0a6cd184752340508e738a31cce638">b457900</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/7ccc7bc0ebfbf120415113971dbecc1f0a6fdae5">7ccc7bc</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/f25b5d2bb774bd6fb06b8bf224fcd3dc4657c304">f25b5d2</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/951f0786ade51cc8684b93935e946f37af3ccafb">951f078</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/02c1ef06147d40ad0c746316cd562bda60629175">02c1ef0</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/5671248f783ec60820cc327ea2686be6e2dccc8e">5671248</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/5ee50d3c493096db1de20de4568e2fce9b807b6f">5ee50d3</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
