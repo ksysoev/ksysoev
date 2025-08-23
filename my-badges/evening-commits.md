@@ -4,12 +4,12 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/make-it-public/commit/098444cde6480461e247364db72331737d559a6a">098444c</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/bca871ebf3ffee02db82b72b3049dd0df333aa3c">bca871e</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/b913e5fad72dfe2307ac5c0e92130f3cde311ea1">b913e5f</a>
 - <a href="https://github.com/ksysoev/dotfiles/commit/f690b473befb5504fdd695efefb248927b5bbec4">f690b47</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/3032c3017a6477e78b5fcf5c5192471db0a4d444">3032c30</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/84b05562d672d168dc6a5cf6246bd8bc3ea5ef51">84b0556</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/8698a81d6fdd0d17888dfe72e196817a0bcc4831">8698a81</a>
-- <a href="https://github.com/ksysoev/anycache/commit/e931f104d9d4f8c04a41aa307f39dc6ab991499e">e931f10</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
