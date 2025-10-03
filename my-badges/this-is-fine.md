@@ -5,7 +5,6 @@
 Pull requests:
 
 - <a href="https://github.com/ksysoev/pdd-action/pull/5">#5</a>: Merge PDD Action improvements to main branch
-- <a href="https://github.com/ksysoev/deriv-api/pull/16">#16</a>: Upgrade golangci lint version
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
