@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/deriv-api/commit/e6540facf145d63f005b83b722801f3c7d24fbd7">e6540fa</a>
-- <a href="https://github.com/ksysoev/jomhack-skynet-ddos/commit/ddbbb80e2f5cf0e77b909c0cc8927e9dee29bb4e">ddbbb80</a>
-- <a href="https://github.com/donutranger/jomhack-skynet-ddos/commit/ddbbb80e2f5cf0e77b909c0cc8927e9dee29bb4e">ddbbb80</a>
-- <a href="https://github.com/ksysoev/jomhack-skynet-ddos/commit/94e8a3e65b9394b14d34d763e0e4195b95edf2cb">94e8a3e</a>
-- <a href="https://github.com/donutranger/jomhack-skynet-ddos/commit/94e8a3e65b9394b14d34d763e0e4195b95edf2cb">94e8a3e</a>
-- <a href="https://github.com/ksysoev/jomhack-skynet-ddos/commit/a96d30a92b5393917d1639d0bab5ec5e31ad8b54">a96d30a</a>
+- <a href="https://github.com/ksysoev/deriv-api-bff/commit/cfadcdd3d0c1db7f0d2633434b0db4bc57791ba1">cfadcdd</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/f3ae0880ae16c01b4c5a161ee3694acb64eaaad9">f3ae088</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/7405e96f785727c540c8c39f8a3ce2bea3290452">7405e96</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/f71fad0a36e2c18b202ac051eb10ed777815f953">f71fad0</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/93b8761d952722c59b47e98e2832b06c960f655a">93b8761</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/ab771aaa55b355999976ba364dbeddad2e501951">ab771aa</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
