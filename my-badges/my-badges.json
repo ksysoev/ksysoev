@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1216 times)\n2. add (used 1029 times)\n3. merge (used 1021 times)\n4. pull (used 944 times)\n5. bump (used 844 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1219 times)\n2. add (used 1029 times)\n3. merge (used 1024 times)\n4. pull (used 947 times)\n5. bump (used 850 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -150,29 +150,22 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/tapi/commit/8a79346b43bf804f1ebb20733b6ed44e619d7ad3\">8a79346</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/cfadcdd3d0c1db7f0d2633434b0db4bc57791ba1\">cfadcdd</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/f3ae0880ae16c01b4c5a161ee3694acb64eaaad9\">f3ae088</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/7405e96f785727c540c8c39f8a3ce2bea3290452\">7405e96</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/f71fad0a36e2c18b202ac051eb10ed777815f953\">f71fad0</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/93b8761d952722c59b47e98e2832b06c960f655a\">93b8761</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/dff04486c26adf58b93cb5f5b149b1cd3801c014\">dff0448</a>\n- <a href=\"https://github.com/ksysoev/tg-feeder/commit/cb517432483a2d03f6ccac759e83bcf4f4944ff5\">cb51743</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/eda37f4a7d3a5d610f181b5316ede44436f78728\">eda37f4</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/a31f26db42b68c04ca07327b4d631ffe8db25151\">a31f26d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/a2b0b20520f23ae851395e6aca95e8bedb72694b\">a2b0b20</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/f5101482674e3817fe9ea31f51fa4bcaf81dc402\">f510148</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/ed33dca55539b596cde188b6da9b4ca6cbd27019\">ed33dca</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/efb9f6482b0b6f239c46c440ca96fa4fa14c1a4d\">efb9f64</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/3672c2cec6c6002e8ca79a0f8c119105933ddefe\">3672c2c</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/052c797548e120ae2284e09ed0f8eb22b427c4aa\">052c797</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/964c639cb51b69848a157ed2d8188610c94377df\">964c639</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/3910a101dac2d20d7c1342587be35e8ae6f10a73\">3910a10</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wasabi/commit/e200bc29e3d71f7c6156a30aaeac56fdce2550d5\">e200bc2</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/8b6ba5704845b972ba07bd771167f0d18cf6d252\">8b6ba57</a>\n- <a href=\"https://github.com/ksysoev/dotfiles/commit/e1410b481309175f5101c10f2eb279b01a2d5d2a\">e1410b4</a>\n- <a href=\"https://github.com/ksysoev/tg-feeder/commit/cd02be9b5b159ae4e611a4c1aa294742a8c4f790\">cd02be9</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/a2a684b995a4e1d705ab492c86a1750f203aa25e\">a2a684b</a>\n- <a href=\"https://github.com/ksysoev/cfn-proc/commit/a0909037743e14dca06f828b1052d14f89da8309\">a090903</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wsget/commit/26f2e205a3c5d254b9e442568d7d5f47e7d54045\">26f2e20</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/79f7e76b6315004dc1419751b2eab63447bb856e\">79f7e76</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/0bf84e359eb64ce5236b23ee4ba250f96499b247\">0bf84e3</a>\n- <a href=\"https://github.com/ksysoev/revdial/commit/f3376d910bea142ce8473318de779c311706d149\">f3376d9</a>\n- <a href=\"https://github.com/ksysoev/go-workshops/commit/a83bb8c4a7ba011f0d82bddf157a50fde440af82\">a83bb8c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/970a479a485e9e021332b6ecaa272b95bbcc46cb\">970a479</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/8adf3a7636c13916cca074d8b4bcad355089b72c\">8adf3a7</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/2ec304cfcf91473642c9b585994f7dd4f1c0a259\">2ec304c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/b6988fa3be6a33706be4c15a84d1a3637f4df2bb\">b6988fa</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/8a79346b43bf804f1ebb20733b6ed44e619d7ad3\">8a79346</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/cbcd73f849821c15cba2a2658faa7797b286b73d\">cbcd73f</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/2cfc7a2a7fbe030dfa5472f8bf3c3378a6c6cf46\">2cfc7a2</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
-  },
-  {
-    "id": "midnight-commits",
-    "tier": 0,
-    "desc": "I commit at midnight.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/0739407f2716b74095051dd713cd0fce035d2651\">0739407</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/906ce487cd44d4caf5fe1e1cf3ac414ef1285404\">906ce48</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/59785b626d349deeb19ce69e3b3e8b4cd4da96b8\">59785b6</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/a22d3347aa0dd3166c607602f477096d9e39c2ee\">a22d334</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/1523f44a8d6c2864273e88e5b18e2b7fb3c6c0b7\">1523f44</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/3ef5f3dad4035ff3ecccd5240f156cfc54ca7ec0\">3ef5f3d</a>",
-    "image": "https://my-badges.github.io/my-badges/midnight-commits.png"
   },
   {
     "id": "friday-13",

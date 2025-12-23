@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/tapi/commit/8a79346b43bf804f1ebb20733b6ed44e619d7ad3">8a79346</a>
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/cfadcdd3d0c1db7f0d2633434b0db4bc57791ba1">cfadcdd</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/f3ae0880ae16c01b4c5a161ee3694acb64eaaad9">f3ae088</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/7405e96f785727c540c8c39f8a3ce2bea3290452">7405e96</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/f71fad0a36e2c18b202ac051eb10ed777815f953">f71fad0</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/93b8761d952722c59b47e98e2832b06c960f655a">93b8761</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/dff04486c26adf58b93cb5f5b149b1cd3801c014">dff0448</a>
+- <a href="https://github.com/ksysoev/tg-feeder/commit/cb517432483a2d03f6ccac759e83bcf4f4944ff5">cb51743</a>
+- <a href="https://github.com/ksysoev/deriv-api-bff/commit/eda37f4a7d3a5d610f181b5316ede44436f78728">eda37f4</a>
+- <a href="https://github.com/ksysoev/deriv-bot/commit/a31f26db42b68c04ca07327b4d631ffe8db25151">a31f26d</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/a2b0b20520f23ae851395e6aca95e8bedb72694b">a2b0b20</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/f5101482674e3817fe9ea31f51fa4bcaf81dc402">f510148</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
