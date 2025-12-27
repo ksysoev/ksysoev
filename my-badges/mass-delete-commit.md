@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/8639e92bcf42565f5f5b4c9c3ba09c1c4238d70d">8639e92</a>
+- <a href="https://github.com/ksysoev/authkeeper/commit/75e4a6625a35f8784e2c93ae9f4b0c0ce61ca6ae">75e4a66</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

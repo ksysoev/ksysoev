@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1220 times)\n2. add (used 1041 times)\n3. merge (used 1026 times)\n4. pull (used 948 times)\n5. bump (used 852 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1222 times)\n2. add (used 1041 times)\n3. merge (used 1028 times)\n4. pull (used 950 times)\n5. bump (used 854 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -115,7 +115,7 @@
     "id": "mass-delete-commit",
     "tier": 1,
     "desc": "When I delete code, I delete a lot.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/8639e92bcf42565f5f5b4c9c3ba09c1c4238d70d\">8639e92</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/75e4a6625a35f8784e2c93ae9f4b0c0ce61ca6ae\">75e4a66</a>",
     "image": "https://my-badges.github.io/my-badges/mass-delete-commit.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/tapi/commit/966755ef474ca4e674af72ce4a02f596c91230d0\">966755e</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/7ffef31b0f1bf72d2a6ffdc34fb06e51876f6c50\">7ffef31</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/8adf3a7636c13916cca074d8b4bcad355089b72c\">8adf3a7</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/2ec304cfcf91473642c9b585994f7dd4f1c0a259\">2ec304c</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/b6988fa3be6a33706be4c15a84d1a3637f4df2bb\">b6988fa</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/8a79346b43bf804f1ebb20733b6ed44e619d7ad3\">8a79346</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/0e879cb0c640c8d4af7f96d1267353f57e7c4fcb\">0e879cb</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/f686a6eb1863f9acf45748148ac952bf5630c5b2\">f686a6e</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/f34250d4ccbc8ff9cd77ee4e26d46167f0f5bc4a\">f34250d</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/0ddd8d86f2a9228b460e2d1239e7639a9b0f4a38\">0ddd8d8</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/7f495625b8ac3e890b68f980e49a81c11f7a92c6\">7f49562</a>\n- <a href=\"https://github.com/ksysoev/tapi/commit/966755ef474ca4e674af72ce4a02f596c91230d0\">966755e</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
