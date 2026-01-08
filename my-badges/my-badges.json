@@ -226,7 +226,7 @@
   {
     "id": "may-the-4th",
     "tier": 0,
-    "desc": "May the 4th be with you! Commits of force:",
+    "desc": "May the 4th be with you!",
     "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/012f04ab95ae0a5a47bf5d8ad8655b25f1b2f124\">012f04a</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1648d6d7144c36b8e330dd851b3603f17de60b6d\">1648d6d</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/9e5d2c68672aebab3769349d82d531ab5189144c\">9e5d2c6</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/45fc4ae7d0cb4ee7dc3fc7375c5104c1bf5df751\">45fc4ae</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/7e0a6dcc4de3aceecd7fae17b9832cd85544823a\">7e0a6dc</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/1c5fc5843d6d88c70d845610321982f9bccf225b\">1c5fc58</a>",
     "image": "https://my-badges.github.io/my-badges/may-the-4th.png"
   },
@@ -243,5 +243,19 @@
     "desc": "I committed on St. Patrick's Day!",
     "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wsget/commit/65579864ad738268d939350e031e2934d3b946ba\">6557986</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/8d888fc512ff62a813c066ad454ab5c93967be35\">8d888fc</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/1ac999de9beef59aecac1f255a44112b37ae0971\">1ac999d</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/e1e5b07b32f3ba59853512e291685f0a0154cca2\">e1e5b07</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/de41e17a20617ebb10c1aa02e0107084211373fb\">de41e17</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/ccb26707959618cdba90601a98dd0c909c3a6d02\">ccb2670</a>",
     "image": "https://my-badges.github.io/my-badges/st-patricks-day.png"
+  },
+  {
+    "id": "alien-day",
+    "tier": 0,
+    "desc": "I committed on the day when the crew of the USCSS Nostromo made their fateful landing and discovered the Xenomorph on LV-426!",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c773ccdd7c34aa8c66fe29c410cee571a5155b22\">c773ccd</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/670b5c50685ab13fe3208e0dca0c9f5377189eee\">670b5c5</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/748278a2b23c7e379dcf2632bf86d5ccef260a36\">748278a</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/ed3fc4123c342da2e10dc13dfb7e8e5b34012903\">ed3fc41</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/961a269125fc1fe3a2f5c12ab5f95178d865f5d8\">961a269</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/3801c2e69eadc186e98695d6d70764a247722d11\">3801c2e</a>",
+    "image": "https://my-badges.github.io/my-badges/alien-day.png"
+  },
+  {
+    "id": "science-fiction-day",
+    "tier": 0,
+    "desc": "I committed on Isaac Asimov's birthday / National Science Fiction Day!",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-teletrader/commit/20242b638735e4b9b9fa1aa4f72446ce12506e5e\">20242b6</a>\n- <a href=\"https://github.com/ksysoev/deriv-teletrader/commit/0ddea8749cb9a3823623c1b3bbb744f2b5a1c64e\">0ddea87</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/5f3c702cdc0d4a8ba5ab808a6a0d14a760aeb8f8\">5f3c702</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/74f2d9ab7e2ee6081a24868edd812be34ef13f08\">74f2d9a</a>",
+    "image": "https://my-badges.github.io/my-badges/science-fiction-day.png"
   }
 ]
