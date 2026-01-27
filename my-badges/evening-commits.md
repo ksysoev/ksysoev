@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/authkeeper/commit/3add8ae61a7a54fef5bbf35fab5e7765560bdfa7">3add8ae</a>
-- <a href="https://github.com/ksysoev/authkeeper/commit/8a2cdfed40d967facd6c95d6ee0383f9e1b65069">8a2cdfe</a>
-- <a href="https://github.com/ksysoev/authkeeper/commit/0e879cb0c640c8d4af7f96d1267353f57e7c4fcb">0e879cb</a>
-- <a href="https://github.com/ksysoev/authkeeper/commit/f686a6eb1863f9acf45748148ac952bf5630c5b2">f686a6e</a>
-- <a href="https://github.com/ksysoev/authkeeper/commit/f34250d4ccbc8ff9cd77ee4e26d46167f0f5bc4a">f34250d</a>
-- <a href="https://github.com/ksysoev/authkeeper/commit/0ddd8d86f2a9228b460e2d1239e7639a9b0f4a38">0ddd8d8</a>
+- <a href="https://github.com/ksysoev/authkeeper/commit/2f6d3aab2e88284e6ed65be87c687a60b60733bc">2f6d3aa</a>
+- <a href="https://github.com/ksysoev/authkeeper/commit/dc71fb8463cc70a07f31118dbe76a7bd75379311">dc71fb8</a>
+- <a href="https://github.com/ksysoev/authkeeper/commit/b7bab41c23a8a30a396138409d6b75ca06e2c8f2">b7bab41</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/757d4358d3faa59ea16233062a2b486898179979">757d435</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/881e8f90aeded8919944f4b0e9901dbc062cf8c8">881e8f9</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/82828105d1ce8f77859d019653dd2fbf2b1dd08e">8282810</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
