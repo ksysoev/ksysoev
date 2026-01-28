@@ -10,7 +10,7 @@
     "id": "ab-commit",
     "tier": 2,
     "desc": "One of my commit sha starts with \"ab\".",
-    "body": "- <a href=\"https://github.com/ksysoev/wasabi/commit/aba47df7d7f73056b9e8b71000ece427afb9ea60\"><strong>ab</strong>a47df7d7f73056b9e8b71000ece427afb9ea60</a>",
+    "body": "- <a href=\"https://github.com/ksysoev/wsget/commit/ab48e07030b3a0d64c07e75a875d3cbf99b2beb0\"><strong>ab</strong>48e07030b3a0d64c07e75a875d3cbf99b2beb0</a>",
     "image": "https://my-badges.github.io/my-badges/ab-commit.png"
   },
   {
@@ -59,14 +59,14 @@
     "id": "epic-commit",
     "tier": 0,
     "desc": "I made an epic commit with a message over 500 chars.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/1645e413fe2c5e0d80ee31b2b2e0048391f7736f\">1645e41</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/7cb7793fa28044cb474cecc1290645559c0445e4\">7cb7793</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c\">5abaf78</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809\">7330a96</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/1645e413fe2c5e0d80ee31b2b2e0048391f7736f\">1645e41</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/7cb7793fa28044cb474cecc1290645559c0445e4\">7cb7793</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c\">5abaf78</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809\">7330a96</a>\n- <a href=\"https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37\">033de9c</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851\">193e8ba</a>\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395\">e7ad030</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/db862f59953ba41d318088c92864418fb33f1806\">db862f5</a>",
     "image": "https://my-badges.github.io/my-badges/epic-commit.png"
   },
   {
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1242 times)\n2. merge (used 1048 times)\n3. add (used 1044 times)\n4. pull (used 970 times)\n5. bump (used 874 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1246 times)\n2. add (used 1053 times)\n3. merge (used 1049 times)\n4. pull (used 971 times)\n5. bump (used 874 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/2f6d3aab2e88284e6ed65be87c687a60b60733bc\">2f6d3aa</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/dc71fb8463cc70a07f31118dbe76a7bd75379311\">dc71fb8</a>\n- <a href=\"https://github.com/ksysoev/authkeeper/commit/b7bab41c23a8a30a396138409d6b75ca06e2c8f2\">b7bab41</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/757d4358d3faa59ea16233062a2b486898179979\">757d435</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/881e8f90aeded8919944f4b0e9901dbc062cf8c8\">881e8f9</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/82828105d1ce8f77859d019653dd2fbf2b1dd08e\">8282810</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wsget/commit/9f4a55f72af1918fb145e20ba39fd7cff6878ba8\">9f4a55f</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/4797fb00061384e0c285317c2f9aae47109ebf5a\">4797fb0</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/d0050e8b75f2ebcb7d7d73b91744e65281b90ffb\">d0050e8</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/345189c19d2fd2bd387d88ed0de80e8395c6f604\">345189c</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/133396d73c03fbf632d8eff124a3a42228cad090\">133396d</a>\n- <a href=\"https://github.com/ksysoev/wsget/commit/db862f59953ba41d318088c92864418fb33f1806\">db862f5</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -257,5 +257,12 @@
     "desc": "I committed on Isaac Asimov's birthday / National Science Fiction Day!",
     "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-teletrader/commit/20242b638735e4b9b9fa1aa4f72446ce12506e5e\">20242b6</a>\n- <a href=\"https://github.com/ksysoev/deriv-teletrader/commit/0ddea8749cb9a3823623c1b3bbb744f2b5a1c64e\">0ddea87</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/5f3c702cdc0d4a8ba5ab808a6a0d14a760aeb8f8\">5f3c702</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/74f2d9ab7e2ee6081a24868edd812be34ef13f08\">74f2d9a</a>",
     "image": "https://my-badges.github.io/my-badges/science-fiction-day.png"
+  },
+  {
+    "id": "old-issue-1",
+    "tier": 1,
+    "desc": "I closed an issue that was open for a year",
+    "body": "Issues:\n\n- <a href=\"https://github.com/ksysoev/wsget/issues/71\">#71</a>: Introducing search mode for editors.",
+    "image": "https://my-badges.github.io/my-badges/old-issue-1.png"
   }
 ]
