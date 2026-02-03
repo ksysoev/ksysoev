@@ -4,6 +4,7 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/opengate-example/commit/c895bf77885a1012d37b8f33bd00f856cb9c65b8">c895bf7</a>
 - <a href="https://github.com/ksysoev/opengate/commit/fdf0e2cb1cc71cf14951c9d7636dd1ed996b5477">fdf0e2c</a>
 - <a href="https://github.com/ksysoev/opengate/commit/27d0e0535fc8af62dd6a7b620ac39c4b9ed4b908">27d0e05</a>
 - <a href="https://github.com/ksysoev/opengate/commit/d857dae68dc15944f85da468a0965e706fa49b94">d857dae</a>
