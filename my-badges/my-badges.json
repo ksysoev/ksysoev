@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"request\".",
-    "body": "My favorite commit message words are:\n\n1. request (used 1264 times)\n2. add (used 1143 times)\n3. merge (used 1066 times)\n4. pull (used 987 times)\n5. bump (used 884 times)",
+    "body": "My favorite commit message words are:\n\n1. request (used 1274 times)\n2. add (used 1143 times)\n3. merge (used 1076 times)\n4. pull (used 997 times)\n5. bump (used 902 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -157,14 +157,14 @@
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wasabi/commit/e200bc29e3d71f7c6156a30aaeac56fdce2550d5\">e200bc2</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/8b6ba5704845b972ba07bd771167f0d18cf6d252\">8b6ba57</a>\n- <a href=\"https://github.com/ksysoev/dotfiles/commit/e1410b481309175f5101c10f2eb279b01a2d5d2a\">e1410b4</a>\n- <a href=\"https://github.com/ksysoev/tg-feeder/commit/cd02be9b5b159ae4e611a4c1aa294742a8c4f790\">cd02be9</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/a2a684b995a4e1d705ab492c86a1750f203aa25e\">a2a684b</a>\n- <a href=\"https://github.com/ksysoev/cfn-proc/commit/a0909037743e14dca06f828b1052d14f89da8309\">a090903</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/429c197de5d334bd22901e9bb1cc67d635692a93\">429c197</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/e200bc29e3d71f7c6156a30aaeac56fdce2550d5\">e200bc2</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/8b6ba5704845b972ba07bd771167f0d18cf6d252\">8b6ba57</a>\n- <a href=\"https://github.com/ksysoev/dotfiles/commit/e1410b481309175f5101c10f2eb279b01a2d5d2a\">e1410b4</a>\n- <a href=\"https://github.com/ksysoev/tg-feeder/commit/cd02be9b5b159ae4e611a4c1aa294742a8c4f790\">cd02be9</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/a2a684b995a4e1d705ab492c86a1750f203aa25e\">a2a684b</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/14aa19b4391d2210ae9168d570730c87cc188b2e\">14aa19b</a>\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/1c7dbe1562df7a584cb9bb2da6eef5cb21c3ae46\">1c7dbe1</a>\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/7d4d8531a581186cf20ff5456e5243792250fab2\">7d4d853</a>\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/a60a0af92e1a68acc9e2c48dc6e87343b545f8ed\">a60a0af</a>\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/ae495db0f0ffeec78d172eaf77de023450c38647\">ae495db</a>\n- <a href=\"https://github.com/ksysoev/opengate-example/commit/c895bf77885a1012d37b8f33bd00f856cb9c65b8\">c895bf7</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wasabi/commit/b4b11061bdee9069ba37953b05613aa4d63e93cb\">b4b1106</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/dc1a7ab3f2dbc23df7b8695d47b5b48c353717fa\">dc1a7ab</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/993172703bed948ac69d26e40ae192a5bfb6ffed\">9931727</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/821bd6970acef50d3826b87768c6bd9ac9584d15\">821bd69</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/ff3ee883e5b049d29251a54804f153aae79c677d\">ff3ee88</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/9bc495e4d85aaa6bdb999154e8b547a0ce8eea13\">9bc495e</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
