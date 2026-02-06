@@ -20,6 +20,9 @@ Commits:
 - <a href="https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c">5abaf78</a>
 - <a href="https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809">7330a96</a>
 - <a href="https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37">033de9c</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/ea5e4e3fae92c37c7116eb57fb7a458367c3c6c2">ea5e4e3</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/b9817c1094cb4b8dc4af33a15085e8459a8c3b56">b9817c1</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/e7876f9e9dd82d888704b7d4a92b895dfe965700">e7876f9</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851">193e8ba</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395">e7ad030</a>
 - <a href="https://github.com/ksysoev/wsget/commit/db862f59953ba41d318088c92864418fb33f1806">db862f5</a>
