@@ -25,6 +25,13 @@ Commits:
 - <a href="https://github.com/ksysoev/make-it-public/commit/e7876f9e9dd82d888704b7d4a92b895dfe965700">e7876f9</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851">193e8ba</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395">e7ad030</a>
+- <a href="https://github.com/ksysoev/revdial/commit/75a6517c75bfb1db329a1e20346250f53aafaf45">75a6517</a>
+- <a href="https://github.com/ksysoev/revdial/commit/bf4758d7392b10203ce9b1d3da3adb42708703e4">bf4758d</a>
+- <a href="https://github.com/ksysoev/revdial/commit/61de76db1af6e9229b75394fe4ddec594c062a35">61de76d</a>
+- <a href="https://github.com/ksysoev/revdial/commit/9b42d76eaf54badaeffbbbc23065d49fd20d8588">9b42d76</a>
+- <a href="https://github.com/ksysoev/revdial/commit/0eb80723fe73bed6e9f119b83f7906253f69d56f">0eb8072</a>
+- <a href="https://github.com/ksysoev/revdial/commit/062ee8639b17019ce4b5c194345a18dd6f14f912">062ee86</a>
+- <a href="https://github.com/ksysoev/revdial/commit/65b529e4ebd63645272b06b5aec527829c199213">65b529e</a>
 - <a href="https://github.com/ksysoev/wsget/commit/db862f59953ba41d318088c92864418fb33f1806">db862f5</a>
 
 
