@@ -20,6 +20,11 @@ Commits:
 - <a href="https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c">5abaf78</a>
 - <a href="https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809">7330a96</a>
 - <a href="https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37">033de9c</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/2a71dc8cd0a32aa2a549ec344d26fd74abd6f2ca">2a71dc8</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/5d4884d9ac062f001e8d5dd087f826cb9af87ebd">5d4884d</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/394cc0d790d30be20a2d696d758279037fbb0f66">394cc0d</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/a5c92516f7c6c778a3a0d212e30796f753284030">a5c9251</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/a6655fc8ff15056f7319aea1a7336b77ab619073">a6655fc</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/2c27dc9679ab802d82b79a9b16b3e9f45a90a4ed">2c27dc9</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/7039f07b38813e1a3a2fefb48104bb1affff4274">7039f07</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/4e900cd129a02c8750542b6da995009dee55823d">4e900cd</a>
