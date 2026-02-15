@@ -4,36 +4,21 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/ea5e4e3fae92c37c7116eb57fb7a458367c3c6c2">ea5e4e3</a>: fix: address PR review - Unicode handling, cleanup, and documentation
+- <a href="https://github.com/ksysoev/cloudlab/commit/ec225fc72f55d980f387ed8e25850688902a845a">ec225fc</a>: fix: upgrade Terraform version to 1.9.0 for test support
 
-Phase 3: Low priority robustness improvements
-- Replace len() with utf8.RuneCountInString() in banner.go for correct Unicode padding
-- Replace len() with utf8.RuneCountInString() in request.go for correct Unicode separator
-- Add defer spinner.Stop() in client.go to ensure cleanup on unexpected exits
-- Document global color state modification in display.go New() function
-- Explain single-instance design assumption and potential refactoring path
+Terraform 1.6.0 doesn't fully support .tftest.hcl files.
+Upgrading to 1.9.0 for proper terraform test command support.
 
-Fixes Unicode text alignment issues and improves resource cleanup robustness
-identified in PR #242 review comments.
-- <a href="https://github.com/ksysoev/make-it-public/commit/b9817c1094cb4b8dc4af33a15085e8459a8c3b56">b9817c1</a>: fix: address PR review - prevent channel double-close and test state pollution
+Changes:
+- test.yml: 1.6.0 -> 1.9.0
+- provision.yml: 1.6.0 -> 1.9.0
+- <a href="https://github.com/ksysoev/cloudlab/commit/36dce31f32a47854c855eea1ccf8a44b96ead225">36dce31</a>: fix: test workflow running twice on PRs
 
-Phase 2: Medium priority concurrency safety fixes
-- Add sync.Once to Spinner struct to prevent channel double-close panics
-- Implement closeChannel() helper method using sync.Once.Do()
-- Replace all direct close(s.done) calls with safe closeChannel() method
-- Replace init() with TestMain() in display_test.go to properly restore color state
-- Ensures test color state is saved and restored, preventing global pollution
+Remove push trigger to avoid duplicate runs on PR branches.
+Workflow now only runs on pull_request events targeting main branch.
+- <a href="https://github.com/ksysoev/cloudlab/commit/be8ac9caf3928d02e7b41867c44ef9feb85e9353">be8ac9c</a>: fix: format terraform files
 
-Fixes race condition and test isolation issues identified in PR #242 review.
-- <a href="https://github.com/ksysoev/make-it-public/commit/4c0c6497a344d5a5fcbf2c222fcc836974a07cd7">4c0c649</a>: fix: address PR review - add pipe error handling and resource cleanup in tests
-
-Phase 1: High priority test quality fixes
-- Add error checking for os.Pipe() calls in all test functions
-- Add defer r.Close() to prevent pipe reader resource leaks
-- Ensures proper resource cleanup in TestServeHTTP, TestPrintBody, TestPrintText,
-  TestPrintJSON, and TestServeHTTPNonInteractive
-
-Fixes resource leak issues identified in PR #242 review comments.
+Run terraform fmt -recursive to fix formatting issues in droplet.tf
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
