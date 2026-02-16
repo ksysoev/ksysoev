@@ -4,21 +4,25 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cloudlab/commit/ec225fc72f55d980f387ed8e25850688902a845a">ec225fc</a>: fix: upgrade Terraform version to 1.9.0 for test support
+- <a href="https://github.com/ksysoev/cloudlab/commit/623972efcf857ec869756237ac5edeac71144789">623972e</a>: Fix working directory for SSH wait and key configuration steps
 
-Terraform 1.6.0 doesn't fully support .tftest.hcl files.
-Upgrading to 1.9.0 for proper terraform test command support.
+Override the default working directory (./ansible) to use root directory
+for accessing terraform outputs.
+- <a href="https://github.com/ksysoev/cloudlab/commit/c85cc7006628e24f71baba2f70e7b1001e9567ff">c85cc70</a>: Fix Ansible version requirements to use correct package version
 
-Changes:
-- test.yml: 1.6.0 -> 1.9.0
-- provision.yml: 1.6.0 -> 1.9.0
-- <a href="https://github.com/ksysoev/cloudlab/commit/36dce31f32a47854c855eea1ccf8a44b96ead225">36dce31</a>: fix: test workflow running twice on PRs
+The 'ansible' package doesn't have 2.15.x versions. The version
+scheme is:
+- ansible 8.x includes ansible-core 2.15.x
+- ansible 9.x includes ansible-core 2.16.x
 
-Remove push trigger to avoid duplicate runs on PR branches.
-Workflow now only runs on pull_request events targeting main branch.
-- <a href="https://github.com/ksysoev/cloudlab/commit/be8ac9caf3928d02e7b41867c44ef9feb85e9353">be8ac9c</a>: fix: format terraform files
+Updated requirements.txt to use ansible>=8.0.0,<10.0.0 which provides
+the ansible-core 2.15.x - 2.16.x functionality.
+- <a href="https://github.com/ksysoev/cloudlab/commit/ff15e9f4c7297718604501c7cc248042ffee8071">ff15e9f</a>: Fix Ansible installation in configure workflow
 
-Run terraform fmt -recursive to fix formatting issues in droplet.tf
+Use requirements.txt instead of hardcoded version to install Ansible.
+The version 2.15.0 doesn't exist as 'ansible==2.15.0' - the correct
+approach is to use the version range from requirements.txt which
+installs 'ansible>=2.15.0,<3.0'.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

@@ -4,89 +4,43 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/revdial/commit/cf2260b83c77c26ead031fd02a42175fa65f61d0">cf2260b</a>: fix: add nil session validation before creating MuxConn
+- <a href="https://github.com/ksysoev/cloudlab/commit/4cf55a16a920a37c5550fdbd2ff5387e0615bfc1">4cf55a1</a>: Fix final Molecule test failures
 
-Add defensive checks to prevent nil pointer panics:
-- Validate client.Session() is not nil before passing to pool.NewMuxConn
-- Add mutex protection to ClientV2.Session() method for thread safety
-- Add validation in both Listen() and createPoolConnection()
+- Docker role: Skip service start in Molecule tests (Docker-in-Docker not supported)
+- Docker role: Fix line length linting issue in GPG dearmor command
+- Monitoring role: Remove recurse flag from directory creation for idempotence
+- <a href="https://github.com/ksysoev/cloudlab/commit/9f85450b1efc794ba736eefc211fc7c086dfd305">9f85450</a>: Fix GPG key dearmoring for Docker and Monitoring roles
 
-This prevents potential panic if isV2=true but session=nil due to race
-conditions or edge cases in the registration flow.
-- <a href="https://github.com/ksysoev/revdial/commit/ef8bd262d373d36306ce03aa3a3db7f765de08d6">ef8bd26</a>: fix: address remaining PR review comments
+- Add gnupg installation to prepare playbooks for molecule tests
+- Download GPG keys to temp location and dearmor them
+- Docker role: Dearmor Docker GPG key before use
+- Monitoring role: Dearmor Grafana GPG key before use
+- Creates prepare.yml for docker role tests
+- <a href="https://github.com/ksysoev/cloudlab/commit/0138780f88aa3dea2c98bb0a51d2f6671018d8b0">0138780</a>: Fix remaining Molecule test failures
 
-- Remove unused disableV1 and poolConfig fields from Listener struct
-- Replace magic number '1' with proto.VersionV1() constant for consistency
-- Add proper connection cleanup when registration fails in Listen()
-- Fix double unlock bug in pool.scaleDown() by inlining removal logic
-- Add VersionV1() public function to proto package
+- Replace deprecated apt_key with get_url for GPG keys (fixes gpg-agent errors)
+- Remove UFW reset to ensure idempotence in security role
+- Docker role: Use get_url for Docker GPG key
+- Monitoring role: Use get_url for Grafana GPG key
+- <a href="https://github.com/ksysoev/cloudlab/commit/8a8141425887dfe94d079c7765339f9f9ba82446">8a81414</a>: Fix ANSIBLE_ROLES_PATH to use correct parent directory
 
-All changes improve code quality and maintainability based on PR feedback.
-- <a href="https://github.com/ksysoev/revdial/commit/75a6517c75bfb1db329a1e20346250f53aafaf45">75a6517</a>: fix: resolve flaky test race condition in Dialer.Stop()
+- Change from ${MOLECULE_PROJECT_DIRECTORY}/../../ to ${MOLECULE_PROJECT_DIRECTORY}/../
+- MOLECULE_PROJECT_DIRECTORY points to ansible/roles/{role}, so ../ correctly resolves to ansible/roles/
+- <a href="https://github.com/ksysoev/cloudlab/commit/94cd308f3e463f458149b8f282f612d16148e1ef">94cd308</a>: Fix Molecule role resolution using ANSIBLE_ROLES_PATH environment variable
 
-The Dialer.Stop() method had a race condition causing flaky test failures:
-- Context cancellation (d.cancel()) triggered a goroutine to close the listener
-- Stop() then attempted to close the listener again, causing 'use of closed network connection' error
+- Use ANSIBLE_ROLES_PATH with ${MOLECULE_PROJECT_DIRECTORY}/../../ to set absolute roles path
+- Previous relative path approach (roles_path: ../../../) was not working correctly
+- Environment variable approach is more reliable for Molecule tests
+- <a href="https://github.com/ksysoev/cloudlab/commit/a1ebb71478084bf5fe533d50fab36f0816965b95">a1ebb71</a>: Fix Molecule role resolution by configuring roles_path in all roles
 
-Fix: Remove the duplicate listener.Close() call from Stop() since the context
-cancellation goroutine already handles listener cleanup. Now Stop() only cancels
-the context and waits for goroutines to finish.
+- Add roles_path: ../../../ to provisioner config in all molecule.yml files
+- Revert converge.yml files to use explicit role names instead of MOLECULE_PROJECT_DIRECTORY lookup
+- This ensures Molecule can find roles when running tests from within role directories
+- <a href="https://github.com/ksysoev/cloudlab/commit/7ba63b8954cdf9c4c688b9ecf42d0abe6a3728a0">7ba63b8</a>: Fix Molecule role paths to use MOLECULE_PROJECT_DIRECTORY
 
-Tests verified with 10x repeated runs - all passing with race detector clean.
-- <a href="https://github.com/ksysoev/revdial/commit/949015a46f9500979a6f296a5d0a372380c78e72">949015a</a>: fix: address PR review issues in V2 protocol implementation
-
-- Fix data race on isV2 field by changing mutex to RWMutex and protecting all accesses
-- Fix goroutine leak in createPoolConnection by calling client.Close() instead of conn.Close()
-- Add pool.Close() in Listener.Close() to properly cleanup resources
-- Fix type assertions in WithMuxConfig options by creating separate V2Option types
-- Remove dead code for unused negotiated yamux values
-- All tests passing with race detector clean
-- <a href="https://github.com/ksysoev/revdial/commit/bf4758d7392b10203ce9b1d3da3adb42708703e4">bf4758d</a>: fix: resolve V2 protocol context cancellation and session cleanup issues
-
-- Fix context cancellation race in handleV2RegisteredConnection by using dialer lifecycle context (d.ctx)
-- Add ctx field to Dialer struct to maintain lifecycle context separate from connection contexts
-- Update Start() to use d.ctx in goroutines instead of parameter context
-- Fix V2 bind protocol to use versionV1 for compatibility with stream parsing
-- Add Close() method to ClientV2 to properly close yamux session during shutdown
-- Buffer commands channel in Client to prevent potential deadlocks
-- Enable V2 integration test (TestListenerDialer_V2Protocol)
-
-This resolves the issue where V2 connections were prematurely removed from the connection manager due to context cancellation, causing 'no connection is available' errors. Also fixes goroutine leaks during shutdown by ensuring yamux sessions are properly closed.
-
-All tests pass with no regressions.
-- <a href="https://github.com/ksysoev/revdial/commit/83fa55ad8983c5ac50b51354488c924e6ee828f7">83fa55a</a>: Fix linter issues
-- <a href="https://github.com/ksysoev/revdial/commit/61de76db1af6e9229b75394fe4ddec594c062a35">61de76d</a>: fix: V1 backward compatibility and protocol improvements
-
-- Fix V1 fallback mechanism in ClientV2
-  - Add disableV2 flag to Client struct for V1-only mode
-  - Fix option application in NewClientV2 to properly set flags
-  - Fix registerV1 to call establish() for auth handshake
-  - Add proper context handling and error logging
-
-- Fix protocol version consistency
-  - Use V1 format (versionV1) for all V2 stream communication
-  - Update server responses to use V1 format for compatibility
-  - Fix version checking in handleV2Stream
-
-- Override methods in ServerV2 for proper V2 operation
-  - Add SendConnectCommand override to delegate to V2 or V1
-  - Add SendCustomEvent override for control stream
-  - Ensure all ServerConn interface methods work correctly
-
-- Address linter issues
-  - Fix struct field alignment with fieldalignment
-  - Remove unused bytesSent/bytesReceived fields from ConnMetrics
-  - Add ScaleNone case to switch statement
-  - Refactor nested if to use continue pattern
-  - Add nolint directive for acceptable int32 conversion
-  - Rename unused ctx parameters to _
-
-- Comment out incomplete V2 integration test
-  - Test structure is correct but needs debugging
-  - Connection manager not recognizing V2 connections
-  - Will be resolved in future commit
-
-All existing V1 tests pass. V2 infrastructure is in place.
+Molecule runs from within the role directory, so it can't find roles by name.
+Use the MOLECULE_PROJECT_DIRECTORY environment variable to reference the role
+dynamically, which works regardless of the role name.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
