@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/44a567f883c3759e933ebd03426e63beeb7c629b">44a567f</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/744b5cb52518cd6c24a214cdbd669e7c707a0ca6">744b5cb</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/977b45f8ed5fceeb3db74b29f5b078d222ee4cd9">977b45f</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/30a19bc2055dcbc4286d92144e1d75b3a7191758">30a19bc</a>
-- <a href="https://github.com/ksysoev/make-it-public/commit/6f74d98d795fbb967ac9b3cd63e17b192eeb41da">6f74d98</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/89036116ce58bb5e57516de569eb7e26673c0ef6">8903611</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/7e1790dc688ab797a6e60f008dcf9897f1cc5c7d">7e1790d</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/14ae8c534ba683e67454fb0390323d7f928f2594">14ae8c5</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/372c3fc96d1da54055381dcfdbfba5bd5583d924">372c3fc</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/84059efc6df32558e15295cff4bde84a29e18d1d">84059ef</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/07d9221d88b2405ec2b6d1a8f1d48752df65dfb4">07d9221</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/dfad625285357be88da982714f7eb312074a4aac">dfad625</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
