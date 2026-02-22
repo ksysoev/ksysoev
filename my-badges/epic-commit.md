@@ -45,6 +45,12 @@ Commits:
 - <a href="https://github.com/ksysoev/help-my-pet/commit/6a56846e5f63fd9bd3f9796725293bfca40ca184">6a56846</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/e2518d3d42b8b61753cf4ce85320135d730a6f43">e2518d3</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/9b33616f49846e62755578a193e22b97e58ecd75">9b33616</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/756877762bce1a89430b7e54dd71e160502b474f">7568777</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/5308e2776de5b2b40e7e04c58f73b690ce867ecb">5308e27</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/332d918341e10945064c39d0449a14c9f8d05c44">332d918</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/59a8126ba06d0bdda7322984ddfc8d79578bcff3">59a8126</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/6f10e09ebf8066bf9b2807b94bed65ea82c39e87">6f10e09</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/8314a6bdb645fdc0aa7ebae9a0f8b46a522d62a5">8314a6b</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/30a19bc2055dcbc4286d92144e1d75b3a7191758">30a19bc</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/2cbf3f5a31394a18490402e31ed7d75546e79edf">2cbf3f5</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/4d4ca6ca388d7c9e460b11c11e53da83bfe3f257">4d4ca6c</a>
@@ -72,6 +78,9 @@ Commits:
 - <a href="https://github.com/ksysoev/revdial/commit/0eb80723fe73bed6e9f119b83f7906253f69d56f">0eb8072</a>
 - <a href="https://github.com/ksysoev/revdial/commit/062ee8639b17019ce4b5c194345a18dd6f14f912">062ee86</a>
 - <a href="https://github.com/ksysoev/revdial/commit/65b529e4ebd63645272b06b5aec527829c199213">65b529e</a>
+- <a href="https://github.com/ksysoev/wsget/commit/7ee2ec6f2d69de3739462b0b071dab70a9f64f2e">7ee2ec6</a>
+- <a href="https://github.com/ksysoev/wsget/commit/e8c6ac135cc5908544e071bd512c8143e459c6df">e8c6ac1</a>
+- <a href="https://github.com/ksysoev/wsget/commit/d4aabe813c2a69dbd4c2cf7da05d79fb2a155317">d4aabe8</a>
 - <a href="https://github.com/ksysoev/wsget/commit/db862f59953ba41d318088c92864418fb33f1806">db862f5</a>
 
 
