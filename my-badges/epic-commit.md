@@ -39,12 +39,15 @@ Commits:
 - <a href="https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c">5abaf78</a>
 - <a href="https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809">7330a96</a>
 - <a href="https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37">033de9c</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/1a0f1a159988c6024050e0c4a95bcffd468e76eb">1a0f1a1</a>
 - <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/a8da59bdbdad881874d4da24ace24057143fcf53">a8da59b</a>
 - <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/372c3fc96d1da54055381dcfdbfba5bd5583d924">372c3fc</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/bac08911c883ce7a7273eaab1398e7d3be2969d7">bac0891</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/6a56846e5f63fd9bd3f9796725293bfca40ca184">6a56846</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/e2518d3d42b8b61753cf4ce85320135d730a6f43">e2518d3</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/9b33616f49846e62755578a193e22b97e58ecd75">9b33616</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/12e76647aff7771b4b03b21adf82cb5ebd45aa7f">12e7664</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/bf641d0e77cb63f45afddd5761a63b4fbc13322e">bf641d0</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/756877762bce1a89430b7e54dd71e160502b474f">7568777</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/5308e2776de5b2b40e7e04c58f73b690ce867ecb">5308e27</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/332d918341e10945064c39d0449a14c9f8d05c44">332d918</a>
