@@ -4,15 +4,15 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cloudlab/commit/3e76ced43286fd63cd36af6f477c1fc551de2d72">3e76ced</a>: Fix permission issue when creating deployment directory
+- <a href="https://github.com/ksysoev/omnidex/commit/26b3853cac14a9610ae13f463abea766eae34b25">26b3853</a>: Fix security and code quality issues from PR review
 
-- Use sudo to create /opt/cloudlab directory structure
-- Set ownership to deployment user after creation
-- Fixes 'Permission denied' error when deploying
-- <a href="https://github.com/ksysoev/cloudlab/commit/0c4e80a68eb68665baac8102707aa6bcc2ca1c1a">0c4e80a</a>: Fix tr command syntax error in service name sanitization
-
-Changed 'tr - '''  to 'tr -d '-'' to properly delete hyphens.
-The empty string as second argument to tr was causing failure.
+Add bluemonday HTML sanitizer after goldmark rendering to prevent XSS
+via crafted markdown content. Add path traversal protection in docstore
+by validating resolved paths stay within the base directory. Replace
+fragile string-based error matching with sentinel errors and errors.Is.
+Use graceful HTTP server shutdown with timeout instead of immediate close.
+Improve docstore test coverage from 66% to 82% and add mux route test.
+- <a href="https://github.com/ksysoev/omnidex/commit/5ae91d927f150821f02b6581f6d8e6dd66976a6a">5ae91d9</a>: Fix CI: add missing objx indirect dependency required by mockery mocks
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
