@@ -4,10 +4,10 @@
 
 My favorite commit message words are:
 
-1. add (used 1596 times)
-2. request (used 1372 times)
-3. merge (used 1165 times)
-4. pull (used 1083 times)
+1. add (used 1607 times)
+2. request (used 1375 times)
+3. merge (used 1168 times)
+4. pull (used 1086 times)
 5. tests (used 974 times)
 
 
