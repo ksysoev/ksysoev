@@ -4,15 +4,8 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/26b3853cac14a9610ae13f463abea766eae34b25">26b3853</a>: Fix security and code quality issues from PR review
-
-Add bluemonday HTML sanitizer after goldmark rendering to prevent XSS
-via crafted markdown content. Add path traversal protection in docstore
-by validating resolved paths stay within the base directory. Replace
-fragile string-based error matching with sentinel errors and errors.Is.
-Use graceful HTTP server shutdown with timeout instead of immediate close.
-Improve docstore test coverage from 66% to 82% and add mux route test.
-- <a href="https://github.com/ksysoev/omnidex/commit/5ae91d927f150821f02b6581f6d8e6dd66976a6a">5ae91d9</a>: Fix CI: add missing objx indirect dependency required by mockery mocks
+- <a href="https://github.com/ksysoev/omnidex/commit/eef6611ec808b42bad7d707e80a6d702c1d74689">eef6611</a>: fix: add Scalar guard, scope CSS selectors, and use overflow auto
+- <a href="https://github.com/ksysoev/omnidex/commit/02f48a82061949460f09e62af3f83eb31a173481">02f48a8</a>: fix: pin Scalar CDN version with SRI and log OpenAPI JSON parse errors
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

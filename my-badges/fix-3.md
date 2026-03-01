@@ -4,25 +4,25 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cloudlab/commit/623972efcf857ec869756237ac5edeac71144789">623972e</a>: Fix working directory for SSH wait and key configuration steps
+- <a href="https://github.com/ksysoev/omnidex/commit/55905d07c65b9e51af5d0ac141f57a8cbabe5d0c">55905d0</a>: Fix syncDeleteStale dropping partial orphan-cleanup count on error
+- <a href="https://github.com/ksysoev/omnidex/commit/fe3196514f8cafc1b8466d96c092abfe13044e31">fe31965</a>: Fix ListByRepo silent truncation and reduce sync log noise
 
-Override the default working directory (./ansible) to use root directory
-for accessing terraform outputs.
-- <a href="https://github.com/ksysoev/cloudlab/commit/c85cc7006628e24f71baba2f70e7b1001e9567ff">c85cc70</a>: Fix Ansible version requirements to use correct package version
+Paginate ListByRepo to collect all results instead of silently
+truncating at 10k documents, preventing orphan cleanup from missing
+entries. Downgrade per-document sync/orphan removal logs from INFO
+to DEBUG and add INFO-level summaries with counts.
+- <a href="https://github.com/ksysoev/omnidex/commit/965b7c1a1a40c01f08b0c40f3c6334d74107f6e1">965b7c1</a>: Fix sync leaving orphaned documents in search index
 
-The 'ansible' package doesn't have 2.15.x versions. The version
-scheme is:
-- ansible 8.x includes ansible-core 2.15.x
-- ansible 9.x includes ansible-core 2.16.x
+Reverse the delete operation order in deleteDocument() to remove from
+the search index before the docstore. This prevents permanent orphans
+when the search removal fails after the docstore deletion succeeds,
+making the operation self-healing via subsequent sync retries.
 
-Updated requirements.txt to use ansible>=8.0.0,<10.0.0 which provides
-the ansible-core 2.15.x - 2.16.x functionality.
-- <a href="https://github.com/ksysoev/cloudlab/commit/ff15e9f4c7297718604501c7cc248042ffee8071">ff15e9f</a>: Fix Ansible installation in configure workflow
+Add ListByRepo to the search engine interface so syncDeleteStale() can
+also detect and clean up any existing orphaned search entries left by
+prior partial failures.
 
-Use requirements.txt instead of hardcoded version to install Ansible.
-The version 2.15.0 doesn't exist as 'ansible==2.15.0' - the correct
-approach is to use the version range from requirements.txt which
-installs 'ansible>=2.15.0,<3.0'.
+Closes #29
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
