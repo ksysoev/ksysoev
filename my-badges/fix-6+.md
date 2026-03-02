@@ -4,43 +4,69 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cloudlab/commit/4cf55a16a920a37c5550fdbd2ff5387e0615bfc1">4cf55a1</a>: Fix final Molecule test failures
+- <a href="https://github.com/ksysoev/omnidex/commit/4a71d7d3bc28613ab5d7fa5cca802e78203e8fe4">4a71d7d</a>: fix: align ToPlainText with ExtractHeadings for empty-name tags
 
-- Docker role: Skip service start in Molecule tests (Docker-in-Docker not supported)
-- Docker role: Fix line length linting issue in GPG dearmor command
-- Monitoring role: Remove recurse flag from directory creation for idempotence
-- <a href="https://github.com/ksysoev/cloudlab/commit/9f85450b1efc794ba736eefc211fc7c086dfd305">9f85450</a>: Fix GPG key dearmoring for Docker and Monitoring roles
+ToPlainText was emitting a blank line for tags with an empty name while
+ExtractHeadings already skipped them, causing byte-offset misalignment
+during anchor resolution. Add the same tag.Name != "" guard to
+ToPlainText and cover the invariant with a new test case.
 
-- Add gnupg installation to prepare playbooks for molecule tests
-- Download GPG keys to temp location and dearmor them
-- Docker role: Dearmor Docker GPG key before use
-- Monitoring role: Dearmor Grafana GPG key before use
-- Creates prepare.yml for docker role tests
-- <a href="https://github.com/ksysoev/cloudlab/commit/0138780f88aa3dea2c98bb0a51d2f6671018d8b0">0138780</a>: Fix remaining Molecule test failures
+Also update a stale Swagger UI reference in processor_test.go to Scalar
+API Reference, and document the known slug de-duplication limitation in
+the githubSlug comment.
+- <a href="https://github.com/ksysoev/omnidex/commit/9784c4fc4ed35870b9aa9f9c8c41ef493ed2862a">9784c4f</a>: fix: address PR review comments — UTF-8 rune boundary and test subtest names
+- <a href="https://github.com/ksysoev/omnidex/commit/5cba28e991341a24aa7f19874ab6eed0e450bf13">5cba28e</a>: fix: address PR review comments — rune-safe caseInsensitiveIndex and whole-line heading matching
 
-- Replace deprecated apt_key with get_url for GPG keys (fixes gpg-agent errors)
-- Remove UFW reset to ensure idempotence in security role
-- Docker role: Use get_url for Docker GPG key
-- Monitoring role: Use get_url for Grafana GPG key
-- <a href="https://github.com/ksysoev/cloudlab/commit/8a8141425887dfe94d079c7765339f9f9ba82446">8a81414</a>: Fix ANSIBLE_ROLES_PATH to use correct parent directory
+- caseInsensitiveIndex: replace byte-length window with rune-count sliding
+  window so s[windowStart:windowEnd] is never split mid-rune for multi-byte
+  Unicode characters (Copilot comment #9)
+- findAnchorAtPosition: introduce findHeadingLine helper that requires a
+  whole-line match (preceded/followed by newline or string boundary) to
+  avoid attributing incorrect anchors when heading text also appears in
+  body paragraphs (Copilot comment #10)
+- Update stale parseSpec comment: Swagger UI -> Scalar API Reference (#2)
+- Update len(headings)==0 comment to reflect both no-headings and
+  no-heading-support cases (#8)
+- Add TestFindHeadingLine, TestCaseInsensitiveIndex, and a false-positive
+  body-match case to TestFindAnchorAtPosition
+- <a href="https://github.com/ksysoev/omnidex/commit/d61d994a71fb5c179b711e800549e3ca7f74bc42">d61d994</a>: fix: address remaining PR review comments on granular search anchors
 
-- Change from ${MOLECULE_PROJECT_DIRECTORY}/../../ to ${MOLECULE_PROJECT_DIRECTORY}/../
-- MOLECULE_PROJECT_DIRECTORY points to ansible/roles/{role}, so ../ correctly resolves to ansible/roles/
-- <a href="https://github.com/ksysoev/cloudlab/commit/94cd308f3e463f458149b8f282f612d16148e1ef">94cd308</a>: Fix Molecule role resolution using ANSIBLE_ROLES_PATH environment variable
+- Remove stale '(e.g. OpenAPI)' from heading navigation comment in svc.go;
+  OpenAPI now has a full ExtractHeadings implementation
+- Rename TestGithubSlug to TestGitHubSlug for correct capitalization
+- Replace per-call regexp.Compile in caseInsensitiveIndex with a
+  strings.EqualFold sliding-window scan (utf8.DecodeRuneInString advance),
+  eliminating per-call allocation while keeping correct Unicode byte offsets
+- <a href="https://github.com/ksysoev/omnidex/commit/c03e6772f19730a409e72fd2ac24b93e80e3567a">c03e677</a>: fix: address PR review comments on granular search anchors
 
-- Use ANSIBLE_ROLES_PATH with ${MOLECULE_PROJECT_DIRECTORY}/../../ to set absolute roles path
-- Previous relative path approach (roles_path: ../../../) was not working correctly
-- Environment variable approach is more reliable for Molecule tests
-- <a href="https://github.com/ksysoev/cloudlab/commit/a1ebb71478084bf5fe533d50fab36f0816965b95">a1ebb71</a>: Fix Molecule role resolution by configuring roles_path in all roles
+- Extract scrollToHash() from initScrollSpy() so hash-based scroll
+  always runs on htmx:afterSwap regardless of TOC sidebar presence
+- Replace caseInsensitive string index using strings.ToLower with
+  caseInsensitiveIndex() backed by regexp to avoid Unicode byte-offset
+  mismatches (e.g. Turkish dotless-i, German eszett)
+- Remove dead findAnchorForFragment; rewrite its tests against the
+  production findAnchorAtPosition function directly
+- Update stale Swagger UI references to Scalar API Reference in
+  pkg/prov/openapi/processor.go comments
+- <a href="https://github.com/ksysoev/omnidex/commit/4caf622d58a307ec1697688103dd133ecd5943d5">4caf622</a>: fix: correct fragmentMatchIndex ellipsis/partial-word handling and test expectations
 
-- Add roles_path: ../../../ to provisioner config in all molecule.yml files
-- Revert converge.yml files to use explicit role names instead of MOLECULE_PROJECT_DIRECTORY lookup
-- This ensures Molecule can find roles when running tests from within role directories
-- <a href="https://github.com/ksysoev/cloudlab/commit/7ba63b8954cdf9c4c688b9ecf42d0abe6a3728a0">7ba63b8</a>: Fix Molecule role paths to use MOLECULE_PROJECT_DIRECTORY
+skipPartialLeadingWord now only strips the leading segment when the first
+character is a lowercase ASCII letter (the tell-tale of a Bleve mid-word cut
+after '…'). It also advances to the first newline rather than the first space
+so that a partial trailing line like 'ome content.\nSetup\n' is consumed as a
+unit, ensuring the no-mark fallback path resolves to the correct section.
 
-Molecule runs from within the role directory, so it can't find roles by name.
-Use the MOLECULE_PROJECT_DIRECTORY environment variable to reference the role
-dynamically, which works regardless of the role name.
+The wantIdx for the 'bleve ellipsis, mark in usage section' test case was
+wrong (219); 'using' is at byte offset 175 in the test's plainText fixture,
+which is what the implementation correctly returns.
+- <a href="https://github.com/ksysoev/omnidex/commit/6373d1ddbf5acb7c3cd963a0411cb5922903fad7">6373d1d</a>: fix: resolve build failure and lint issues in granular search anchor implementation
+
+- Fix fieldalignment-broken positional struct literals in collectMethodOperations
+  by converting candidate struct to named-field literals and reordering fields
+- Fix wsl_v5: add missing blank lines in githubSlug function body
+- Fix staticcheck S1016: use methodOperation(c) type conversion instead of
+  field-by-field struct copy in collectMethodOperations
+- All tests pass and golangci-lint reports 0 issues
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

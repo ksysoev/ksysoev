@@ -4,25 +4,31 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/55905d07c65b9e51af5d0ac141f57a8cbabe5d0c">55905d0</a>: Fix syncDeleteStale dropping partial orphan-cleanup count on error
-- <a href="https://github.com/ksysoev/omnidex/commit/fe3196514f8cafc1b8466d96c092abfe13044e31">fe31965</a>: Fix ListByRepo silent truncation and reduce sync log noise
+- <a href="https://github.com/ksysoev/omnidex/commit/f687c853ec89bab1573de68c9f57e7c81b729863">f687c85</a>: fix: address remaining PR review comments on heading anchor
 
-Paginate ListByRepo to collect all results instead of silently
-truncating at 10k documents, preventing orphan cleanup from missing
-entries. Downgrade per-document sync/orphan removal logs from INFO
-to DEBUG and add INFO-level summaries with counts.
-- <a href="https://github.com/ksysoev/omnidex/commit/965b7c1a1a40c01f08b0c40f3c6334d74107f6e1">965b7c1</a>: Fix sync leaving orphaned documents in search index
+- Update hash on successful copy so the <a> behaves as a real anchor
+  link (URL bar updates, browser history entry, right-click 'Copy link
+  address' reflects the correct section URL)
+- Encode heading IDs with encodeURIComponent when constructing the
+  clipboard URL and hash to handle any non-URL-safe characters
+- Remove dead 'position: relative' rule on .prose h1/h2/h3 (never used
+  since the icon uses inline-flex, not absolute positioning)
+- <a href="https://github.com/ksysoev/omnidex/commit/8675540512748ffe1708aede22c26e33e6effce8">8675540</a>: fix: address PR review comments on heading anchor pointer-events and touch support
 
-Reverse the delete operation order in deleteDocument() to remove from
-the search index before the docstore. This prevents permanent orphans
-when the search removal fails after the docstore deletion succeeds,
-making the operation self-healing via subsequent sync retries.
+- Add pointer-events: none to hidden .heading-anchor to prevent invisible clicks near heading text
+- Restore pointer-events: auto on all reveal states (hover, focus, copied)
+- Add @media (hover: none) rule so icon stays visible on touch devices
+- Add test assertion that initHeadingAnchors is present in full-page output
+- <a href="https://github.com/ksysoev/omnidex/commit/55f226dd861d68b1cfbc0f6913dd829c03cf952a">55f226d</a>: fix: address PR review comments on heading anchor copy-link
 
-Add ListByRepo to the search engine interface so syncDeleteStale() can
-also detect and clean up any existing orphaned search entries left by
-prior partial failures.
-
-Closes #29
+- Use href.split('#')[0] for URL construction to preserve query params
+- Extract fallbackCopy() and invoke it from writeText .catch handler
+  so execCommand is a true fallback for both unavailable clipboard API
+  and permission-denied rejections
+- Scope .heading-anchor CSS rules under .prose to win specificity over
+  .prose a and correctly apply text-decoration/color overrides
+- Add :focus and :focus-visible states so the icon is visible and
+  operable for keyboard users
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

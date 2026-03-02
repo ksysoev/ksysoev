@@ -4,8 +4,27 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/eef6611ec808b42bad7d707e80a6d702c1d74689">eef6611</a>: fix: add Scalar guard, scope CSS selectors, and use overflow auto
-- <a href="https://github.com/ksysoev/omnidex/commit/02f48a82061949460f09e62af3f83eb31a173481">02f48a8</a>: fix: pin Scalar CDN version with SRI and log OpenAPI JSON parse errors
+- <a href="https://github.com/ksysoev/omnidex/commit/aa8581b6472827164d9a0e52f9057376f59b4199">aa8581b</a>: fix: percent-encode path segments in githubBlobURL and add test coverage
+
+- Use url.PathEscape on each path segment to handle spaces, '#', '?', and
+  other reserved characters that would produce malformed GitHub blob URLs
+- Add TestGithubBlobURL table-driven unit tests covering SHA present,
+  empty SHA fallback to main, and paths with special characters
+- Add View source URL assertions to TestRenderDoc_FullPage and
+  TestRenderDoc_OpenAPI_FullPage
+- Add TestRenderDoc_ViewSourceLink covering both CommitSHA and main fallback
+  scenarios through the full template rendering pipeline
+- <a href="https://github.com/ksysoev/omnidex/commit/510143894771a25f22cce0172ca0e27100743484">5101438</a>: fix: fix seed paths to match actual repo layout for valid View source links
+
+The seed container was mounting only ./docs/sample as /docs, so documents
+were indexed with bare filenames (e.g. getting-started.md). The View source
+links therefore pointed to non-existent paths on GitHub.
+
+Mount the repo root as /repo and scope the file pattern to
+docs/sample/**/* so stored paths become docs/sample/getting-started.md
+etc., matching their real location in the repository. Also correct the
+repo identifier to ksysoev/omnidex and set commit-sha to main so
+generated GitHub links resolve immediately.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

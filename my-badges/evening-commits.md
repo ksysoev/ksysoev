@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/9e8e5dea923518af23a775e307879a76d3b78e28">9e8e5de</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/9584376a11575c2d11644c09f0be2aed83a417e6">9584376</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/84cd29a2be8b780ec3c718212f2b4b3c1106450e">84cd29a</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/6043b4c6c38c8f8c0d9dea0e70ebe0f31c9cd618">6043b4c</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/314a5fc403f3c58996baa4d85e80860dcc39dd7a">314a5fc</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/c9740206367b33073a0167891e8c61d514c0f48d">c974020</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/f6646631b3612d64f2ca4efdbb9dfe5c3db9ff99">f664663</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/02d45b5282205c41fe877727054ffb2301ccf1f0">02d45b5</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/980497a0de2dc0d67ea872eee530a91656bd2e7f">980497a</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/e39a5badb0d82a2289f19ae4f283d3dc3e49cce8">e39a5ba</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/cfaad5783c6233713b088a2a23901465c011a7fa">cfaad57</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/313e1e899effc360a54d80b622bf4bc20e09891f">313e1e8</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
