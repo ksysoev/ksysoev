@@ -4,31 +4,29 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/f687c853ec89bab1573de68c9f57e7c81b729863">f687c85</a>: fix: address remaining PR review comments on heading anchor
+- <a href="https://github.com/ksysoev/omnidex/commit/47e8032d91df982ee73dca4ef47eea20f98a1dfb">47e8032</a>: fix: strip fragment and query from image refs before filesystem lookup in CollectAssets
 
-- Update hash on successful copy so the <a> behaves as a real anchor
-  link (URL bar updates, browser history entry, right-click 'Copy link
-  address' reflects the correct section URL)
-- Encode heading IDs with encodeURIComponent when constructing the
-  clipboard URL and hash to handle any non-URL-safe characters
-- Remove dead 'position: relative' rule on .prose h1/h2/h3 (never used
-  since the icon uses inline-flex, not absolute positioning)
-- <a href="https://github.com/ksysoev/omnidex/commit/8675540512748ffe1708aede22c26e33e6effce8">8675540</a>: fix: address PR review comments on heading anchor pointer-events and touch support
+A ref like "sprite.svg#icon" or "img.png?raw=1" was being used verbatim
+for path resolution and os.ReadFile, causing the asset to be silently
+skipped when no file with that literal name exists on disk. Parse each
+ref with url.Parse and use only the path component, matching how
+RewriteImageURLs rewrites the URL on the serve side.
+- <a href="https://github.com/ksysoev/omnidex/commit/2216a3d4e1684c68b198090b10c97a34668a8d8a">2216a3d</a>: fix: address final PR review comments on asset support
 
-- Add pointer-events: none to hidden .heading-anchor to prevent invisible clicks near heading text
-- Restore pointer-events: auto on all reveal states (hover, focus, copied)
-- Add @media (hover: none) rule so icon stays visible on touch devices
-- Add test assertion that initHeadingAnchors is present in full-page output
-- <a href="https://github.com/ksysoev/omnidex/commit/55f226dd861d68b1cfbc0f6913dd829c03cf952a">55f226d</a>: fix: address PR review comments on heading anchor copy-link
-
-- Use href.split('#')[0] for URL construction to preserve query params
-- Extract fallbackCopy() and invoke it from writeText .catch handler
-  so execCommand is a true fallback for both unavailable clipboard API
-  and permission-denied rejections
-- Scope .heading-anchor CSS rules under .prose to win specificity over
-  .prose a and correctly apply text-decoration/color overrides
-- Add :focus and :focus-visible states so the icon is visible and
-  operable for keyboard users
+- Preserve query string and fragment in RewriteImageURLs: parse src with
+  url.Parse and rewrite only the path component, re-attaching RawQuery
+  and Fragment afterward so references like sprite.svg#icon and
+  img.png?raw=1 keep their semantics and already-encoded sequences are
+  not double-encoded
+- Add validateAssetRelPath guard to SaveAsset/GetAsset/DeleteAsset so
+  paths like ../docs/readme.md are rejected even though they resolve to
+  a location still within basePath (closes the assets-dir escape gap)
+- Add configurable ingest body size limit: MaxIngestBodyMiB field in
+  api.Config (default 50 MiB, overridable via API_MAX_INGEST_BODY_MIB);
+  ingestDocs wraps r.Body with http.MaxBytesReader and returns 413 when
+  the limit is exceeded
+- Add/update tests for all three fixes
+- <a href="https://github.com/ksysoev/omnidex/commit/76e7776ca790108581710847423d513bb469a0c4">76e7776</a>: fix: reject malformed percent-escape sequences in RewriteImageURLs
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
