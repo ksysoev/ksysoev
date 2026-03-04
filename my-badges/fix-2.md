@@ -4,29 +4,23 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/ffdf1954f8edcacf79c7300792f1d4daf4997129">ffdf195</a>: fix: address remaining PR review comments on asset support
+- <a href="https://github.com/ksysoev/omnidex/commit/4a569c5be3857cee36e7bcfe42f2f444577f560a">4a569c5</a>: fix: use consistent folder label styling across repo index and sidebar nav
 
-- Change Assets field to *[]IngestAsset so server can distinguish nil
-  (absent field, older client) from an explicit empty list (new client
-  requesting stale-asset cleanup); update sync guard to req.Assets != nil
-- Fix directory traversal check to use == ".." || HasPrefix("../")
-  instead of HasPrefix("..") which falsely blocked paths like ..images/
-- URL-encode asset path segments in RewriteImageURLs via url.JoinPath to
-  produce valid URLs for paths containing spaces, #, ? etc.
-- Rename ErrNotFound message to "not found" to cover both documents and assets
-- Add tests for nil-vs-empty Assets sync, ..foo path, and URL encoding
-- <a href="https://github.com/ksysoev/omnidex/commit/99eb8712a8f6fc4d82c1e4928ff677ae0c1c2eb0">99eb871</a>: fix: address PR review comments on asset support
+Both folder headings now use text-sm font-medium text-gray-500 with no
+CSS uppercase transform. Previously the sidebar applied uppercase/tracking-
+wider (nav-heading style) while the repo index used text-gray-600, causing
+folder names to render in ALL CAPS in one place and as-is in the other.
+- <a href="https://github.com/ksysoev/omnidex/commit/9b14b9884fe1298ed585b901f96c4411c1b40736">9b14b98</a>: fix: preserve full document path in DocNode to fix 404 broken links
 
-- Guard syncDeleteStaleAssets behind len(req.Assets) > 0 to prevent
-  older clients (omitting the assets field on sync) from wiping all
-  stored assets for a repo
-- Handle docstore.ErrInvalidPath in assetPage as 400 Bad Request
-  instead of 500, with no server-error log entry
-- Add X-Content-Type-Options: nosniff and Content-Security-Policy:
-  sandbox headers to asset responses to mitigate SVG XSS
-- Validate non-empty Path and Content in upsertAsset before decoding
-- Update and extend tests: sync-no-assets guard, empty asset fields,
-  security headers, ErrInvalidPath handler behaviour
+BuildDocTree was stripping the leading path segment from Doc.Path when
+grouping nested documents for recursion, so a doc at guides/setup.md
+ended up with Doc.Path = "setup.md" — causing 404s when templates built
+links from that truncated path.
+
+Introduce an internal docEntry type that carries both the original
+*DocumentMeta pointer (full path untouched) and a separate remainingPath
+field used only for recursive grouping. The public Doc.Path is now always
+the original unmodified path. Update tests to assert full paths.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
