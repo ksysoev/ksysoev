@@ -4,23 +4,18 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/4a569c5be3857cee36e7bcfe42f2f444577f560a">4a569c5</a>: fix: use consistent folder label styling across repo index and sidebar nav
+- <a href="https://github.com/ksysoev/omnidex/commit/48bbee64ec1aeec086c6a15e1fe1c94c61be55eb">48bbee6</a>: fix: distinguish code block background from prose surface in dark mode
 
-Both folder headings now use text-sm font-medium text-gray-500 with no
-CSS uppercase transform. Previously the sidebar applied uppercase/tracking-
-wider (nav-heading style) while the repo index used text-gray-600, causing
-folder names to render in ALL CAPS in one place and as-is in the other.
-- <a href="https://github.com/ksysoev/omnidex/commit/9b14b9884fe1298ed585b901f96c4411c1b40736">9b14b98</a>: fix: preserve full document path in DocNode to fix 404 broken links
+Code blocks (.prose pre / .prose pre.chroma) shared the same #1f2937
+background as the dark:bg-gray-800 prose container, making them
+visually indistinguishable. Override to #0d1117 (GitHub darkest surface)
+in dark mode. Mermaid pre keeps transparent background as before.
+- <a href="https://github.com/ksysoev/omnidex/commit/0a17ab53f534fb432e0351446e667266d379cf88">0a17ab5</a>: fix: restore dark mode text color for prose markdown content
 
-BuildDocTree was stripping the leading path segment from Doc.Path when
-grouping nested documents for recursion, so a doc at guides/setup.md
-ended up with Doc.Path = "setup.md" — causing 404s when templates built
-links from that truncated path.
-
-Introduce an internal docEntry type that carries both the original
-*DocumentMeta pointer (full path untouched) and a separate remainingPath
-field used only for recursive grouping. The public Doc.Path is now always
-the original unmodified path. Update tests to assert full paths.
+Add missing base color rule for .prose in dark mode so body text,
+list items, and paragraphs are visible against the dark background.
+Also add explicit color overrides for h1–h6, fix inline code selector
+from :not(pre)>code to the simpler .prose code, and add th text color.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

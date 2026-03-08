@@ -4,28 +4,53 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/44a567f883c3759e933ebd03426e63beeb7c629b">44a567f</a>: Fix gosec warning in fmt_json.go
+- <a href="https://github.com/ksysoev/omnidex/commit/2e6af0b6450905bd646e8335ae8b1ddf14f6e55a">2e6af0b</a>: fix: align Scalar dark-mode surfaces with gray-800 card wrapper
 
-Add #nosec G705 to CLI output formatting in FormatInteractive method.
-- <a href="https://github.com/ksysoev/make-it-public/commit/744b5cb52518cd6c24a214cdbd669e7c707a0ca6">744b5cb</a>: Fix final gosec warning in ws.go logHandshakeInteractive
+Swap --scalar-background-1/2 so Scalar's primary surface (gray-800)
+matches the card wrapper and other dark UI cards, while secondary/nested
+surfaces recede to gray-900. Update sidebar variables and .scalar-card
+wrapper background accordingly. Restore dark:bg-gray-800 on the wrapper
+div for consistency with the rest of the portal.
+- <a href="https://github.com/ksysoev/omnidex/commit/d913878e6ad8f65e8eaa2ae26897a68492a20833">d913878</a>: fix: use customCss to isolate Scalar theming from Tailwind wildcard
 
-Add #nosec G705 to second fmt.Fprintf call that also formats CLI output.
-- <a href="https://github.com/ksysoev/make-it-public/commit/977b45f8ed5fceeb3db74b29f5b078d222ee4cd9">977b45f</a>: Fix remaining gosec warnings in srv.go and ws.go
+Tailwind's selector-based dark mode generates [data-theme=dark] * which
+matches every descendant of <html data-theme="dark">, including all of
+Scalar's internal elements. This caused dark:bg-* utility classes on the
+card wrapper to force background-color onto every element Scalar renders,
+fighting Scalar's own CSS variable theming.
 
-- Add #nosec G705 for CLI output formatting in logInteractive and printHeaders
-- Add #nosec G706 for structured logging in logHandshakeStructured
+Fix in three parts:
+1. Move all Scalar CSS variable overrides (light-mode, dark-mode, sidebar,
+   font/radius) into the customCss option of Scalar.createApiReference().
+   Scalar injects customCss in its own rendering scope, bypassing the
+   Tailwind wildcard entirely.
+2. Replace dark:bg-gray-900 on the card wrapper with a plain CSS class
+   (scalar-card) and a [data-theme=dark] .scalar-card rule in input.css.
+   Plain class selectors are not affected by the Tailwind wildcard.
+3. Remove all #scalar-api-reference blocks from input.css — they are
+   no longer needed and were subject to Tailwind's optimizer stripping
+   ancestor guards.
+- <a href="https://github.com/ksysoev/omnidex/commit/70b6afac06da1652bf1581df58aecc301693301b">70b6afa</a>: fix: set Scalar root element background in dark mode
 
-These are CLI tools that format output to stdout, not web applications,
-so XSS and log injection are not applicable security risks.
-- <a href="https://github.com/ksysoev/make-it-public/commit/30a19bc2055dcbc4286d92144e1d75b3a7191758">30a19bc</a>: Fix gosec security warnings with appropriate nosec comments
+The #scalar-api-reference root element sits outside Scalar's own .dark-mode
+subtree, so --scalar-background-1 CSS variables do not reach it. It was
+rendering with the page-level --color-bg (#030712, gray-950) instead of the
+intended gray-900 (#111827), creating a visible seam against the card wrapper.
 
-- Add #nosec G101 for test token fixtures in client_test.go
-- Add #nosec G117 for config field names (Secret, Password) in token.go and auth.go
-- Add #nosec G704 for localhost test HTTP request in srv_test.go
-- Add #nosec G705 for CLI output formatting (not web XSS) in fmt_*.go and srv.go
-- Add #nosec G706 for structured logging (not log injection risk) in srv.go and ws.go
+Add a standalone [data-theme="dark"] #scalar-api-reference { background-color }
+block. Because it is a separate block with a distinct property, Tailwind v3
+does not merge it with the unguarded #scalar-api-reference blocks above, so
+the guard survives compilation.
+- <a href="https://github.com/ksysoev/omnidex/commit/4d5ceb7cf8a1a8061dbdd45d5087a428ef2b97da">4d5ceb7</a>: fix: resolve Scalar dark-mode background mismatch with card wrapper
 
-All warnings were false positives for a CLI tool that doesn't handle untrusted web input.
+Use html[data-theme="dark"] (element+attr selector) instead of [data-theme="dark"]
+for Scalar CSS variable blocks so Tailwind v3's optimizer cannot collapse them
+into the unguarded #scalar-api-reference rules above, which caused dark variables
+to leak into light mode.
+
+Change card wrapper from dark:bg-gray-800 (#1f2937) to dark:bg-gray-900 (#111827)
+to match Scalar's --scalar-background-1 primary surface in dark mode, eliminating
+the visible seam between the card and the Scalar component background.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
