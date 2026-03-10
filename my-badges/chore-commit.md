@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/b9f74d0413888511b63e5da74612ec49b47013d4">b9f74d0</a>: chore: update dependencies to latest versions for wasabi and sync packages
+- <a href="https://github.com/ksysoev/make-it-public/commit/787e7a56a2b2e2ba9cab663db6c1bcc5dd1bca3e">787e7a5</a>: chore: update Go version from 1.24.4 to 1.26.1
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

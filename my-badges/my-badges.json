@@ -31,7 +31,7 @@
     "id": "chore-commit",
     "tier": 0,
     "desc": "I did a little housekeeping! 🧹",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/deriv-api-bff/commit/b9f74d0413888511b63e5da74612ec49b47013d4\">b9f74d0</a>: chore: update dependencies to latest versions for wasabi and sync packages",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/787e7a56a2b2e2ba9cab663db6c1bcc5dd1bca3e\">787e7a5</a>: chore: update Go version from 1.24.4 to 1.26.1",
     "image": "https://my-badges.github.io/my-badges/chore-commit.png"
   },
   {
@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 1865 times)\n2. request (used 1429 times)\n3. merge (used 1220 times)\n4. pull (used 1136 times)\n5. tests (used 1001 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 1865 times)\n2. request (used 1470 times)\n3. merge (used 1261 times)\n4. pull (used 1177 times)\n5. bump (used 1046 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/go-templ/commit/385ba4ca6f000f4d93572b917db7262bfaee940e\">385ba4c</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/6aad1e32689884fa28b4cf7930703cf07d7ef052\">6aad1e3</a>\n- <a href=\"https://github.com/ksysoev/go-templ/commit/3e66fc743f9e5f036d5acebb20eae817ae256a90\">3e66fc7</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/14994a6f80835330d3b1e8fc835a2497735d7bc9\">14994a6</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/3fd7b90adebf313ea941183a36db0ccfa1ccd5a6\">3fd7b90</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/dbb40814cce7f063beebbe1b402aaa48823046b3\">dbb4081</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/omnidex/commit/4510dd80c7135464880580daf545a0bfdd619e8f\">4510dd8</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/986be2bebdff87d935513a1112efe52d30190570\">986be2b</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/2d655812114367f77b7a529705689e6d9567122f\">2d65581</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/e9cd84afe39940e93d7f94f5b7f939c965ecc4a0\">e9cd84a</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/9ffa5dddf9f8b6cac0846f39eec2bb23862f5e9e\">9ffa5dd</a>\n- <a href=\"https://github.com/ksysoev/wasabi/commit/a3604afffbcfb8a2d1e03509cb1263cc10f9fc52\">a3604af</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
