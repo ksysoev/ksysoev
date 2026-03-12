@@ -93,6 +93,8 @@ Commits:
 - <a href="https://github.com/ksysoev/help-my-pet/commit/6a56846e5f63fd9bd3f9796725293bfca40ca184">6a56846</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/e2518d3d42b8b61753cf4ce85320135d730a6f43">e2518d3</a>
 - <a href="https://github.com/ksysoev/help-my-pet/commit/9b33616f49846e62755578a193e22b97e58ecd75">9b33616</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/300450c7fab30d8b67e2919342660ef4678065fe">300450c</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/9e5e5a93668b116e220cf2fe889b790381f08707">9e5e5a9</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/12e76647aff7771b4b03b21adf82cb5ebd45aa7f">12e7664</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/bf641d0e77cb63f45afddd5761a63b4fbc13322e">bf641d0</a>
 - <a href="https://github.com/ksysoev/make-it-public/commit/756877762bce1a89430b7e54dd71e160502b474f">7568777</a>
@@ -121,6 +123,11 @@ Commits:
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/ee3906df2a2b582160843e504333aec063506886">ee3906d</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/193e8baa08a25ca79f1c9bc07ca5711141815851">193e8ba</a>
 - <a href="https://github.com/ksysoev/deriv-api-bff/commit/e7ad03034324f9b8859a613e5d8fd7c4fbd2d395">e7ad030</a>
+- <a href="https://github.com/ksysoev/revdial/commit/a0c77186af425821d757aa02923eab4e89344b61">a0c7718</a>
+- <a href="https://github.com/ksysoev/revdial/commit/c01532a219522effd7dbcca3b663c0c3be2364ab">c01532a</a>
+- <a href="https://github.com/ksysoev/revdial/commit/b9e8f782b2f5608362b7902249fb9428d5b20e66">b9e8f78</a>
+- <a href="https://github.com/ksysoev/revdial/commit/b6240296d335cd39fbac929bbf1016802c0cc835">b624029</a>
+- <a href="https://github.com/ksysoev/revdial/commit/da34c5abb012bf50237cb752347c25a2eb22dcf7">da34c5a</a>
 - <a href="https://github.com/ksysoev/revdial/commit/4d5aa343b0301ba5eba654ca8819bd6e2ea7a0b9">4d5aa34</a>
 - <a href="https://github.com/ksysoev/revdial/commit/75a6517c75bfb1db329a1e20346250f53aafaf45">75a6517</a>
 - <a href="https://github.com/ksysoev/revdial/commit/bf4758d7392b10203ce9b1d3da3adb42708703e4">bf4758d</a>
