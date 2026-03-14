@@ -4,18 +4,35 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/48bbee64ec1aeec086c6a15e1fe1c94c61be55eb">48bbee6</a>: fix: distinguish code block background from prose surface in dark mode
+- <a href="https://github.com/ksysoev/stockfish/commit/ffb48e209372baf77e143ececde01b2a8ac9eb6c">ffb48e2</a>: fix: prevent runSearch deadlock when caller stops reading the result channel
 
-Code blocks (.prose pre / .prose pre.chroma) shared the same #1f2937
-background as the dark:bg-gray-800 prose container, making them
-visually indistinguishable. Override to #0d1117 (GitHub darkest surface)
-in dark mode. Mermaid pre keeps transparent background as before.
-- <a href="https://github.com/ksysoev/omnidex/commit/0a17ab53f534fb432e0351446e667266d379cf88">0a17ab5</a>: fix: restore dark mode text color for prose markdown content
+Replace blocking channel sends in runSearch with select statements that
+select on ctx.Done(), so a slow or non-reading caller cannot stall the
+engine read loop or prevent searchState.finish() from running.
 
-Add missing base color rule for .prose in dark mode so body text,
-list items, and paragraphs are visible against the dark background.
-Also add explicit color overrides for h1–h6, fix inline code selector
-from :not(pre)>code to the simpler .prose code, and add th text color.
+- bestmove send: best-effort delivery via select; return is unconditional
+  so the deferred finish() always fires regardless of whether the send
+  succeeded
+- info sends: exit runSearch on ctx.Done() instead of blocking, keeping
+  the lineCh consumer unblocked
+
+Add TestClient_Go_SlowConsumer and TestClient_Go_FullBuffer to reproduce
+both deadlock scenarios (>32 info lines without reading, and exactly full
+buffer before bestmove).
+- <a href="https://github.com/ksysoev/stockfish/commit/4bf77a80969c8d25da9d193f3d1e0701e92a506c">4bf77a8</a>: fix: address PR review comments on guards and drain robustness
+
+- Add ErrEngineNotRunning guard to all public methods (IsReady, NewGame,
+  SetOption, SetPosition, Go, Bench, Eval, Display, Flip, Compiler,
+  ExportNet) so calls after Close return a clear error instead of writing
+  to a closed stdin
+- Add ErrSearchInProgress guard to Flip and ExportNet to prevent sending
+  non-search commands while runSearch is consuming lineCh
+- Fix drainDiscardUntilBestMove to select on eng.done in addition to
+  lineCh, preventing an indefinite goroutine hang when the engine crashes
+  without emitting bestmove
+- Clarify Go() docstring: on cancellation bestmove is drained internally
+  and the channel closes without a final bestmove entry
+- Add 17 new tests covering the above guards
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
