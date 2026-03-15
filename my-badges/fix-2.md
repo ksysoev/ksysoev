@@ -4,35 +4,33 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/stockfish/commit/ffb48e209372baf77e143ececde01b2a8ac9eb6c">ffb48e2</a>: fix: prevent runSearch deadlock when caller stops reading the result channel
+- <a href="https://github.com/ksysoev/chess-review/commit/3d31c028f7a47fa4da884332efba6205d0522e68">3d31c02</a>: fix: address second-round PR review comments
 
-Replace blocking channel sends in runSearch with select statements that
-select on ctx.Done(), so a slow or non-reading caller cannot stall the
-engine read loop or prevent searchState.finish() from running.
+- Add Cause error field and Unwrap() to ErrInvalidPGN and ErrEngineFailure so
+  callers can use errors.Is/As on the root cause; propagate originating errors
+  at all construction sites in review.go and pgn.go
+- Validate option values in New(): return an error for depth/threads/hashMB < 1
+  to prevent silent invalid engine configuration
+- Guard Reviewer zero value: add doc comment and nil checks in ReviewGame/Close
+  that return ErrEngineFailure instead of panicking
+- Add TestMoveToUCI_Promotion and TestMoveToUCI_Castling to cover the promotion
+  suffix (e7e8q) and castling (e1g1) paths in moveToUCI
+- Add TestNew_InvalidOptions covering all six zero/negative option combinations
+- Add TestReviewer_ZeroValue_ReviewGame/Close for the nil-engine guard
+- Update package doc to enumerate all seven classification types including Miss
+- <a href="https://github.com/ksysoev/chess-review/commit/4b1f78ed2a315b4c85083453d32fd32acb53ec29">4b1f78e</a>: fix: address PR review comments on correctness, performance, and docs
 
-- bestmove send: best-effort delivery via select; return is unconditional
-  so the deferred finish() always fires regardless of whether the send
-  succeeded
-- info sends: exit runSearch on ctx.Done() instead of blocking, keeping
-  the lineCh consumer unblocked
-
-Add TestClient_Go_SlowConsumer and TestClient_Go_FullBuffer to reproduce
-both deadlock scenarios (>32 info lines without reading, and exactly full
-buffer before bestmove).
-- <a href="https://github.com/ksysoev/stockfish/commit/4bf77a80969c8d25da9d193f3d1e0701e92a506c">4bf77a8</a>: fix: address PR review comments on guards and drain robustness
-
-- Add ErrEngineNotRunning guard to all public methods (IsReady, NewGame,
-  SetOption, SetPosition, Go, Bench, Eval, Display, Flip, Compiler,
-  ExportNet) so calls after Close return a clear error instead of writing
-  to a closed stdin
-- Add ErrSearchInProgress guard to Flip and ExportNet to prevent sending
-  non-search commands while runSearch is consuming lineCh
-- Fix drainDiscardUntilBestMove to select on eng.done in addition to
-  lineCh, preventing an indefinite goroutine hang when the engine crashes
-  without emitting bestmove
-- Clarify Go() docstring: on cancellation bestmove is drained internally
-  and the channel closes without a final bestmove entry
-- Add 17 new tests covering the above guards
+- Handle mate scores in analyzePosition: map mate-in-N to ±30000
+  sentinel via normalizeScore so downstream arithmetic stays valid
+- Return ErrEngineFailure when engine stream closes without a bestmove
+  event instead of silently returning zero values
+- Halve engine calls in ReviewGame from 2N to N+1 by carrying the
+  score forward between plies
+- Add Miss classification for moves that throw away a forced mate
+  (sentinel loss ≥ 20000 cp)
+- Fix off-by-one in Excellent comment: 1–10 cp → 0–10 cp
+- Remove stale sentence from parsePGN doc comment
+- Add tests for mate score, no-best-move, and normalizeScore
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

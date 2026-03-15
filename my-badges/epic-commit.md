@@ -4,6 +4,15 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/chess-review/commit/006a2587d0dbc0eb084aa90c61e2e1d10c9cb71b">006a258</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/2b56c012c69a34784c9da33e0da92b18a97b5051">2b56c01</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/249da5211f9f6ee576225c6881c976bef88f6b57">249da52</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/91a2f6a73ad0778cc10cbf5deffd7f1a3043e23f">91a2f6a</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/3d31c028f7a47fa4da884332efba6205d0522e68">3d31c02</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/4b1f78ed2a315b4c85083453d32fd32acb53ec29">4b1f78e</a>
+- <a href="https://github.com/ksysoev/stockfish/commit/60b5341c23ce821e259821a1d6a38da8a90e2450">60b5341</a>
+- <a href="https://github.com/ksysoev/stockfish/commit/ed0a0d59348a70cee7ae25dda5ce0d9d1d09e9c4">ed0a0d5</a>
+- <a href="https://github.com/ksysoev/stockfish/commit/bb0a9f5e1ce9ff7d67e6985abc4bdaf1e7b9573d">bb0a9f5</a>
 - <a href="https://github.com/ksysoev/stockfish/commit/ffb48e209372baf77e143ececde01b2a8ac9eb6c">ffb48e2</a>
 - <a href="https://github.com/ksysoev/stockfish/commit/4bf77a80969c8d25da9d193f3d1e0701e92a506c">4bf77a8</a>
 - <a href="https://github.com/ksysoev/stockfish/commit/67fb56f2c038698592d14f5188c65abdc378f688">67fb56f</a>

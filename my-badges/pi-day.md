@@ -4,9 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/gotext-translator/commit/66cdb528c24663554fece26c8050077c214ff36a">66cdb52</a>
-- <a href="https://github.com/ksysoev/bouncer/commit/a72a969de0030968b855adb898edeb45555a3c34">a72a969</a>
-- <a href="https://github.com/ksysoev/bouncer/commit/f27b4e5808470d20159aae67eca730e1fb8f1845">f27b4e5</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/89734a8baa338a74283dc86d20c14ef54080dc02">89734a8</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/b80c976ae43e768f96154fa2ce6a0229bd17d05b">b80c976</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/3d0d21ba5208f4d8103e2a7fc86f4494d4e018f4">3d0d21b</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/cc422b30418657b94f59763e18b4c5a734a5a0d5">cc422b3</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/a3d391c355812267c5937cfa55f1021e0a674739">a3d391c</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/006a2587d0dbc0eb084aa90c61e2e1d10c9cb71b">006a258</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
