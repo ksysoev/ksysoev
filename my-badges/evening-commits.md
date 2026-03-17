@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-com/commit/713242be18e193006518c45ad5c0330593b7956c">713242b</a>
-- <a href="https://github.com/ksysoev/chess-com/commit/dab6ff6da87f210b85ee3ddebbfe70621e54942e">dab6ff6</a>
-- <a href="https://github.com/ksysoev/chess-com/commit/a0e5d18c0c6c68d4d8c8c0b680a4863eab1b661a">a0e5d18</a>
-- <a href="https://github.com/ksysoev/chess-com/commit/3b88e18a4907c32e9a49ddeec86c3dd77cfff1d1">3b88e18</a>
-- <a href="https://github.com/ksysoev/chess-com/commit/b4a7f7e2c7a9245c3e450d738289aec4a60fedb5">b4a7f7e</a>
-- <a href="https://github.com/ksysoev/chess-com/commit/41d6c54ee1d8583a6d72304a9053735a9d8f6632">41d6c54</a>
+- <a href="https://github.com/ksysoev/deriv-api-bff/commit/4b113b3739f73622301c4b575e5ad2ad0e28bb22">4b113b3</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/31a17e132fde9f1e7887ca61e08d82f14b1aed0d">31a17e1</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/11970821d0cc9ceba3698f9b3561251fa77e49c9">1197082</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/6ff628adce27079bd41f6ad079d829c9aefbdec9">6ff628a</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/eb66c89c815406ec478850427d1917cfb6ce3188">eb66c89</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/66e6a394cf550a411e0cf302710995949d08b727">66e6a39</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
