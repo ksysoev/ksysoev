@@ -4,7 +4,7 @@
 
 Repos:
 
-* <a href="https://github.com/ksysoev/deriv-api">ksysoev/deriv-api: ★17</a>
+* <a href="https://github.com/ksysoev/deriv-api">ksysoev/deriv-api: ★18</a>
 * <a href="https://github.com/ksysoev/wsget">ksysoev/wsget: ★13</a>
 * <a href="https://github.com/ksysoev/wasabi">ksysoev/wasabi: ★11</a>
 * <a href="https://github.com/ksysoev/make-it-public">ksysoev/make-it-public: ★9</a>
