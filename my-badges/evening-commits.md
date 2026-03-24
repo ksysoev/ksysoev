@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-review/commit/9f591dde540c48da6182ce5fe9fc742b74150828">9f591dd</a>
-- <a href="https://github.com/ksysoev/chess-review/commit/64d3d99e24289b7acb698b804ce07ae2b023296b">64d3d99</a>
-- <a href="https://github.com/ksysoev/deriv-api-bff/commit/4b113b3739f73622301c4b575e5ad2ad0e28bb22">4b113b3</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/31a17e132fde9f1e7887ca61e08d82f14b1aed0d">31a17e1</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/11970821d0cc9ceba3698f9b3561251fa77e49c9">1197082</a>
-- <a href="https://github.com/ksysoev/deriv-api/commit/6ff628adce27079bd41f6ad079d829c9aefbdec9">6ff628a</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/db6e897d6fb48fb8240bc0d863065e65b9f75258">db6e897</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/7afd06cb0a0e39c1d154cd747adbbc883745b01f">7afd06c</a>
+- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/cb64bd2280a10055ba811cec130110b42b44a0a1">cb64bd2</a>
+- <a href="https://github.com/ksysoev/wsget-deriv-api/commit/75147e58510e423366070737e80cf739a3584209">75147e5</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/163238afaa4ff00c088e5641dd88115c96d5dcd1">163238a</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/21408952332c0bf79cfe92fa6b90293d65af6f46">2140895</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
