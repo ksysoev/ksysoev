@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-review/commit/a028d26f93a84a18d07c9976e1f4f1317e5fe2ed">a028d26</a>
-- <a href="https://github.com/ksysoev/chess-review/commit/74b6eafa99f3e140393450e178cd6dc11784747e">74b6eaf</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/9c340d016ab71a096555796864a826cb82d92e93">9c340d0</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/2e188a4b798b915cc4356f2a5f8bf8c69ce53d92">2e188a4</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/e02ee6535a8442e8e8191da30dba37f7562650a5">e02ee65</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/9302361c85d526d0d1689c5c3cc76525268533b5">9302361</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/b50ea1e2d469f08dab4aaa6efbd36ba0dc104bd8">b50ea1e</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/84ecd8c0ce486d35c851d0fc7efff08ed7bca117">84ecd8c</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/cd05523922ac25424e299e43ea4ed92b13f5f72a">cd05523</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/29e031c6d086d99cc31d461b72bc7cbc6c6a2f21">29e031c</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/5a882f263474ccf672bcefbf44cef98cb8641e90">5a882f2</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/535bd90b1e32fcd24afa76aa722c14c460ccf301">535bd90</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
