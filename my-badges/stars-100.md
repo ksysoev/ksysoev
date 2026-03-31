@@ -7,7 +7,7 @@ Repos:
 * <a href="https://github.com/ksysoev/deriv-api">ksysoev/deriv-api: ★18</a>
 * <a href="https://github.com/ksysoev/wsget">ksysoev/wsget: ★13</a>
 * <a href="https://github.com/ksysoev/wasabi">ksysoev/wasabi: ★11</a>
-* <a href="https://github.com/ksysoev/make-it-public">ksysoev/make-it-public: ★9</a>
+* <a href="https://github.com/ksysoev/make-it-public">ksysoev/make-it-public: ★10</a>
 * <a href="https://github.com/ksysoev/kaiten-api-client-python">ksysoev/kaiten-api-client-python: ★6</a>
 * <a href="https://github.com/ksysoev/sebus">ksysoev/sebus: ★6</a>
 * <a href="https://github.com/officer47p/addressport">officer47p/addressport: ★6</a>

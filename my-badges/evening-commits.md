@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-openings/commit/b50ea1e2d469f08dab4aaa6efbd36ba0dc104bd8">b50ea1e</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/84ecd8c0ce486d35c851d0fc7efff08ed7bca117">84ecd8c</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/cd05523922ac25424e299e43ea4ed92b13f5f72a">cd05523</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/29e031c6d086d99cc31d461b72bc7cbc6c6a2f21">29e031c</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/5a882f263474ccf672bcefbf44cef98cb8641e90">5a882f2</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/535bd90b1e32fcd24afa76aa722c14c460ccf301">535bd90</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/57e48593c9e96966e7a4f7fadab1a02320fa8431">57e4859</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/4a2a81563d33924ff36ff99d2763db59968415d1">4a2a815</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/b88c7e3ffdba302ae2b614e249becadf39af7dba">b88c7e3</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/bcbbccecdd33a766c28361347bade55e2009b50d">bcbbcce</a>
+- <a href="https://github.com/ksysoev/chess-review/commit/ee7612b55bbfe6c6bf63254d8f4ccc0a3a3b61f1">ee7612b</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/be4a2333a8b35f2a176b25a61ea77264a0aeb983">be4a233</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
