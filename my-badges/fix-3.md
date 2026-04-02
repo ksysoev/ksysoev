@@ -4,35 +4,35 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-review/commit/40eda890d5a928d9247f4b89cb2588d9def7ebd5">40eda89</a>: fix: address remaining PR review concerns
+- <a href="https://github.com/ksysoev/chess-review/commit/2e0f04a270e7cb39bc749bbfe3c405234a3babf9">2e0f04a</a>: fix: correct mate score sign in README example and fix misleading test comment
 
-- Define numPhases const derived from Endgame iota to replace hardcoded
-  [3] array sizes in PlayerSummary, Summarize, and buildPlayerSummary
-- Add TestReviewer_AnalyzePosition_PrefersExactOverBound to verify that
-  analyzePosition selects the last exact score over bound scores
-- Add TestReviewer_ReviewGameFull_PlayerNames and
-  TestReviewer_ReviewGameFull_ReviewsMatchReviewGame to cover the new
-  public ReviewGameFull API
-- <a href="https://github.com/ksysoev/chess-review/commit/8e09daf0a5f97bf2c0e8511ead32bc02f8e3cca9">8e09daf</a>: fix: address PR review concerns in summary.go
+- README code snippet: negative MateIn values now render as -M<N> (e.g. -M2)
+  instead of M-2, consistent with the CLI formatMateIn convention
+- TestReviewer_ReviewGame_MultiPV: replace incorrect 'off-book' comment; the
+  FEN used is the standard starting position so detectOpenings fires; the test
+  focuses on MultiPV ordering and scores, not book detection
+- <a href="https://github.com/ksysoev/chess-review/commit/50a3c069ff3212670274ffa2b5a3e6a730b4b009">50a3c06</a>: fix: restore field docs, remove dead hasExact field, enforce PV1 presence
 
-- Derive numClassifications from int(Brilliant)+1 to prevent drift with
-  Classification iota constants
-- Add lower-bound guard (>= 0) to Classification index check to prevent
-  panic on negative values
-- Replace if/else color dispatch with switch; unknown colors are skipped
-  via continue instead of silently skewing black's stats
-- Rewrite cpLoss doc comment to accurately describe both behaviors:
-  improvements clamped to 0, large losses returned as -1 to signal skip
-- <a href="https://github.com/ksysoev/chess-review/commit/f37f7b057ce3d166b3bffe8a7004970df3c1db2c">f37f7b0</a>: fix: make engine evaluation deterministic across runs
+- Restore all field-level GoDoc comments on MoveEvaluation and MoveReview
+  that were stripped during fieldalignment reordering; documents sign
+  conventions for MateIn/ScoreAfter, frame semantics for TopMoves, and
+  other non-obvious API contract details.
+- Remove unused hasExact bool from unexported pvEntry struct; the pvExact
+  map's key presence already encodes exactness, the field was dead code.
+- After building the result slice in analyzePosition, explicitly check that
+  PV1 was observed and return ErrEngineFailure when it is absent; prevents
+  reviewFromGameInfo from silently treating PV2 as the best continuation.
+- <a href="https://github.com/ksysoev/chess-review/commit/ae79c8553a244d727b7edfff8e9711aa2eac86c2">ae79c85</a>: fix: address review comments on MultiPV top-moves feature
 
-Use Stockfish's default of 1 thread instead of runtime.NumCPU() in the
-CLI. Stockfish's Lazy SMP parallel search is not bit-reproducible with
-multiple threads, causing accuracy and game rating to vary between runs
-at the same depth.
-
-Also prefer exact-bound scores over lowerbound/upperbound scores when
-reading engine info lines, avoiding imprecise bound values leaking into
-centipawn-loss calculations.
+- review.go: derive maxPV from the maximum observed key in pvAny rather
+  than len(pvAny), so sparse MultiPV indexes (e.g. PV1 and PV3 with no
+  PV2) no longer silently drop higher-index PVs; cap at cfg.topMoves to
+  discard unexpected extra PVs from the engine
+- cmd/chess-review/main.go: truncate the Top Moves string to colTopMoves
+  characters before passing to fmt.Fprintf so the fixed-width table
+  column does not overflow when --top-moves is large
+- README.md: expand the usage code snippet to format and print TopMoves
+  inline, making it consistent with the example output block
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
