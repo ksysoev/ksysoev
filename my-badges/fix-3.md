@@ -4,35 +4,40 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/chess-review/commit/2e0f04a270e7cb39bc749bbfe3c405234a3babf9">2e0f04a</a>: fix: correct mate score sign in README example and fix misleading test comment
+- <a href="https://github.com/ksysoev/chess-review/commit/1a95bc71b38c1d575a5e387e2488d82c81023d2f">1a95bc7</a>: fix: guard analyzePosition safety-net against non-terminal positions
 
-- README code snippet: negative MateIn values now render as -M<N> (e.g. -M2)
-  instead of M-2, consistent with the CLI formatMateIn convention
-- TestReviewer_ReviewGame_MultiPV: replace incorrect 'off-book' comment; the
-  FEN used is the standard starting position so detectOpenings fires; the test
-  focuses on MultiPV ordering and scores, not book detection
-- <a href="https://github.com/ksysoev/chess-review/commit/50a3c069ff3212670274ffa2b5a3e6a730b4b009">50a3c06</a>: fix: restore field docs, remove dead hasExact field, enforce PV1 presence
+Switch on positionStatus() result instead of treating any non-stalemate
+bestmove=(none) as checkmate. The default branch now returns ErrEngineFailure
+for FEN parse failures or other unexpected non-terminal statuses, preventing
+them from being silently masked as a false checkmate evaluation.
+- <a href="https://github.com/ksysoev/chess-review/commit/8e41fb8e60a821e675f2c11b03a830affd4aa6b6">8e41fb8</a>: fix: correctly represent stalemate as draw with nil MateIn
 
-- Restore all field-level GoDoc comments on MoveEvaluation and MoveReview
-  that were stripped during fieldalignment reordering; documents sign
-  conventions for MateIn/ScoreAfter, frame semantics for TopMoves, and
-  other non-obvious API contract details.
-- Remove unused hasExact bool from unexported pvEntry struct; the pvExact
-  map's key presence already encodes exactness, the field was dead code.
-- After building the result slice in analyzePosition, explicitly check that
-  PV1 was observed and return ErrEngineFailure when it is absent; prevents
-  reviewFromGameInfo from silently treating PV2 as the best continuation.
-- <a href="https://github.com/ksysoev/chess-review/commit/ae79c8553a244d727b7edfff8e9711aa2eac86c2">ae79c85</a>: fix: address review comments on MultiPV top-moves feature
+- positionStatus helper reconstructs position from FEN+UCI moves using the
+  chess library to determine checkmate vs stalemate status
+- reviewFromGameInfo: stalemate now sets MateIn=nil (draw) instead of &0
+  (checkmate); fixes downstream M0 display for stalemate positions
+- analyzePosition safety-net: uses positionStatus to distinguish stalemate
+  (Score=0, MateIn=nil) from checkmate (Score=-mateScoreSentinel, MateIn=&0)
+- Update stalemate test to assert MateInAfter is nil
+- <a href="https://github.com/ksysoev/chess-review/commit/eb22010f963cb9021fd00fe03f6cc8064e5c5678">eb22010</a>: fix: handle terminal positions (checkmate/stalemate) in game review
 
-- review.go: derive maxPV from the maximum observed key in pvAny rather
-  than len(pvAny), so sparse MultiPV indexes (e.g. PV1 and PV3 with no
-  PV2) no longer silently drop higher-index PVs; cap at cfg.topMoves to
-  discard unexpected extra PVs from the engine
-- cmd/chess-review/main.go: truncate the Top Moves string to colTopMoves
-  characters before passing to fmt.Fprintf so the fixed-width table
-  column does not overflow when --top-moves is large
-- README.md: expand the usage code snippet to format and print TopMoves
-  inline, making it consistent with the example output block
+When a game ends in checkmate or stalemate, Stockfish responds to the
+post-move position analysis with 'bestmove (none)' and no evaluation
+lines, causing analyzePosition to return ErrEngineFailure and abort
+the entire game review.
+
+Fix by propagating terminal-position state from parsePGN through
+moveInfo.IsTerminal/IsStalemate into reviewFromGameInfo, which now
+synthesises the post-move evaluation directly instead of calling
+analyzePosition:
+  - checkmate: Score=-mateScoreSentinel, MateIn=0
+  - stalemate: Score=0 (draw), MateIn=0
+
+Also add a safety-net guard in analyzePosition itself: when bestMove
+is "(none)" and pvAny is empty, return the synthetic mate-0 evaluation
+rather than ErrEngineFailure, protecting any direct callers.
+
+Closes #22
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
