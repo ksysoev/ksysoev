@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/07d5c2aa389dc6eb0f22d0cb1bbc010be5ff7546">07d5c2a</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/64f38d6e970abc82032bb63226d987dea202de35">64f38d6</a>
-- <a href="https://github.com/ksysoev/lumen/commit/5b243b8d79628a84cf74f102117f876957b21f66">5b243b8</a>
-- <a href="https://github.com/ksysoev/lumen/commit/99b0b9d7e89420d6cb41fbd5c06a228b68895ed1">99b0b9d</a>
-- <a href="https://github.com/ksysoev/lumen/commit/e093def30402b64fee812ef4e7e1397446c6b27d">e093def</a>
-- <a href="https://github.com/ksysoev/lumen/commit/695ccc28af457d9dbb9b7986b890a337a63ecc50">695ccc2</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/c20149dd2a78796f5795df2fc2206e32e89a8424">c20149d</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/c04caa654b10eb0588afb528ef88510bcbc1a427">c04caa6</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/9e50d776a74b8804889043c6dbf4548b925f1bf4">9e50d77</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/eb1f0bf40270a0977e46c38e16df2710d89138da">eb1f0bf</a>
+- <a href="https://github.com/ksysoev/chess-com/commit/1d79b22fa54bc22cb0b0dfe4a8a24dbb31b1b64b">1d79b22</a>
+- <a href="https://github.com/ksysoev/stockfish/commit/525f6f60864a2ea7aa09e7c7341e2d7055708d8e">525f6f6</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
