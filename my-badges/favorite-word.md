@@ -5,10 +5,10 @@
 My favorite commit message words are:
 
 1. add (used 2051 times)
-2. request (used 1612 times)
-3. merge (used 1402 times)
-4. pull (used 1321 times)
-5. bump (used 1249 times)
+2. request (used 1613 times)
+3. merge (used 1403 times)
+4. pull (used 1322 times)
+5. bump (used 1251 times)
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
