@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/help-my-pet/commit/3b4dfdf594e11b4d2078e966cec8f373803c443c">3b4dfdf</a>
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/7e8b5af2ab242fb6f1e6415c882036ac47be5ecb">7e8b5af</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/c20149dd2a78796f5795df2fc2206e32e89a8424">c20149d</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/c04caa654b10eb0588afb528ef88510bcbc1a427">c04caa6</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/9e50d776a74b8804889043c6dbf4548b925f1bf4">9e50d77</a>
-- <a href="https://github.com/ksysoev/chess-openings/commit/eb1f0bf40270a0977e46c38e16df2710d89138da">eb1f0bf</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/f587c55ae7be7af1800e52b81273f8c816fabab2">f587c55</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/0efb5cf3a6da5c4557a08251183c12580f7b21ef">0efb5cf</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/beb08b9e2fcdd00da03911df50e422eb50a1f48c">beb08b9</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/17e4a008c0caa61cc3efa0b07272305812f84820">17e4a00</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/2d87d10a580084c8271e1d47375eb5bb1c62af6f">2d87d10</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/ca92e0de5a8fedd3e211604293014192168ab48c">ca92e0d</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
