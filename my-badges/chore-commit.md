@@ -4,7 +4,7 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/make-it-public/commit/787e7a56a2b2e2ba9cab663db6c1bcc5dd1bca3e">787e7a5</a>: chore: update Go version from 1.24.4 to 1.26.1
+- <a href="https://github.com/ksysoev/omnidex/commit/3bee8af8ee56c2bb81d36fdad356c83854b3a7c0">3bee8af</a>: chore: update Go version to 1.26.3
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
