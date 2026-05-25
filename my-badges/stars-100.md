@@ -28,6 +28,7 @@ Repos:
 * <a href="https://github.com/ksysoev/pdd-action">ksysoev/pdd-action: ★1</a>
 * <a href="https://github.com/ksysoev/deriv-bot">ksysoev/deriv-bot: ★1</a>
 * <a href="https://github.com/ksysoev/omnidex">ksysoev/omnidex: ★1</a>
+* <a href="https://github.com/ksysoev/stockfish">ksysoev/stockfish: ★1</a>
 
 <sup>I have push, maintainer or admin permissions, so I'm definitely an author.<sup>
 
