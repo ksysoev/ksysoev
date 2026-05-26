@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/stockfish/commit/8a1c1fc6fe2f2057d72ccf6862555ca4f7d7aa91">8a1c1fc</a>
-- <a href="https://github.com/ksysoev/stockfish/commit/28adad166bfc9e2ba20660d3a4f654432bc66451">28adad1</a>
-- <a href="https://github.com/ksysoev/stockfish/commit/62e4ae0391f17aeb3ef7df05327c493d2f95430d">62e4ae0</a>
-- <a href="https://github.com/ksysoev/stockfish/commit/989bcad570c151f45847fec6da13bfbe34b5e7ad">989bcad</a>
-- <a href="https://github.com/ksysoev/help-my-pet/commit/701ebec579c30171aa1ab8d99286acedf618085e">701ebec</a>
-- <a href="https://github.com/ksysoev/omnidex/commit/b4881af8107e12f15a931d338de0831e10d0d3ab">b4881af</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/1da65f78c43da2d663ab2e20b9a4b0480127411e">1da65f7</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/fae3a44ed9d14b2238d9e7108e56b2f64bf9c4c5">fae3a44</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/52260446f54d65aaf2aef8ad8442290ccafaef51">5226044</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/8a9c9fb02b526838918bf1933a6386c9cdfebcca">8a9c9fb</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/908ede0ad4f81e109d92c7588bbb2f338f32a539">908ede0</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/3294407aa895b0f2f970eaaa29b0d2e815922d89">3294407</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
