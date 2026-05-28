@@ -181,6 +181,9 @@ Commits:
 - <a href="https://github.com/ksysoev/revdial/commit/0eb80723fe73bed6e9f119b83f7906253f69d56f">0eb8072</a>
 - <a href="https://github.com/ksysoev/revdial/commit/062ee8639b17019ce4b5c194345a18dd6f14f912">062ee86</a>
 - <a href="https://github.com/ksysoev/revdial/commit/65b529e4ebd63645272b06b5aec527829c199213">65b529e</a>
+- <a href="https://github.com/ksysoev/wsget/commit/7ec04f14d264f22680d821a113da30536d9d96d7">7ec04f1</a>
+- <a href="https://github.com/ksysoev/wsget/commit/66fffb22625ee26b155187a15f5cf0ced8b45eac">66fffb2</a>
+- <a href="https://github.com/ksysoev/wsget/commit/29d8f5bb5acee5c580114e613fa3da05bccd69ae">29d8f5b</a>
 - <a href="https://github.com/ksysoev/wsget/commit/7ee2ec6f2d69de3739462b0b071dab70a9f64f2e">7ee2ec6</a>
 - <a href="https://github.com/ksysoev/wsget/commit/e8c6ac135cc5908544e071bd512c8143e459c6df">e8c6ac1</a>
 - <a href="https://github.com/ksysoev/wsget/commit/d4aabe813c2a69dbd4c2cf7da05d79fb2a155317">d4aabe8</a>
