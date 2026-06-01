@@ -127,6 +127,7 @@ Commits:
 - <a href="https://github.com/ksysoev/authkeeper/commit/1645e413fe2c5e0d80ee31b2b2e0048391f7736f">1645e41</a>
 - <a href="https://github.com/ksysoev/authkeeper/commit/7cb7793fa28044cb474cecc1290645559c0445e4">7cb7793</a>
 - <a href="https://github.com/ksysoev/authkeeper/commit/5abaf784ab0e395ac32f91dc69a4ba2aad1f9d4c">5abaf78</a>
+- <a href="https://github.com/ksysoev/go-templ/commit/be2d54ea36108d7549624489c34b3407b149007c">be2d54e</a>
 - <a href="https://github.com/ksysoev/go-templ/commit/3e66fc743f9e5f036d5acebb20eae817ae256a90">3e66fc7</a>
 - <a href="https://github.com/ksysoev/go-templ/commit/7330a9635cf31e9a91abc9adf4b9a2cff8ba1809">7330a96</a>
 - <a href="https://github.com/ksysoev/deriv-bot/commit/033de9c35cda2777c6ba6f1498402e00437b5b37">033de9c</a>
