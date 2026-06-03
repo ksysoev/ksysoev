@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2093 times)\n2. request (used 1693 times)\n3. merge (used 1477 times)\n4. pull (used 1401 times)\n5. bump (used 1383 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2093 times)\n2. request (used 1700 times)\n3. merge (used 1484 times)\n4. pull (used 1408 times)\n5. bump (used 1393 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -136,7 +136,7 @@
     "id": "the-ultimate-question",
     "tier": 0,
     "desc": "I found the answer to the ultimate question of life, the universe, and everything!",
-    "body": "- <a href=\"https://github.com/ksysoev/deriv-api-bff/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/wsget/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/wasabi/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/omnidex/issues/42\">#42</a>",
+    "body": "- <a href=\"https://github.com/ksysoev/deriv-api-bff/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/wsget/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/anycache/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/wasabi/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/issues/42\">#42</a>\n- <a href=\"https://github.com/ksysoev/omnidex/issues/42\">#42</a>",
     "image": "https://my-badges.github.io/my-badges/the-ultimate-question.png"
   },
   {
@@ -164,7 +164,7 @@
     "id": "evening-commits",
     "tier": 0,
     "desc": "I commit in the evening.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/readmee/commit/7877cb18e61aa83f67166ebde71d90977e911aa3\">7877cb1</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/c632190bbf4b9fe9b54fae7a6aa97b5f00e7c2ee\">c632190</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/1d09be41ca2622667845640b726e361dfb6b49d1\">1d09be4</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/f5eedbcd46de9ea468ed6b71ad1afd0c0a4b544a\">f5eedbc</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/21391d7956b1267be0b892ed43e78347940717b8\">21391d7</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/f9baee707871125b8ab0afaeaf2272144c9028de\">f9baee7</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/9335227d3b30a57d248ec71cad890bfa46cf8dea\">9335227</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/a9105fc1f766a79e04eb0bf93c6afb0df9a3b607\">a9105fc</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/f4f675f61f108e0c1d767ca04651aaf2737cbc62\">f4f675f</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/7877cb18e61aa83f67166ebde71d90977e911aa3\">7877cb1</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/c632190bbf4b9fe9b54fae7a6aa97b5f00e7c2ee\">c632190</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/1d09be41ca2622667845640b726e361dfb6b49d1\">1d09be4</a>",
     "image": "https://my-badges.github.io/my-badges/evening-commits.png"
   },
   {
@@ -173,13 +173,6 @@
     "desc": "I committed on Friday the 13th, One… By One…",
     "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/stockfish/commit/19ad210c11dcd9a6ed6296572e200f841259477c\">19ad210</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/86dad356d0997bb63977a69e3e660e74ea694661\">86dad35</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/1e5521d1fb82291595b631f9c482638cfec345fa\">1e5521d</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/c806499f07b49cfad71c61eb82e3da73a3a70c51\">c806499</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/6d8bb2c7bec34a4c04ea27d32ae2c0813bc8e80c\">6d8bb2c</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/f3bba28f73edb15dc854241b05360256c086efd3\">f3bba28</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/ffb48e209372baf77e143ececde01b2a8ac9eb6c\">ffb48e2</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/4bf77a80969c8d25da9d193f3d1e0701e92a506c\">4bf77a8</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/9429656289fc26f3ccfea80c0f9a52502899afef\">9429656</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/f898bd3ae186ca05559a17125e20603ccb5050ae\">f898bd3</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/900b3ded25523a44ddc3ba4a5235217c5adb08ae\">900b3de</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/67fb56f2c038698592d14f5188c65abdc378f688\">67fb56f</a>\n- <a href=\"https://github.com/ksysoev/stockfish/commit/b835b9918b38cb947a6a4496ab2b39ac3c533fa8\">b835b99</a>",
     "image": "https://my-badges.github.io/my-badges/friday-13.png"
-  },
-  {
-    "id": "self-star",
-    "tier": 0,
-    "desc": "I've starred 1 my own repositories.",
-    "body": "- <a href=\"https://github.com/ksysoev/deriv-api\">ksysoev/deriv-api</a>",
-    "image": "https://my-badges.github.io/my-badges/self-star.png"
   },
   {
     "id": "public-keys-2",
