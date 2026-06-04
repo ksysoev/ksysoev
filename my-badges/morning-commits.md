@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/opengate-example/commit/429c197de5d334bd22901e9bb1cc67d635692a93">429c197</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/e200bc29e3d71f7c6156a30aaeac56fdce2550d5">e200bc2</a>
-- <a href="https://github.com/ksysoev/wasabi/commit/8b6ba5704845b972ba07bd771167f0d18cf6d252">8b6ba57</a>
-- <a href="https://github.com/ksysoev/dotfiles/commit/e1410b481309175f5101c10f2eb279b01a2d5d2a">e1410b4</a>
-- <a href="https://github.com/ksysoev/tg-feeder/commit/cd02be9b5b159ae4e611a4c1aa294742a8c4f790">cd02be9</a>
-- <a href="https://github.com/ksysoev/go-templ/commit/a2a684b995a4e1d705ab492c86a1750f203aa25e">a2a684b</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/71b8eb990402e0c4d229f6269b7c74971ef59359">71b8eb9</a>
+- <a href="https://github.com/ksysoev/readmee/commit/bb2da79f2d5edea2412bd5ff188add7138c8f288">bb2da79</a>
+- <a href="https://github.com/ksysoev/readmee/commit/38361f3f8d4ec72e77ffd6a18b9c0f3053e40465">38361f3</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/091a4c9c36fa1dedadb194491f9b283c7e24a2bf">091a4c9</a>
+- <a href="https://github.com/ksysoev/chess-openings/commit/6f15f1b03743c1761ef7e4841d21ba55aeaf9430">6f15f1b</a>
+- <a href="https://github.com/ksysoev/wsget/commit/78a815ef77718398322a454c1196c7b0635ffe8a">78a815e</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
