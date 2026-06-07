@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2093 times)\n2. request (used 1705 times)\n3. merge (used 1489 times)\n4. pull (used 1413 times)\n5. bump (used 1401 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2093 times)\n2. request (used 1709 times)\n3. merge (used 1490 times)\n4. pull (used 1417 times)\n5. bump (used 1401 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,14 +143,14 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/1afe18d1dbe034544be71f885f36453a629e4adb\">1afe18d</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/c6003527a86b0641bc09587996820035e02f3fc7\">c600352</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/31548cd143b813ac98fd4bf05b7b98c8ddda3b73\">31548cd</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/4f80e148eef95a9acebcc89f3a78248602691b2f\">4f80e14</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/21ec852d2f48959515d33170f4925d72316e534e\">21ec852</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/bbc62a5e5b14d78684da84be86a6e35d9fd0a1b2\">bbc62a5</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/a485f99defbeeafdb755b6d0664efb8c3fb28f18\">a485f99</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/66b14f57e355091d4fa2bf92a3c5e520e069d822\">66b14f5</a>\n- <a href=\"https://github.com/ksysoev/dotfiles/commit/1fb06e6ec4ec78d58f16a59c2f4464489b7914e5\">1fb06e6</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/1afe18d1dbe034544be71f885f36453a629e4adb\">1afe18d</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/c6003527a86b0641bc09587996820035e02f3fc7\">c600352</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/31548cd143b813ac98fd4bf05b7b98c8ddda3b73\">31548cd</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/96033e89a8df43c1ac8a632f9c0606f7683acb9b\">96033e8</a>\n- <a href=\"https://github.com/ksysoev/chess-openings/commit/71b8eb990402e0c4d229f6269b7c74971ef59359\">71b8eb9</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/bb2da79f2d5edea2412bd5ff188add7138c8f288\">bb2da79</a>\n- <a href=\"https://github.com/ksysoev/readmee/commit/38361f3f8d4ec72e77ffd6a18b9c0f3053e40465\">38361f3</a>\n- <a href=\"https://github.com/ksysoev/chess-openings/commit/091a4c9c36fa1dedadb194491f9b283c7e24a2bf\">091a4c9</a>\n- <a href=\"https://github.com/ksysoev/chess-openings/commit/6f15f1b03743c1761ef7e4841d21ba55aeaf9430\">6f15f1b</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/05a12702689fc192523a5695608fea6b9b6284d9\">05a1270</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/76b5fc1bc93e1e02009595739fb494b0106ddc3c\">76b5fc1</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/33ce0e756953515adbd69206eb0d06a4f9be168b\">33ce0e7</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/0b3c07cf7eb2c54fce3694f72af93eb4d8fd1cbf\">0b3c07c</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/96033e89a8df43c1ac8a632f9c0606f7683acb9b\">96033e8</a>\n- <a href=\"https://github.com/ksysoev/chess-openings/commit/71b8eb990402e0c4d229f6269b7c74971ef59359\">71b8eb9</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
