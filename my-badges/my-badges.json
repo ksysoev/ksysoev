@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2120 times)\n2. request (used 1760 times)\n3. merge (used 1528 times)\n4. pull (used 1468 times)\n5. bump (used 1447 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2120 times)\n2. request (used 1763 times)\n3. merge (used 1529 times)\n4. pull (used 1471 times)\n5. bump (used 1447 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,7 +143,7 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/64cba0be3e7fca129e1b7eaa407b83fc6061f842\">64cba0b</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/904acceb649975200de11fff726a65e41c1d81ff\">904acce</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/f3408f1aaafd2d0548ee78fc5d66d31c3692fd8b\">f3408f1</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/8f1d76bf07984fc4515d1d66efaecd6e313b4473\">8f1d76b</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/1d602915faa3ff082ff35f7b2bc4230f07f7d7d0\">1d60291</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/021f3eebfe7e5cf50f944a4c33f1a13263d6fbb2\">021f3ee</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/4f25fba98039098c6115583679f4680baf64a76f\">4f25fba</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/e4717c7454c527ba318130cfbdbb651e59e43fab\">e4717c7</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/a26b2f5ce2cd3bd2864772b439f853b9211f830f\">a26b2f5</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/5683154e3b08aec8cbbe45d9b12b171ff570f44c\">5683154</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/3e2f36353d56abc02e49005900250882809fd4ea\">3e2f363</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/f39e34d4e955bcc6c8b283ed02ecbf4a042af29b\">f39e34d</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
@@ -278,5 +278,12 @@
     "desc": "I collected 100 stars.",
     "body": "Repos:\n\n* <a href=\"https://github.com/ksysoev/deriv-api\">ksysoev/deriv-api: ★20</a>\n* <a href=\"https://github.com/ksysoev/wsget\">ksysoev/wsget: ★16</a>\n* <a href=\"https://github.com/ksysoev/wasabi\">ksysoev/wasabi: ★11</a>\n* <a href=\"https://github.com/ksysoev/make-it-public\">ksysoev/make-it-public: ★10</a>\n* <a href=\"https://github.com/ksysoev/kaiten-api-client-python\">ksysoev/kaiten-api-client-python: ★6</a>\n* <a href=\"https://github.com/ksysoev/sebus\">ksysoev/sebus: ★6</a>\n* <a href=\"https://github.com/officer47p/addressport\">officer47p/addressport: ★6</a>\n* <a href=\"https://github.com/ksysoev/rpc-redis\">ksysoev/rpc-redis: ★5</a>\n* <a href=\"https://github.com/ksysoev/mcp-go-tools\">ksysoev/mcp-go-tools: ★5</a>\n* <a href=\"https://github.com/ksysoev/help-my-pet\">ksysoev/help-my-pet: ★4</a>\n* <a href=\"https://github.com/ksysoev/bulletenboard\">ksysoev/bulletenboard: ★2</a>\n* <a href=\"https://github.com/ksysoev/Async-com\">ksysoev/Async-com: ★2</a>\n* <a href=\"https://github.com/ksysoev/deriv-api-bff\">ksysoev/deriv-api-bff: ★2</a>\n* <a href=\"https://github.com/ksysoev/smcp-proxy\">ksysoev/smcp-proxy: ★2</a>\n* <a href=\"https://github.com/ksysoev/geocoder\">ksysoev/geocoder: ★1</a>\n* <a href=\"https://github.com/ksysoev/anycache\">ksysoev/anycache: ★1</a>\n* <a href=\"https://github.com/ksysoev/rlock\">ksysoev/rlock: ★1</a>\n* <a href=\"https://github.com/ksysoev/ratestor\">ksysoev/ratestor: ★1</a>\n* <a href=\"https://github.com/ksysoev/oneway\">ksysoev/oneway: ★1</a>\n* <a href=\"https://github.com/ksysoev/revdial\">ksysoev/revdial: ★1</a>\n* <a href=\"https://github.com/ksysoev/go-dev-prompts\">ksysoev/go-dev-prompts: ★1</a>\n* <a href=\"https://github.com/ksysoev/pdd-action\">ksysoev/pdd-action: ★1</a>\n* <a href=\"https://github.com/ksysoev/deriv-bot\">ksysoev/deriv-bot: ★1</a>\n* <a href=\"https://github.com/ksysoev/omnidex\">ksysoev/omnidex: ★1</a>\n* <a href=\"https://github.com/ksysoev/stockfish\">ksysoev/stockfish: ★1</a>\n\n<sup>I have push, maintainer or admin permissions, so I'm definitely an author.<sup>\n",
     "image": "https://my-badges.github.io/my-badges/stars-100.png"
+  },
+  {
+    "id": "self-star",
+    "tier": 0,
+    "desc": "I've starred 1 my own repositories.",
+    "body": "- <a href=\"https://github.com/ksysoev/deriv-api\">ksysoev/deriv-api</a>",
+    "image": "https://my-badges.github.io/my-badges/self-star.png"
   }
 ]
