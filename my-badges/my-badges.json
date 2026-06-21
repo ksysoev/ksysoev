@@ -10,7 +10,7 @@
     "id": "ab-commit",
     "tier": 2,
     "desc": "One of my commit sha starts with \"ab\".",
-    "body": "- <a href=\"https://github.com/ksysoev/wsget/commit/ab48e07030b3a0d64c07e75a875d3cbf99b2beb0\"><strong>ab</strong>48e07030b3a0d64c07e75a875d3cbf99b2beb0</a>",
+    "body": "- <a href=\"https://github.com/ksysoev/anycache/commit/abde3ba4d211d3b9e7624adc9473ad447b32e9c6\"><strong>ab</strong>de3ba4d211d3b9e7624adc9473ad447b32e9c6</a>",
     "image": "https://my-badges.github.io/my-badges/ab-commit.png"
   },
   {
@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2121 times)\n2. request (used 1785 times)\n3. merge (used 1542 times)\n4. pull (used 1493 times)\n5. bump (used 1463 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2121 times)\n2. request (used 1793 times)\n3. merge (used 1544 times)\n4. pull (used 1501 times)\n5. bump (used 1463 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,7 +143,7 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/1f2b80afb679f56beccbd22bbce6c58040a553cb\">1f2b80a</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/a44f2366df430602cb9d4b68462e56f37389a661\">a44f236</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/e39b95efca0bba35e42792b8bf95b3655c255bd4\">e39b95e</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/0d0992c3c2fab307c75d75b76f5abcdeeb38b0ca\">0d0992c</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/eeada2fb76846e036bbd8817ad1dd7a7d7cdb452\">eeada2f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/4f25fba98039098c6115583679f4680baf64a76f\">4f25fba</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/9d2acf17557756b816fd528ae3fff9e6103cc499\">9d2acf1</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/d2c8b70b50d9be702d2d6d0bd3bf147a9294802c\">d2c8b70</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/abde3ba4d211d3b9e7624adc9473ad447b32e9c6\">abde3ba</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/324d6b49565568fc3a24a26a1ba6895b683a8edb\">324d6b4</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/72ef9fa7c9e463bc30aa198917e2b59953677489\">72ef9fa</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/8b38bbad3712eb8c97084200a0dd11611c346908\">8b38bba</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
