@@ -5,6 +5,8 @@
 Issues:
 
 - <a href="https://github.com/ksysoev/wsget/issues/71">#71</a>: Introducing search mode for editors.
+- <a href="https://github.com/ksysoev/help-my-pet/issues/39">#39</a>: Knowledge base
+- <a href="https://github.com/ksysoev/help-my-pet/issues/86">#86</a>: Medical History
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
