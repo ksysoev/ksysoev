@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/anycache/commit/230366b7d069f2e1f2d23a7ad0caee961d126681">230366b</a>
-- <a href="https://github.com/ksysoev/anycache/commit/2033aa4854b71d56ce45f098c30123e970a3d548">2033aa4</a>
-- <a href="https://github.com/ksysoev/ratestor/commit/0b000e0437821d49544177b6ced103a55787feef">0b000e0</a>
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/6b369f5314fccc2ceb59c523c227070e6ac12a47">6b369f5</a>
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/9c3f423d122ce305dd68872b247dd9248aad0998">9c3f423</a>
-- <a href="https://github.com/ksysoev/wsget-deriv-api/commit/2bfd3056ff41e69b1d108156d1264040db00bfc9">2bfd305</a>
+- <a href="https://github.com/ksysoev/anycache/commit/52749ffc25c08317f68ac75a14566f968e7e1865">52749ff</a>
+- <a href="https://github.com/ksysoev/anycache/commit/203c8b2d6838511814408d7481bf2c5e379a0762">203c8b2</a>
+- <a href="https://github.com/ksysoev/anycache/commit/dd4272343fda3e477e9329af0ecfb07ddca5c4b5">dd42723</a>
+- <a href="https://github.com/ksysoev/anycache/commit/9fccf7868c235188447966bd35d094b195047f8c">9fccf78</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/0be932ff8fc6f291b099bf65f00d5e10ca912ddc">0be932f</a>
+- <a href="https://github.com/ksysoev/help-my-pet/commit/1f8752ad6b61972113ef9931ee4d08507bcdc9c3">1f8752a</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

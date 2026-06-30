@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2124 times)\n2. request (used 1850 times)\n3. merge (used 1583 times)\n4. pull (used 1549 times)\n5. bump (used 1525 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2124 times)\n2. request (used 1865 times)\n3. merge (used 1590 times)\n4. pull (used 1564 times)\n5. bump (used 1533 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,14 +143,14 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/230366b7d069f2e1f2d23a7ad0caee961d126681\">230366b</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2033aa4854b71d56ce45f098c30123e970a3d548\">2033aa4</a>\n- <a href=\"https://github.com/ksysoev/ratestor/commit/0b000e0437821d49544177b6ced103a55787feef\">0b000e0</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/6b369f5314fccc2ceb59c523c227070e6ac12a47\">6b369f5</a>\n- <a href=\"https://github.com/ksysoev/make-it-public-tgbot/commit/9c3f423d122ce305dd68872b247dd9248aad0998\">9c3f423</a>\n- <a href=\"https://github.com/ksysoev/wsget-deriv-api/commit/2bfd3056ff41e69b1d108156d1264040db00bfc9\">2bfd305</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/52749ffc25c08317f68ac75a14566f968e7e1865\">52749ff</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/203c8b2d6838511814408d7481bf2c5e379a0762\">203c8b2</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/dd4272343fda3e477e9329af0ecfb07ddca5c4b5\">dd42723</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/9fccf7868c235188447966bd35d094b195047f8c\">9fccf78</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/0be932ff8fc6f291b099bf65f00d5e10ca912ddc\">0be932f</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/1f8752ad6b61972113ef9931ee4d08507bcdc9c3\">1f8752a</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2816d4f4f1711c156d0abded41b135d717032b4f\">2816d4f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/5497bd602d935111cbe514ed4a336997eebd4429\">5497bd6</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/d0d023d3e00545fc551bf63ff04288b7567281d9\">d0d023d</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/ed84f6f31e179332022a5e763c46426ddce601e8\">ed84f6f</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/fd86f4fab6e39d49a76e177bd953c9383465c056\">fd86f4f</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2816d4f4f1711c156d0abded41b135d717032b4f\">2816d4f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/5497bd602d935111cbe514ed4a336997eebd4429\">5497bd6</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/d0d023d3e00545fc551bf63ff04288b7567281d9\">d0d023d</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/ed84f6f31e179332022a5e763c46426ddce601e8\">ed84f6f</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
@@ -248,7 +248,7 @@
     "id": "old-issue-1",
     "tier": 1,
     "desc": "I closed an issue that was open for a year",
-    "body": "Issues:\n\n- <a href=\"https://github.com/ksysoev/wsget/issues/71\">#71</a>: Introducing search mode for editors.\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/39\">#39</a>: Knowledge base\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/86\">#86</a>: Medical History",
+    "body": "Issues:\n\n- <a href=\"https://github.com/ksysoev/wsget/issues/71\">#71</a>: Introducing search mode for editors.\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/39\">#39</a>: Knowledge base\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/86\">#86</a>: Medical History\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/43\">#43</a>: Introduce continuous deployment\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/56\">#56</a>: Collect feedback on responses\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/84\">#84</a>: Provide possibility to manage multiple Pet profiles\n- <a href=\"https://github.com/ksysoev/help-my-pet/issues/85\">#85</a>: Improve editing pet profiles",
     "image": "https://my-badges.github.io/my-badges/old-issue-1.png"
   },
   {
