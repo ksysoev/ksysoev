@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2124 times)\n2. request (used 1872 times)\n3. merge (used 1595 times)\n4. pull (used 1571 times)\n5. bump (used 1539 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2124 times)\n2. request (used 1878 times)\n3. merge (used 1601 times)\n4. pull (used 1577 times)\n5. bump (used 1551 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,7 +143,7 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/anycache/commit/52749ffc25c08317f68ac75a14566f968e7e1865\">52749ff</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/203c8b2d6838511814408d7481bf2c5e379a0762\">203c8b2</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/dd4272343fda3e477e9329af0ecfb07ddca5c4b5\">dd42723</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/9fccf7868c235188447966bd35d094b195047f8c\">9fccf78</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/0be932ff8fc6f291b099bf65f00d5e10ca912ddc\">0be932f</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/1f8752ad6b61972113ef9931ee4d08507bcdc9c3\">1f8752a</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/stockfish/commit/1c7ab7b4741104b3e065ced0d0ab7ad2418e8730\">1c7ab7b</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/5a46c5619b57a0ed0960c36276428083747f13f3\">5a46c56</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/ee4fd67eb7d0700e03c5d72696e4a32149bdfa38\">ee4fd67</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/d59ede80f36b6b7ba2b3305ce0317f1f323f8f95\">d59ede8</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/88afe596b9a14d0fd194af268e574d7bc48edf30\">88afe59</a>\n- <a href=\"https://github.com/ksysoev/echosrv/commit/2001c8d1d629932e7c5d4a792648d324a95bb314\">2001c8d</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
