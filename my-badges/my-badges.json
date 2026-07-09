@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2124 times)\n2. request (used 1906 times)\n3. merge (used 1623 times)\n4. pull (used 1603 times)\n5. bump (used 1583 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2129 times)\n2. request (used 1924 times)\n3. merge (used 1633 times)\n4. pull (used 1621 times)\n5. bump (used 1583 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -87,7 +87,7 @@
     "id": "fix-3",
     "tier": 2,
     "desc": "I did 3 sequential fixes.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/chess-review/commit/1a95bc71b38c1d575a5e387e2488d82c81023d2f\">1a95bc7</a>: fix: guard analyzePosition safety-net against non-terminal positions\n\nSwitch on positionStatus() result instead of treating any non-stalemate\nbestmove=(none) as checkmate. The default branch now returns ErrEngineFailure\nfor FEN parse failures or other unexpected non-terminal statuses, preventing\nthem from being silently masked as a false checkmate evaluation.\n- <a href=\"https://github.com/ksysoev/chess-review/commit/8e41fb8e60a821e675f2c11b03a830affd4aa6b6\">8e41fb8</a>: fix: correctly represent stalemate as draw with nil MateIn\n\n- positionStatus helper reconstructs position from FEN+UCI moves using the\n  chess library to determine checkmate vs stalemate status\n- reviewFromGameInfo: stalemate now sets MateIn=nil (draw) instead of &0\n  (checkmate); fixes downstream M0 display for stalemate positions\n- analyzePosition safety-net: uses positionStatus to distinguish stalemate\n  (Score=0, MateIn=nil) from checkmate (Score=-mateScoreSentinel, MateIn=&0)\n- Update stalemate test to assert MateInAfter is nil\n- <a href=\"https://github.com/ksysoev/chess-review/commit/eb22010f963cb9021fd00fe03f6cc8064e5c5678\">eb22010</a>: fix: handle terminal positions (checkmate/stalemate) in game review\n\nWhen a game ends in checkmate or stalemate, Stockfish responds to the\npost-move position analysis with 'bestmove (none)' and no evaluation\nlines, causing analyzePosition to return ErrEngineFailure and abort\nthe entire game review.\n\nFix by propagating terminal-position state from parsePGN through\nmoveInfo.IsTerminal/IsStalemate into reviewFromGameInfo, which now\nsynthesises the post-move evaluation directly instead of calling\nanalyzePosition:\n  - checkmate: Score=-mateScoreSentinel, MateIn=0\n  - stalemate: Score=0 (draw), MateIn=0\n\nAlso add a safety-net guard in analyzePosition itself: when bestMove\nis \"(none)\" and pvAny is empty, return the synthetic mate-0 evaluation\nrather than ErrEngineFailure, protecting any direct callers.\n\nCloses #22",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/bb81d3a46a367d5e9e6579c3126b5a87be6aaef9\">bb81d3a</a>: Fix PDF generation sandbox issue on GitHub runners\n- <a href=\"https://github.com/ksysoev/cv/commit/9e12da169eaf2984f95528ef9044d7495b352e0b\">9e12da1</a>: Fix CI PDF generation and run build on PRs\n- <a href=\"https://github.com/ksysoev/cv/commit/68fb0dcbb0e214b6c9cb9cdc68289cc7d99d5135\">68fb0dc</a>: Fix building PDF CV",
     "image": "https://my-badges.github.io/my-badges/fix-3.png"
   },
   {
@@ -143,14 +143,14 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/stockfish/commit/1c7ab7b4741104b3e065ced0d0ab7ad2418e8730\">1c7ab7b</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/5a46c5619b57a0ed0960c36276428083747f13f3\">5a46c56</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/ee4fd67eb7d0700e03c5d72696e4a32149bdfa38\">ee4fd67</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/d59ede80f36b6b7ba2b3305ce0317f1f323f8f95\">d59ede8</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/88afe596b9a14d0fd194af268e574d7bc48edf30\">88afe59</a>\n- <a href=\"https://github.com/ksysoev/echosrv/commit/2001c8d1d629932e7c5d4a792648d324a95bb314\">2001c8d</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/c39cfc63e9c5d2f9fb3f443b369f956b962e247a\">c39cfc6</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/2c76f3dea64afa6fbad58a0fed129285db507385\">2c76f3d</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/9d70fa25b4f60c4787db06bc3c48743916aed741\">9d70fa2</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/e1560c78cb84e160ac68f0fff483b94501bf085b\">e1560c7</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/38021df04106fa36bc72274d574fe5b6dd0d2927\">38021df</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/bb81d3a46a367d5e9e6579c3126b5a87be6aaef9\">bb81d3a</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2816d4f4f1711c156d0abded41b135d717032b4f\">2816d4f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/5497bd602d935111cbe514ed4a336997eebd4429\">5497bd6</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/d0d023d3e00545fc551bf63ff04288b7567281d9\">d0d023d</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/ed84f6f31e179332022a5e763c46426ddce601e8\">ed84f6f</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/fc13fc8447c9c7f47aa369566dc172910217c70b\">fc13fc8</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/5421c93fe1606491d86db8d90c993f8feea02768\">5421c93</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/69eac49ce7f22e7b546d60bd264dc3fbdd8e8bc4\">69eac49</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2816d4f4f1711c156d0abded41b135d717032b4f\">2816d4f</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
@@ -297,7 +297,7 @@
     "id": "this-is-fine",
     "tier": 0,
     "desc": "I merged a PR with failing checks",
-    "body": "Pull requests:\n\n- <a href=\"https://github.com/ksysoev/anycache/pull/102\">#102</a>: Timeout context interaction",
+    "body": "Pull requests:\n\n- <a href=\"https://github.com/ksysoev/cv/pull/8\">#8</a>: Move linkedin profile content to resume format\n- <a href=\"https://github.com/ksysoev/anycache/pull/102\">#102</a>: Timeout context interaction\n- <a href=\"https://github.com/ksysoev/cv/pull/4\">#4</a>: Fix building PDF CV\n- <a href=\"https://github.com/ksysoev/cv/pull/6\">#6</a>: Unify web/PDF CV styling from a single Hugo source\n- <a href=\"https://github.com/ksysoev/cv/pull/9\">#9</a>: Add small circular profile photo to resume header",
     "image": "https://my-badges.github.io/my-badges/this-is-fine.png"
   }
 ]
