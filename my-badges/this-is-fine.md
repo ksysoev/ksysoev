@@ -13,6 +13,8 @@ Pull requests:
 - <a href="https://github.com/ksysoev/cv/pull/10">#10</a>: Continue redesign of CV
 - <a href="https://github.com/ksysoev/cv/pull/11">#11</a>: docs: clarify README and add repository metadata suggestions
 - <a href="https://github.com/ksysoev/cv/pull/13">#13</a>: Make experience company names clickable via work.url
+- <a href="https://github.com/ksysoev/cv/pull/14">#14</a>: Improve work summaries and highlights
+- <a href="https://github.com/ksysoev/cv/pull/17">#17</a>: Make README fork-first and derive consistent PDF filename from basics.name
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

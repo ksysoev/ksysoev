@@ -23,8 +23,8 @@
   {
     "id": "cafe-commit",
     "tier": 0,
-    "desc": "I pushed a commit with \"cafe\" 4 times.",
-    "body": "- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/f2424394e82becab778438e9bfd0888dcafe4028\">f2424394e82becab778438e9bfd0888d<strong>cafe</strong>4028</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/008a8b8199865cafed7677c6a4a873b1e182f1d6\">008a8b8199865<strong>cafe</strong>d7677c6a4a873b1e182f1d6</a>\n- <a href=\"https://github.com/ksysoev/oauth2-service/commit/eaf660d6c3f917b2ab2e22be96c1cafefbca1a5c\">eaf660d6c3f917b2ab2e22be96c1<strong>cafe</strong>fbca1a5c</a>\n- <a href=\"https://github.com/ksysoev/p5-Async-Stream/commit/4cd431182f5a1572831b19dd74e7b1e491cafeef\">4cd431182f5a1572831b19dd74e7b1e491<strong>cafe</strong>ef</a>",
+    "desc": "I pushed a commit with \"cafe\" 5 times.",
+    "body": "- <a href=\"https://github.com/ksysoev/cv/commit/1a8ba80d20cafe69ea9693fca0c40c2a538cc9b8\">1a8ba80d20<strong>cafe</strong>69ea9693fca0c40c2a538cc9b8</a>\n- <a href=\"https://github.com/ksysoev/smcp-proxy/commit/f2424394e82becab778438e9bfd0888dcafe4028\">f2424394e82becab778438e9bfd0888d<strong>cafe</strong>4028</a>\n- <a href=\"https://github.com/ksysoev/help-my-pet/commit/008a8b8199865cafed7677c6a4a873b1e182f1d6\">008a8b8199865<strong>cafe</strong>d7677c6a4a873b1e182f1d6</a>\n- <a href=\"https://github.com/ksysoev/oauth2-service/commit/eaf660d6c3f917b2ab2e22be96c1cafefbca1a5c\">eaf660d6c3f917b2ab2e22be96c1<strong>cafe</strong>fbca1a5c</a>\n- <a href=\"https://github.com/ksysoev/p5-Async-Stream/commit/4cd431182f5a1572831b19dd74e7b1e491cafeef\">4cd431182f5a1572831b19dd74e7b1e491<strong>cafe</strong>ef</a>",
     "image": "https://my-badges.github.io/my-badges/cafe-commit.png"
   },
   {
@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2139 times)\n2. request (used 1933 times)\n3. merge (used 1638 times)\n4. pull (used 1630 times)\n5. bump (used 1583 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2142 times)\n2. request (used 1941 times)\n3. merge (used 1646 times)\n4. pull (used 1638 times)\n5. bump (used 1583 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -143,14 +143,14 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/ksysoev.github.io/commit/85e46a0ae598a389573c395039e5dc79253d4b37\">85e46a0</a>\n- <a href=\"https://github.com/ksysoev/ksysoev.github.io/commit/0098e3671017ae51064650cd0242950258e121be\">0098e36</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/265831ad59fea677fc0d0d44241fb4ad511ff5a9\">265831a</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/1951a35d905e944ba08b05181e05f05a0fbd5c93\">1951a35</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/0b3e1c541af4cd01e42d68b2507e9cd7d634f0d9\">0b3e1c5</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/73571878004bddb222e460ae342ff564169abb76\">7357187</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/ba34a1b453300c654623273a575382c258bf552d\">ba34a1b</a>\n- <a href=\"https://github.com/ksysoev/ksysoev.github.io/commit/85e46a0ae598a389573c395039e5dc79253d4b37\">85e46a0</a>\n- <a href=\"https://github.com/ksysoev/ksysoev.github.io/commit/0098e3671017ae51064650cd0242950258e121be\">0098e36</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/265831ad59fea677fc0d0d44241fb4ad511ff5a9\">265831a</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/1951a35d905e944ba08b05181e05f05a0fbd5c93\">1951a35</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/0b3e1c541af4cd01e42d68b2507e9cd7d634f0d9\">0b3e1c5</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/fc13fc8447c9c7f47aa369566dc172910217c70b\">fc13fc8</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/5421c93fe1606491d86db8d90c993f8feea02768\">5421c93</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/69eac49ce7f22e7b546d60bd264dc3fbdd8e8bc4\">69eac49</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/2816d4f4f1711c156d0abded41b135d717032b4f\">2816d4f</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/d1198932e67526ad3492c1d265fd1921fc3e4f9d\">d119893</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/fc13fc8447c9c7f47aa369566dc172910217c70b\">fc13fc8</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/5421c93fe1606491d86db8d90c993f8feea02768\">5421c93</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/69eac49ce7f22e7b546d60bd264dc3fbdd8e8bc4\">69eac49</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>\n- <a href=\"https://github.com/ksysoev/anycache/commit/51b06507e1106f208ae5b52c45f0893697b28f8b\">51b0650</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
@@ -297,7 +297,7 @@
     "id": "this-is-fine",
     "tier": 0,
     "desc": "I merged a PR with failing checks",
-    "body": "Pull requests:\n\n- <a href=\"https://github.com/ksysoev/cv/pull/8\">#8</a>: Move linkedin profile content to resume format\n- <a href=\"https://github.com/ksysoev/cv/pull/12\">#12</a>: Add Simple Analytics integration to CV page\n- <a href=\"https://github.com/ksysoev/anycache/pull/102\">#102</a>: Timeout context interaction\n- <a href=\"https://github.com/ksysoev/cv/pull/4\">#4</a>: Fix building PDF CV\n- <a href=\"https://github.com/ksysoev/cv/pull/6\">#6</a>: Unify web/PDF CV styling from a single Hugo source\n- <a href=\"https://github.com/ksysoev/cv/pull/9\">#9</a>: Add small circular profile photo to resume header\n- <a href=\"https://github.com/ksysoev/cv/pull/10\">#10</a>: Continue redesign of CV\n- <a href=\"https://github.com/ksysoev/cv/pull/11\">#11</a>: docs: clarify README and add repository metadata suggestions\n- <a href=\"https://github.com/ksysoev/cv/pull/13\">#13</a>: Make experience company names clickable via work.url",
+    "body": "Pull requests:\n\n- <a href=\"https://github.com/ksysoev/cv/pull/8\">#8</a>: Move linkedin profile content to resume format\n- <a href=\"https://github.com/ksysoev/cv/pull/12\">#12</a>: Add Simple Analytics integration to CV page\n- <a href=\"https://github.com/ksysoev/anycache/pull/102\">#102</a>: Timeout context interaction\n- <a href=\"https://github.com/ksysoev/cv/pull/4\">#4</a>: Fix building PDF CV\n- <a href=\"https://github.com/ksysoev/cv/pull/6\">#6</a>: Unify web/PDF CV styling from a single Hugo source\n- <a href=\"https://github.com/ksysoev/cv/pull/9\">#9</a>: Add small circular profile photo to resume header\n- <a href=\"https://github.com/ksysoev/cv/pull/10\">#10</a>: Continue redesign of CV\n- <a href=\"https://github.com/ksysoev/cv/pull/11\">#11</a>: docs: clarify README and add repository metadata suggestions\n- <a href=\"https://github.com/ksysoev/cv/pull/13\">#13</a>: Make experience company names clickable via work.url\n- <a href=\"https://github.com/ksysoev/cv/pull/14\">#14</a>: Improve work summaries and highlights\n- <a href=\"https://github.com/ksysoev/cv/pull/17\">#17</a>: Make README fork-first and derive consistent PDF filename from basics.name",
     "image": "https://my-badges.github.io/my-badges/this-is-fine.png"
   }
 ]
