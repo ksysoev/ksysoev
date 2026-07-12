@@ -15,6 +15,7 @@ Pull requests:
 - <a href="https://github.com/ksysoev/cv/pull/13">#13</a>: Make experience company names clickable via work.url
 - <a href="https://github.com/ksysoev/cv/pull/14">#14</a>: Improve work summaries and highlights
 - <a href="https://github.com/ksysoev/cv/pull/17">#17</a>: Make README fork-first and derive consistent PDF filename from basics.name
+- <a href="https://github.com/ksysoev/cv/pull/18">#18</a>: Compress job history to focus on recent and relavant details
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
