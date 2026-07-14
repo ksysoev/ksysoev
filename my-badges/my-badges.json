@@ -66,7 +66,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2142 times)\n2. request (used 1943 times)\n3. merge (used 1647 times)\n4. pull (used 1640 times)\n5. bump (used 1583 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2142 times)\n2. request (used 1961 times)\n3. merge (used 1664 times)\n4. pull (used 1658 times)\n5. bump (used 1615 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -150,7 +150,7 @@
     "id": "morning-commits",
     "tier": 0,
     "desc": "I commit in the morning.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cv/commit/4e53c17d1b20b38c30e52cca4020c729b93d6168\">4e53c17</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/d1198932e67526ad3492c1d265fd1921fc3e4f9d\">d119893</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/fc13fc8447c9c7f47aa369566dc172910217c70b\">fc13fc8</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/5421c93fe1606491d86db8d90c993f8feea02768\">5421c93</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/69eac49ce7f22e7b546d60bd264dc3fbdd8e8bc4\">69eac49</a>\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/c63e23fcfe5fd3e4c470a35212aa6e627ca904e7\">c63e23f</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/make-it-public/commit/b946c278cc4c254f9866d3f8bfb06e656a0d2d51\">b946c27</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/4e53c17d1b20b38c30e52cca4020c729b93d6168\">4e53c17</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/d1198932e67526ad3492c1d265fd1921fc3e4f9d\">d119893</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/fc13fc8447c9c7f47aa369566dc172910217c70b\">fc13fc8</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/5421c93fe1606491d86db8d90c993f8feea02768\">5421c93</a>\n- <a href=\"https://github.com/ksysoev/cv/commit/69eac49ce7f22e7b546d60bd264dc3fbdd8e8bc4\">69eac49</a>",
     "image": "https://my-badges.github.io/my-badges/morning-commits.png"
   },
   {
