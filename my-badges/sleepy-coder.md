@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cv/commit/0806460038cb2457f8823d3377f5a737843dc320">0806460</a>
-- <a href="https://github.com/ksysoev/cv/commit/ba34a1b453300c654623273a575382c258bf552d">ba34a1b</a>
-- <a href="https://github.com/ksysoev/ksysoev.github.io/commit/85e46a0ae598a389573c395039e5dc79253d4b37">85e46a0</a>
-- <a href="https://github.com/ksysoev/ksysoev.github.io/commit/0098e3671017ae51064650cd0242950258e121be">0098e36</a>
-- <a href="https://github.com/ksysoev/cv/commit/265831ad59fea677fc0d0d44241fb4ad511ff5a9">265831a</a>
-- <a href="https://github.com/ksysoev/cv/commit/1951a35d905e944ba08b05181e05f05a0fbd5c93">1951a35</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/7e41c47f0c525cf12bc65a424ac03f363efedaf0">7e41c47</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/307d7e14e3976435891685ef98891915d2a7ed29">307d7e1</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/03feaf923be8d8a96a2a4cec3c53a4e773167cfa">03feaf9</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/4abdfcfa6845049227f7b24ae4e5a7935d4eff86">4abdfcf</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/efd1837a1cc84c7406e441924abc69ea9171570f">efd1837</a>
+- <a href="https://github.com/ksysoev/cloudlab/commit/9c0b5b05e18d3aed6391bfeb1d1a9fa71cdc1b29">9c0b5b0</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
