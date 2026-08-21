@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cloudlab/commit/92e0394b765cedcd928a3f037fa4a8cc4c897785">92e0394</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/7e41c47f0c525cf12bc65a424ac03f363efedaf0">7e41c47</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/307d7e14e3976435891685ef98891915d2a7ed29">307d7e1</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/03feaf923be8d8a96a2a4cec3c53a4e773167cfa">03feaf9</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/4abdfcfa6845049227f7b24ae4e5a7935d4eff86">4abdfcf</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/efd1837a1cc84c7406e441924abc69ea9171570f">efd1837</a>
+- <a href="https://github.com/ksysoev/wasabi/commit/6e5b05eaf8688a5ade4e759927bf5c7518d5ac05">6e5b05e</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/707e130c005e42f21b5a4b0c2b092eb82c066dbd">707e130</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/82dfbb5f16b8328905c6d1fcb3e96d0586fd6d51">82dfbb5</a>
+- <a href="https://github.com/ksysoev/omnidex/commit/5f9a771bf5acfa8151b20bd8a950abba6f8a1d85">5f9a771</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/8a83244259a4f60c8ca12ae3b062241877eaaadb">8a83244</a>
+- <a href="https://github.com/ksysoev/deriv-api/commit/365a3d1e8313846bce3695c994d8de234b662a62">365a3d1</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

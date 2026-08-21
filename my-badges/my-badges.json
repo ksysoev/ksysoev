@@ -143,7 +143,7 @@
     "id": "favorite-word",
     "tier": 0,
     "desc": "My favorite word is \"add\".",
-    "body": "My favorite commit message words are:\n\n1. add (used 2180 times)\n2. request (used 2046 times)\n3. merge (used 1748 times)\n4. pull (used 1743 times)\n5. bump (used 1703 times)",
+    "body": "My favorite commit message words are:\n\n1. add (used 2180 times)\n2. request (used 2052 times)\n3. merge (used 1754 times)\n4. pull (used 1749 times)\n5. bump (used 1715 times)",
     "image": "https://my-badges.github.io/my-badges/favorite-word.png"
   },
   {
@@ -276,7 +276,7 @@
     "id": "sleepy-coder",
     "tier": 0,
     "desc": "I am a sleepy coder.",
-    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/92e0394b765cedcd928a3f037fa4a8cc4c897785\">92e0394</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/7e41c47f0c525cf12bc65a424ac03f363efedaf0\">7e41c47</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/307d7e14e3976435891685ef98891915d2a7ed29\">307d7e1</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/03feaf923be8d8a96a2a4cec3c53a4e773167cfa\">03feaf9</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/4abdfcfa6845049227f7b24ae4e5a7935d4eff86\">4abdfcf</a>\n- <a href=\"https://github.com/ksysoev/cloudlab/commit/efd1837a1cc84c7406e441924abc69ea9171570f\">efd1837</a>",
+    "body": "Commits:\n\n- <a href=\"https://github.com/ksysoev/wasabi/commit/6e5b05eaf8688a5ade4e759927bf5c7518d5ac05\">6e5b05e</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/707e130c005e42f21b5a4b0c2b092eb82c066dbd\">707e130</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/82dfbb5f16b8328905c6d1fcb3e96d0586fd6d51\">82dfbb5</a>\n- <a href=\"https://github.com/ksysoev/omnidex/commit/5f9a771bf5acfa8151b20bd8a950abba6f8a1d85\">5f9a771</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/8a83244259a4f60c8ca12ae3b062241877eaaadb\">8a83244</a>\n- <a href=\"https://github.com/ksysoev/deriv-api/commit/365a3d1e8313846bce3695c994d8de234b662a62\">365a3d1</a>",
     "image": "https://my-badges.github.io/my-badges/sleepy-coder.png"
   },
   {
