@@ -16,6 +16,7 @@ Pull requests:
 - <a href="https://github.com/ksysoev/cv/pull/14">#14</a>: Improve work summaries and highlights
 - <a href="https://github.com/ksysoev/cv/pull/17">#17</a>: Make README fork-first and derive consistent PDF filename from basics.name
 - <a href="https://github.com/ksysoev/cv/pull/18">#18</a>: Compress job history to focus on recent and relavant details
+- <a href="https://github.com/ksysoev/mimir/pull/9">#9</a>: refactor(inmemory): per-entry uint64 version, Put accepts core.Item
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
