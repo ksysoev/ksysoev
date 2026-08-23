@@ -4,9 +4,17 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/cv/commit/bb81d3a46a367d5e9e6579c3126b5a87be6aaef9">bb81d3a</a>: Fix PDF generation sandbox issue on GitHub runners
-- <a href="https://github.com/ksysoev/cv/commit/9e12da169eaf2984f95528ef9044d7495b352e0b">9e12da1</a>: Fix CI PDF generation and run build on PRs
-- <a href="https://github.com/ksysoev/cv/commit/68fb0dcbb0e214b6c9cb9cdc68289cc7d99d5135">68fb0dc</a>: Fix building PDF CV
+- <a href="https://github.com/ksysoev/mimir/commit/d751e5416dd3523f139f71b8a45ff25c37c8e240">d751e54</a>: fix: add blank line before if to satisfy wsl_v5 linter
+- <a href="https://github.com/ksysoev/mimir/commit/877b2cb45afb16f064fe0ee7f245d295a7c4e43e">877b2cb</a>: fix: address PR review comments
+
+- patchKey: add early Content-Type header check before io.ReadAll to
+  avoid buffering large bodies that will be rejected with 415; core
+  still owns the authoritative validation for non-HTTP callers
+- parseIfVersion: reject ifVersion=0 with 400; valid stored versions
+  start at 1 so 0 is ambiguous with the absent-parameter convention
+- add TestAPI_putKey_ZeroIfVersion_Returns400 and
+  TestAPI_patchKey_ZeroIfVersion_Returns400 to cover the new guard
+- <a href="https://github.com/ksysoev/mimir/commit/5bcd2b0863710007ecfb0fc7b013c49c5a9da0a6">5bcd2b0</a>: fix: remove trailing newline in store.go to satisfy gofmt
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

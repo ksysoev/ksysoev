@@ -4,53 +4,102 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/2e6af0b6450905bd646e8335ae8b1ddf14f6e55a">2e6af0b</a>: fix: align Scalar dark-mode surfaces with gray-800 card wrapper
+- <a href="https://github.com/ksysoev/mimir/commit/b2dac72d69c6b15354e3aeb145ceef3d6ccf3811">b2dac72</a>: fix: proxy timeout and NDJSON scanner limit in router
 
-Swap --scalar-background-1/2 so Scalar's primary surface (gray-800)
-matches the card wrapper and other dark UI cards, while secondary/nested
-surfaces recede to gray-900. Update sidebar variables and .scalar-card
-wrapper background accordingly. Restore dark:bg-gray-800 on the wrapper
-div for consistency with the rest of the portal.
-- <a href="https://github.com/ksysoev/omnidex/commit/d913878e6ad8f65e8eaa2ae26897a68492a20833">d913878</a>: fix: use customCss to isolate Scalar theming from Tailwind wildcard
+Two production-facing issues in the router:
 
-Tailwind's selector-based dark mode generates [data-theme=dark] * which
-matches every descendant of <html data-theme="dark">, including all of
-Scalar's internal elements. This caused dark:bg-* utility classes on the
-card wrapper to force background-color onto every element Scalar renders,
-fighting Scalar's own CSS variable theming.
+1. routeKey had no effective upstream timeout.
+   The &httputil.ReverseProxy{} was created without a Transport, so it
+   used http.DefaultTransport (no ResponseHeaderTimeout, no overall
+   request timeout). r.client (10s Timeout) was used only by
+   fetchNodeKeys, not the proxy. A frozen node could hold the proxy
+   goroutine until the server WriteTimeout (15s) expired.
 
-Fix in three parts:
-1. Move all Scalar CSS variable overrides (light-mode, dark-mode, sidebar,
-   font/radius) into the customCss option of Scalar.createApiReference().
-   Scalar injects customCss in its own rendering scope, bypassing the
-   Tailwind wildcard entirely.
-2. Replace dark:bg-gray-900 on the card wrapper with a plain CSS class
-   (scalar-card) and a [data-theme=dark] .scalar-card rule in input.css.
-   Plain class selectors are not affected by the Tailwind wildcard.
-3. Remove all #scalar-api-reference blocks from input.css — they are
-   no longer needed and were subject to Tailwind's optimizer stripping
-   ancestor guards.
-- <a href="https://github.com/ksysoev/omnidex/commit/70b6afac06da1652bf1581df58aecc301693301b">70b6afa</a>: fix: set Scalar root element background in dark mode
+   Fix: add proxyTimeout field to Router (default 10s). routeKey now
+   derives a child context with that deadline via context.WithTimeout
+   and passes req.WithContext(ctx) to the proxy. ReverseProxy propagates
+   the request context to Transport.RoundTrip, so the upstream call is
+   bounded regardless of what the node does.
 
-The #scalar-api-reference root element sits outside Scalar's own .dark-mode
-subtree, so --scalar-background-1 CSS variables do not reach it. It was
-rendering with the page-level --color-bg (#030712, gray-950) instead of the
-intended gray-900 (#111827), creating a visible seam against the card wrapper.
+2. bufio.Scanner in fetchNodeKeys had a silent 64 KB line limit.
+   bufio.MaxScanTokenSize is 64 KB. A key producing an NDJSON line
+   longer than 64 KB caused scanner.Err() = bufio.ErrTooLong, which
+   was returned as nodeKeyResult.err and treated as a node failure —
+   silently dropping that node's entire key list with a misleading error.
 
-Add a standalone [data-theme="dark"] #scalar-api-reference { background-color }
-block. Because it is a separate block with a distinct property, Tailwind v3
-does not merge it with the unguarded #scalar-api-reference blocks above, so
-the guard survives compilation.
-- <a href="https://github.com/ksysoev/omnidex/commit/4d5ceb7cf8a1a8061dbdd45d5087a428ef2b97da">4d5ceb7</a>: fix: resolve Scalar dark-mode background mismatch with card wrapper
+   Fix: add maxScanLineBytes = 1 MB constant and call scanner.Buffer
+   after creating the scanner. Lines up to 1 MB are now scanned
+   correctly; lines exceeding the new limit still return a clear error
+   rather than the old silent-drop behaviour.
 
-Use html[data-theme="dark"] (element+attr selector) instead of [data-theme="dark"]
-for Scalar CSS variable blocks so Tailwind v3's optimizer cannot collapse them
-into the unguarded #scalar-api-reference rules above, which caused dark variables
-to leak into light mode.
+Add tests:
+- TestRouteKey_TimeoutOnSlowNode: slow node returns 502 within timeout
+- TestRouteKey_TimeoutRespected: fast node unaffected by timeout
+- TestFetchNodeKeys_LongLineWithinLimit: 512 KB key scanned without error
+- TestFetchNodeKeys_LineExceedsLimit: >1 MB line surfaces as explicit error
+- <a href="https://github.com/ksysoev/mimir/commit/da74430ab1d620b274f444545c7adee07fc0f3b1">da74430</a>: fix: ROUTER_NODES env var parsing and add loadRouterConfig tests
 
-Change card wrapper from dark:bg-gray-800 (#1f2937) to dark:bg-gray-900 (#111827)
-to match Scalar's --scalar-background-1 primary surface in dark mode, eliminating
-the visible seam between the card and the Scalar component background.
+Viper splits env var values on commas before mapstructure sees them,
+shredding a JSON array like '[{"id":"n1","url":"..."}]' into individual
+strings that cannot be decoded into []NodeConfig. This meant the cluster
+docker-compose, which relied on ROUTER_NODES as a JSON array, could never
+start the router.
+
+Fix: capture ROUTER_NODES before Viper's unmarshal pass, unset it so
+Viper doesn't try to decode it, then parse it as JSON ourselves and
+populate cfg.Router.Nodes. The env var is restored in a defer so other
+code sharing the process is unaffected.
+
+Add TestLoadRouterConfig (7 table-driven cases):
+- valid config file
+- missing config file returns error
+- unparseable config file returns error
+- scalar env vars (ROUTER_LISTEN, ROUTER_KEY) override file values
+- ROUTER_NODES as JSON array correctly populates []NodeConfig
+- ROUTER_NODES invalid JSON returns clear parse error
+- no config file, nodes from ROUTER_NODES env only
+
+Update docker-compose.cluster.yml: use >- (no trailing newline) for
+ROUTER_NODES and correct the comment to reflect the actual JSON parsing
+mechanism rather than the incorrect Viper claim.
+- <a href="https://github.com/ksysoev/mimir/commit/b587968eb3a2e05a306418682303c81ab8f4557a">b587968</a>: fix: address PR review comments
+
+- fix: set X-Mimir-Missing-Nodes header before WriteHeader
+  Collect failed node IDs in a pre-pass after wg.Wait() and before any
+  write so the header is actually delivered to clients. Two-pass approach:
+  first pass builds missing list and sets headers, second pass writes body.
+  Add assertion to TestListKeys_PartialNodeFailure to verify the header is
+  present in the response.
+
+- fix: do not log API keys in debug output
+  Replace slog.Any("config", cfg) in loadConfig and loadRouterConfig with
+  explicit non-secret fields (listen address, max_keys / node count).
+  Prevents Key and InternalKey from appearing in CI logs or log collectors.
+
+- fix: correct env var name in api.Config.NodeID comment
+  NODE_ID -> API_NODE_ID, matching the viper env mapping and the value
+  already used correctly in docker-compose.cluster.yml.
+
+- fix: remove unused NodeID field from inmemory.Config
+  NodeID was never read by the store; the node identity flows through
+  api.Config.NodeID -> listKeys handler -> svc.ListKeys(ctx, nodeID).
+  The dead field was misleading and could cause silent misconfiguration.
+- <a href="https://github.com/ksysoev/mimir/commit/8d58076cc8b208ffe57784e68881edeb8744e17c">8d58076</a>: fix: resolve all linter issues in multi-node implementation
+
+- gofmt: fix const block alignment in router/config.go
+- govet/fieldalignment: reorder struct fields in router.Config, router.Router,
+  nodeKeyResult, api.Config, inmemory.Config for optimal padding
+- gocritic/hugeParam: pass *Config by pointer in router.New and router.Run
+- staticcheck SA1019: replace deprecated ReverseProxy.Director with Rewrite;
+  use bare &httputil.ReverseProxy{Rewrite:...} to avoid Director/Rewrite conflict
+- gosec G118: use context.WithoutCancel for shutdown timeout so the deadline
+  is not immediately cancelled along with the parent ctx
+- unused: remove dead keyLine struct from router/handler.go
+- whitespace: remove spurious leading newline in fetchNodeKeys
+- wsl_v5: add required blank lines in handler_test.go, router_test.go, svc_test.go
+- nolintlint: add explanation to nolint:gocritic directive in hash_test.go
+- prealloc: pre-allocate nodes3 slice with cap 4 in hash_test.go
+- remove unused math import from hash_test.go
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
