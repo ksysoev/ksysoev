@@ -18,6 +18,7 @@ Repos:
 * <a href="https://github.com/ksysoev/Async-com">ksysoev/Async-com: ★2</a>
 * <a href="https://github.com/ksysoev/deriv-api-bff">ksysoev/deriv-api-bff: ★2</a>
 * <a href="https://github.com/ksysoev/smcp-proxy">ksysoev/smcp-proxy: ★2</a>
+* <a href="https://github.com/ksysoev/cv">ksysoev/cv: ★2</a>
 * <a href="https://github.com/ksysoev/geocoder">ksysoev/geocoder: ★1</a>
 * <a href="https://github.com/ksysoev/anycache">ksysoev/anycache: ★1</a>
 * <a href="https://github.com/ksysoev/rlock">ksysoev/rlock: ★1</a>
@@ -29,7 +30,6 @@ Repos:
 * <a href="https://github.com/ksysoev/deriv-bot">ksysoev/deriv-bot: ★1</a>
 * <a href="https://github.com/ksysoev/omnidex">ksysoev/omnidex: ★1</a>
 * <a href="https://github.com/ksysoev/stockfish">ksysoev/stockfish: ★1</a>
-* <a href="https://github.com/ksysoev/cv">ksysoev/cv: ★1</a>
 
 <sup>I have push, maintainer or admin permissions, so I'm definitely an author.<sup>
 
