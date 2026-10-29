@@ -13,7 +13,7 @@ Repos:
 * <a href="https://github.com/officer47p/addressport">officer47p/addressport: ★6</a>
 * <a href="https://github.com/ksysoev/rpc-redis">ksysoev/rpc-redis: ★5</a>
 * <a href="https://github.com/ksysoev/mcp-go-tools">ksysoev/mcp-go-tools: ★5</a>
-* <a href="https://github.com/ksysoev/help-my-pet">ksysoev/help-my-pet: ★4</a>
+* <a href="https://github.com/ksysoev/help-my-pet">ksysoev/help-my-pet: ★3</a>
 * <a href="https://github.com/ksysoev/bulletenboard">ksysoev/bulletenboard: ★2</a>
 * <a href="https://github.com/ksysoev/Async-com">ksysoev/Async-com: ★2</a>
 * <a href="https://github.com/ksysoev/deriv-api-bff">ksysoev/deriv-api-bff: ★2</a>
