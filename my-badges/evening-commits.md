@@ -4,12 +4,12 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/omnidex/commit/c0c3b2b6873fcab301f0bf18fe4ef9426c0c2316">c0c3b2b</a>
-- <a href="https://github.com/ksysoev/wsget/commit/a5f2ccee0f8a50d4067b93240efa3f1c14557653">a5f2cce</a>
-- <a href="https://github.com/ksysoev/make-it-public-tgbot/commit/ecb7cf269fad965f32ed13e42ddeb488771ac6f5">ecb7cf2</a>
-- <a href="https://github.com/ksysoev/cloudlab/commit/a22ac4d06be5e138129eb7bb28acdc9077412511">a22ac4d</a>
-- <a href="https://github.com/ksysoev/chess-review/commit/8e41fb8e60a821e675f2c11b03a830affd4aa6b6">8e41fb8</a>
-- <a href="https://github.com/ksysoev/chess-review/commit/9bfb9a268d006ae3a0713a6cde6587ad6ce0d27b">9bfb9a2</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/a2e283673ac4195380ea73346183afef56b8f165">a2e2836</a>
+- <a href="https://github.com/ksysoev/dotfiles/commit/229403dd98fb5a82656ff1dfad6f55548f933534">229403d</a>
+- <a href="https://github.com/ksysoev/dotfiles/commit/84436551656b6d1d6866d492af6ad51ee1d18de8">8443655</a>
+- <a href="https://github.com/ksysoev/make-it-public/commit/18ab0a044d67ef2feb11aa5fdd9e9838dd26499c">18ab0a0</a>
+- <a href="https://github.com/ksysoev/dotfiles/commit/d528deb2c00f4575d89ca09c629b1674851f590d">d528deb</a>
+- <a href="https://github.com/ksysoev/dotfiles/commit/01f8346471c92da8ffef6846ce68844cf22f01fa">01f8346</a>
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>
