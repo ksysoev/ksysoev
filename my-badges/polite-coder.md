@@ -4,6 +4,7 @@
 
 I use words like "thanks" and "please" in my issues:
 
+- <a href="https://github.com/ksysoev/duet.nvim/issues/20">#20</a>: User-initiated review: :Duet review → send annotations to agent
 - <a href="https://github.com/ksysoev/make-it-public/issues/135">#135</a>: Need to disable caddy connection buffering
 - <a href="https://github.com/go-scaffold/go-scaffold/issues/169">#169</a>: Add support for go install
 - <a href="https://github.com/ksysoev/make-it-public-tgbot/issues/84">#84</a>: feat: allow users to specify a custom key ID when creating a new token

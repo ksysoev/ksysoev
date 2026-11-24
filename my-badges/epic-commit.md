@@ -4,6 +4,7 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/duet.nvim/commit/744df9283cf6ace8c5a0d25a8064c6d424722320">744df92</a>
 - <a href="https://github.com/ksysoev/mimir/commit/490c9fbea0e61150408a976fd792ae931bea72e2">490c9fb</a>
 - <a href="https://github.com/ksysoev/mimir/commit/b4ee6d46143b2095449bad243311df2b7699fd06">b4ee6d4</a>
 - <a href="https://github.com/ksysoev/mimir/commit/e83d4417f51baf820bf448b9e2bfc1c5057be131">e83d441</a>
