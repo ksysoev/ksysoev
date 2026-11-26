@@ -4,40 +4,43 @@
 
 Commits:
 
-- <a href="https://github.com/ksysoev/mimir/commit/490c9fbea0e61150408a976fd792ae931bea72e2">490c9fb</a>: fix: address PR review comments
+- <a href="https://github.com/ksysoev/duet.nvim/commit/57daa02371716049e8cfe50f6fb6b6dbec9e1723">57daa02</a>: Fix second review findings for the split cap
 
-1. pkg/cmd/health.go: return error on malformed JSON from application/json
-   /livez response instead of silently falling back to plain-text 'Ok',
-   which would produce a false-positive healthy result
-   - pkg/cmd/health_test.go: add TestRunHealthCheck_MalformedJSON_ReturnsError
+A restart that reused a window of the user's, one that showed the
+agent terminal, tagged it with the configured layout and winfixwidth.
+With the cap, duet then sized that window as the panel, e.g. forced it
+to 80 columns. A reused window now keeps only a layout duet gave it;
+any other one gets just the display options.
 
-2. pkg/api/api.go: guard against nil *Config in New() to prevent panic
-   on cfg.Listen dereference when caller passes nil
-   - pkg/api/api_test.go: add TestNew_NilConfig; add require import
+A hand size is now used only under the size option it was recorded
+with, so a setup() that changes split.width or split.height takes
+effect on the next resize instead of keeping the old hand size.
 
-3. pkg/router/handler.go: use slog.ErrorContext(req.Context(), ...) in
-   healthCheck JSON-encode error log to be consistent with all other
-   handler logs and preserve request-scoped fields (e.g. request ID)
-- <a href="https://github.com/ksysoev/mimir/commit/b4ee6d46143b2095449bad243311df2b7699fd06">b4ee6d4</a>: fix: resolve all golangci-lint issues
+split_cap() defaults keep to 0, so win_config() still works with a
+split table that has no min_code_* keys.
 
-gofmt:
-  - pkg/api/api.go: remove blank line after imports
-  - pkg/cmd/health.go: realign trailing comments
-  - pkg/router/handler_test.go: align struct literal fields
+The docs no longer claim that every change outside an editor resize
+is noticed: one made in the same tick as an editor resize is not.
+- <a href="https://github.com/ksysoev/duet.nvim/commit/f777b19f887e5f611047ee88eb5c039b9166705b">f777b19</a>: Fix review findings for the split cap
 
-govet/fieldalignment:
-  - pkg/api/api.go: reorder API and Config fields to minimise
-    leading GC pointer bytes (fieldalignment -fix)
-  - pkg/router/config.go: same for router Config
+Telling a hand resize from duet's own sizes on VimResized compared the
+split's size with the last one duet set. By then Neovim has already
+redistributed the windows, and when min_code_width is below
+winminwidth it shrinks the winfixwidth panel itself, which looked like
+a hand resize: the panel never grew back. A hand size that got capped
+was also recorded as duet's, so the panel later grew to the configured
+size instead of the user's.
 
-gocritic/hugeParam:
-  - api.New: accept *Config instead of Config by value (88 bytes)
-  - printLivezResponse: accept *livez.Response instead of value
-    (80 bytes); update all call-sites accordingly
+Detect hand resizes when they happen, on WinResized, and keep them in
+w:duet_hand. On VimResized the split gets split_target(): the hand
+size or the configured one, capped, and whatever size results is
+recorded as duet's.
 
-wsl_v5:
-  - pkg/cmd/health.go: add blank lines above if and final
-    fmt.Fprintf in printLivezResponse
+On an editor too small for both, the cap left the panel 1 cell wide.
+split_cap() now shares the editor evenly below 2 * keep + 1 cells.
+
+Also reject an infinite min_code_width or min_code_height, and
+document that other sidebars are not counted.
 
 
 Created by <a href="https://github.com/my-badges/my-badges">My Badges</a>

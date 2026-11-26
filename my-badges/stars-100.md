@@ -32,6 +32,7 @@ Repos:
 * <a href="https://github.com/ksysoev/stockfish">ksysoev/stockfish: ★1</a>
 * <a href="https://github.com/ksysoev/chess-review">ksysoev/chess-review: ★1</a>
 * <a href="https://github.com/ksysoev/chess-openings">ksysoev/chess-openings: ★1</a>
+* <a href="https://github.com/ksysoev/duet.nvim">ksysoev/duet.nvim: ★1</a>
 
 <sup>I have push, maintainer or admin permissions, so I'm definitely an author.<sup>
 
