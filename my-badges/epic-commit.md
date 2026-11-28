@@ -4,6 +4,28 @@
 
 Commits:
 
+- <a href="https://github.com/ksysoev/duet.nvim/commit/f4a6c62db3cbdb79fbd23a53bae5e2927cb7e660">f4a6c62</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/b815d494a7fad9e9b41d385f93096979e9ae8a35">b815d49</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/02457644c442772a925797d522c55673a3e0c020">0245764</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/8f6af6417b89a93b9587d85ec81b90c8258a164b">8f6af64</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/a6860b3c6477e7462c963aa15e3270a5d6a7981a">a6860b3</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/3fd468a3688b2bef69e9d315f6a7680ea4817e2e">3fd468a</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/412799d2713f5bd1c75b2d3f5b0c22b08b4969ba">412799d</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/a6e174e0dbb7388ae0632423e76fd758dd917c20">a6e174e</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/4ca127585e73ae17e88afd415fc3c2c0c30381da">4ca1275</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/3691c00ae61a2f09e57c9549654869b9c4c3ff5b">3691c00</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/17a436e807395ce33f8a4261fa55f419871f4acf">17a436e</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/be20d6421d4293d4f5ad1304fa12b9a52730c203">be20d64</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/40c93ba62ed5904ab224a72367c3fdf478e29ef3">40c93ba</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/c559386c8dd05781009ae211a9b49c2b313512ae">c559386</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/9c3db571f28fe1948b05a620a5e08efb03f1c436">9c3db57</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/3810de4dc5dc22ab76da33cd9b9cb7f991ec1588">3810de4</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/ef533e8e84113441d63f3323e7613a419ffcf4d5">ef533e8</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/047564abb5e0e109d4a7320056d849162b27f0ca">047564a</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/0c772e6f68dec1344c4c6a649602ddf519c4c2bc">0c772e6</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/ef687535c1209ffade82d910092963afde54ff24">ef68753</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/3e82452dd24b92298f9fff207ad4fba929fc2805">3e82452</a>
+- <a href="https://github.com/ksysoev/duet.nvim/commit/bccf6eb973f173619b5aad3801c32490c63ab526">bccf6eb</a>
 - <a href="https://github.com/ksysoev/duet.nvim/commit/ff19f6ffbffcb3b895fd7712d004ab300daaa59f">ff19f6f</a>
 - <a href="https://github.com/ksysoev/duet.nvim/commit/8acaefcf7a20b9143658c6409c7e482bf4548436">8acaefc</a>
 - <a href="https://github.com/ksysoev/duet.nvim/commit/396d2be043ba31ceb2bf7ddb2f030b64679b2007">396d2be</a>
